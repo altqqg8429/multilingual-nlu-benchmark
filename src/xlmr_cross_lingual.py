@@ -1,5 +1,7 @@
+import csv
 import random
 from math import ceil
+from pathlib import Path
 
 import numpy as np
 import torch
@@ -327,6 +329,29 @@ def main():
         results[language] = evaluate(
             model, validation_loaders[language], device, amp_dtype,
         )
+
+    results_dir = Path(__file__).resolve().parent.parent / "results"
+    results_dir.mkdir(parents=True, exist_ok=True)
+    with (results_dir / "xlmr_cross_lingual_results.csv").open(
+        "w", newline="", encoding="utf-8"
+    ) as file:
+        writer = csv.DictWriter(
+            file,
+            fieldnames=[
+                "train_language", "evaluation_language", "accuracy", "macro_f1"
+            ],
+        )
+        writer.writeheader()
+        for language, _ in languages:
+            metrics = results[language]
+            writer.writerow(
+                {
+                    "train_language": "English",
+                    "evaluation_language": language,
+                    "accuracy": metrics["accuracy"],
+                    "macro_f1": metrics["macro_f1"],
+                }
+            )
 
     print("\nFinal-epoch cross-lingual validation results")
     print(

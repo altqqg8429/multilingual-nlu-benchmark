@@ -1,3 +1,6 @@
+import csv
+from pathlib import Path
+
 from datasets import load_dataset
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
@@ -74,6 +77,17 @@ for language, locale in languages:
                 **metrics,
             }
         )
+
+results_dir = Path(__file__).resolve().parent.parent / "results"
+results_dir.mkdir(parents=True, exist_ok=True)
+with (results_dir / "tfidf_baseline_results.csv").open(
+    "w", newline="", encoding="utf-8"
+) as file:
+    writer = csv.DictWriter(
+        file, fieldnames=["language", "representation", "accuracy", "macro_f1"]
+    )
+    writer.writeheader()
+    writer.writerows(results)
 
 print("\nValidation results")
 print(f"{'Language':<10} {'Representation':<15} {'Accuracy':>10} {'Macro-F1':>10}")

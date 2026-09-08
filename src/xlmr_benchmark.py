@@ -1,5 +1,7 @@
+import csv
 import random
 from math import ceil
+from pathlib import Path
 from statistics import median
 
 import numpy as np
@@ -449,6 +451,17 @@ def main():
                 amp_dtype,
             )
         )
+
+    results_dir = Path(__file__).resolve().parent.parent / "results"
+    results_dir.mkdir(parents=True, exist_ok=True)
+    with (results_dir / "xlmr_finetuning_results.csv").open(
+        "w", newline="", encoding="utf-8"
+    ) as file:
+        fieldnames = ["language", "best_epoch", "accuracy", "macro_f1"]
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
+        writer.writeheader()
+        for result in results:
+            writer.writerow({name: result[name] for name in fieldnames})
 
     print("\nFinal XLM-R validation results")
     print(f"{'Language':<10} {'Best epoch':>10} {'Accuracy':>10} {'Macro-F1':>10}")
