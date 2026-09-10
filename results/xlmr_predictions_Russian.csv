@@ -1,0 +1,2034 @@
+utterance,true_intent,predicted_intent,true_id,predicted_id
+выключи свет пожалуйста,iot_hue_lightoff,iot_hue_lightoff,40,40
+приглуши свет в гостиной,iot_hue_lightdim,iot_hue_lightdim,31,31
+сделай в комнате темнее,iot_hue_lightdim,iot_hue_lightdim,31,31
+убери квартиру,iot_cleaning,lists_remove,34,53
+уборка это хорошо пыль это так плохо сделай сейчас свою магию почисти мой ковёр,iot_cleaning,iot_cleaning,34,34
+покажи статус доступной памяти,general_quirky,lists_query,12,59
+назови самые популярные сервисы доставки китайской еды,takeaway_query,takeaway_query,3,3
+найди мне тайскую еду на вынос около петропавловской крепости,takeaway_query,takeaway_order,3,16
+я бы хотел послушать король и шут прыгнуть со скалы,play_music,play_music,45,45
+сыграть мне башню мумий тролля,play_music,play_game,45,51
+какая группа сейчас играет,music_query,music_query,57,57
+что с моим заказом на ужин,takeaway_query,takeaway_query,3,3
+какой прогноз на неделю,weather_query,weather_query,13,13
+включи лето на ветер,play_music,play_music,45,45
+включи зеленоглазое такси,play_music,transport_taxi,45,54
+играть несколько песен клавы коки,play_music,play_music,45,45
+зацикли этот трек,music_settings,music_likeness,28,43
+установить низкий уровень громкости,audio_volume_down,audio_volume_up,35,14
+какой сегодня день,datetime_query,datetime_query,0,0
+что это за песня,music_query,music_query,57,57
+я люблю слушать джаз,play_music,music_likeness,45,43
+olly мне нравиться слушать джаз,play_music,music_likeness,45,43
+эй эй,general_greet,general_quirky,5,12
+установи будильник на завтра на шесть утра,alarm_set,alarm_set,48,48
+прибавь громкость,audio_volume_up,audio_volume_up,14,14
+сейчас идёт дождь,weather_query,weather_query,13,13
+сколько времени в туле,datetime_query,datetime_query,0,0
+сколько времени в пекине,datetime_query,datetime_query,0,0
+поставь будильник на шесть утра,alarm_set,alarm_set,48,48
+поставил ли я будильник чтобы встать этим утром,alarm_query,alarm_query,23,23
+что происходит в россии,news_query,news_query,22,22
+включи метал,play_music,play_music,45,45
+сколько сейчас времени во владивостоке,datetime_query,datetime_query,0,0
+скажи мне заголовки сегодняшних газет,news_query,news_query,22,22
+включи глинку,play_music,play_music,45,45
+когда в этом году день памяти,datetime_query,calendar_query,0,32
+здесь слишком темно,iot_hue_lighton,iot_hue_lightdim,41,31
+завтра пойдет дождь,weather_query,weather_query,13,13
+более мягкий звук,audio_volume_down,audio_volume_up,35,14
+какая будет температура там завтра,weather_query,weather_query,13,13
+какой на завтра прогноз погоды,weather_query,weather_query,13,13
+какой день недели двадцать второе марта,datetime_query,datetime_query,0,0
+понедельник сегодня,datetime_query,datetime_query,0,0
+какая будет погода в краснодаре,weather_query,weather_query,13,13
+в геленджике сейчас солнечно,weather_query,weather_query,13,13
+дай мне знать как только будет больше новостей о брекзит,news_query,news_query,22,22
+выключи умную розетку,iot_wemo_off,iot_wemo_off,8,8
+включи песню из моих избранных,play_music,play_music,45,45
+я хотел бы послушать поп музыку пожалуйста,play_music,play_music,45,45
+поменяй освещение в моей комнате чтобы я хорошо поспал,iot_hue_lightchange,iot_hue_lightchange,1,1
+какая погода на пятницу,weather_query,weather_query,13,13
+какой день сегодня,datetime_query,datetime_query,0,0
+мне сегодня надевать куртку,weather_query,weather_query,13,13
+выключи перемешивание,music_settings,audio_volume_mute,28,46
+какое сегодня число,datetime_query,datetime_query,0,0
+что ты не можешь делать,general_quirky,general_quirky,12,12
+скажи мне время,datetime_query,datetime_query,0,0
+на улице жарко,weather_query,weather_query,13,13
+есть ли у меня установленный будильник,alarm_query,alarm_query,23,23
+король и шут,weather_query,qa_factoid,13,49
+выключи звук на следующий час,audio_volume_mute,audio_volume_mute,46,46
+включи мою любимую песню,play_music,play_music,45,45
+это очень опасно,weather_query,general_quirky,13,12
+пожалуйста расскажи мне международные новости,news_query,news_query,22,22
+поставь будильник на десять утра,alarm_set,alarm_set,48,48
+заведи будильник на три часа дня,alarm_set,alarm_set,48,48
+поставь будильник на час дня,alarm_set,alarm_set,48,48
+воспроизведи песню пальмы,play_music,play_music,45,45
+пришлите мне на почту текст этой песни,music_query,email_sendemail,57,33
+удали мой будильник на восемь утра,alarm_remove,alarm_remove,52,52
+завтра будет дождь,weather_query,weather_query,13,13
+я бы хотела послушать туман сектора газа пожалуйста,play_music,play_music,45,45
+включить будильник,alarm_set,alarm_set,48,48
+я хочу встать в шесть утра завтра пожалуйста,alarm_set,alarm_set,48,48
+olly включи песни из моего плейлиста,play_music,play_music,45,45
+на какой день недели приходится день народного единства,datetime_query,datetime_query,0,0
+поставь послушать группа крови,play_music,play_music,45,45
+можешь найти мне шутку о животных,general_joke,general_joke,25,25
+как там погода сегодня,weather_query,weather_query,13,13
+сколько время сейчас в краснодарском крае,datetime_query,datetime_query,0,0
+установи часовой пояс,datetime_convert,datetime_convert,38,38
+включи телевизионную розетку когда я вернусь домой,iot_wemo_on,iot_wemo_on,24,24
+следи за новостями о проблеме с электронной почтой марии в будущем,news_query,news_query,22,22
+уменьши громкость,audio_volume_down,audio_volume_up,35,14
+я не могу расслышать просто увеличь громкость,audio_volume_up,audio_volume_up,14,14
+сделай свет поярче пожалуйста,iot_hue_lightup,iot_hue_lightup,18,18
+я хочу услышать чайковского сейчас,play_music,play_music,45,45
+кто лидирует в гонке формулы один прямо сейчас,news_query,news_query,22,22
+сделай кофе,iot_coffee,iot_coffee,56,56
+прочитай последние заголовки из санкт-петербургских ведомостей,news_query,news_query,22,22
+могу я узнать срочные новости с р.и.а. новости,news_query,news_query,22,22
+не могли бы вы понизить тон пожалуйста,audio_volume_down,audio_volume_up,35,14
+включи песни жанров r n b и соул,play_music,play_music,45,45
+можешь ли ты выключить розетку wemo,iot_wemo_off,iot_wemo_off,8,8
+какой будет погода на этой неделе,weather_query,weather_query,13,13
+какой будет погода на этой неделе,weather_query,weather_query,13,13
+скажите мне произойдет ли в мире землетрясение,news_query,general_quirky,22,12
+включи мало половин ольги бузовой,play_music,play_music,45,45
+эй olly заглуши динамики,audio_volume_mute,audio_volume_mute,46,46
+уменьши всю громкость на динамиках пожалуйста,audio_volume_down,audio_volume_up,35,14
+сделай сейчас кофе,iot_coffee,iot_coffee,56,56
+окей google поиграй немного музыки,play_music,play_music,45,45
+какие последние сплетни из голливуда,news_query,news_query,22,22
+сделать ярче свет,iot_hue_lightup,iot_hue_lightup,18,18
+установи будильник на восемь утра,alarm_set,alarm_set,48,48
+выключи будильник на шесть утра на среду,alarm_remove,alarm_remove,52,52
+отключи все утренние будильники после пятницы,alarm_remove,alarm_remove,52,52
+посмотри погоду на следующей неделе пожалуйста,weather_query,weather_query,13,13
+включи музыку моего любимого исполнителя,play_music,play_music,45,45
+пожалуйста убавь свет на немного,iot_hue_lightdim,iot_hue_lightdim,31,31
+телефон,alarm_remove,email_querycontact,52,17
+сколько времени в комсомольске-на-амуре в хабаровского края в восемь вечера на дальнем востоке,datetime_convert,datetime_convert,38,38
+в мо фан принимают заказы на вынос,takeaway_query,takeaway_query,3,3
+можешь сказать сколько времени в калуге,datetime_query,datetime_query,0,0
+текущие новости н т в,news_query,news_query,22,22
+открой для меня вебсайт банка тинькофф,social_post,news_query,47,22
+покажи заголовки пожалуйста,news_query,news_query,22,22
+какие заголовки из аргументов и фактах,news_query,news_query,22,22
+узнай могу ли я заказать в панинаро на вынос,takeaway_query,takeaway_query,3,3
+я хочу узнать сегодняшнее число,datetime_query,datetime_query,0,0
+мой школьный будильник заведен,alarm_query,alarm_query,23,23
+на улице очень жарко,weather_query,weather_query,13,13
+сегодня в час дня включи робот пылесос,iot_cleaning,iot_cleaning,34,34
+хорошие помощники,news_query,general_quirky,22,12
+отправь мне текущие новости за день,news_query,news_query,22,22
+включи сейчас я люблю тебя до слёз александра серова,play_music,play_music,45,45
+сегодняшняя дата,datetime_query,datetime_query,0,0
+какой текст песни угонщица ирины аллегровой,music_query,qa_factoid,57,49
+никогда не играй мне никакой рок,music_dislikeness,play_music,7,45
+если в карелии десять вечера какое время в крыму,datetime_convert,datetime_convert,38,38
+мне нужно послушать туман сектора газа,play_music,play_music,45,45
+какие погодные условия на сегодня,weather_query,weather_query,13,13
+будет дождь,weather_query,weather_query,13,13
+текущее время в нью-йорке,datetime_query,datetime_query,0,0
+ты можешь мне предложить какое-нибудь здоровое блюдо на ужин,cooking_recipe,cooking_recipe,9,9
+закажи еду из хорошего ресторана,takeaway_order,takeaway_order,16,16
+конвертируй санкт-петербургское время на лондонское,datetime_convert,datetime_convert,38,38
+оля сделай гостиную голубой,iot_hue_lightchange,iot_hue_lightchange,1,1
+сделай гостиную голубой,iot_hue_lightchange,iot_hue_lightchange,1,1
+поставь пожалуйста мало половин,play_music,play_music,45,45
+какое обновление погоды на вторник,weather_query,weather_query,13,13
+что обещают про погоду на полдень понедельника,weather_query,weather_query,13,13
+что за день недели будет пятнадцатого марта,datetime_query,datetime_query,0,0
+мне нужна дата последнего понедельника этого месяца,datetime_query,datetime_query,0,0
+сколько времени в россии когда в с. ш. а. двенадцать дня,datetime_convert,datetime_convert,38,38
+скажи мне время,datetime_query,datetime_query,0,0
+найди в интернете самый смешной анекдот про петьку и василия ивановича,general_joke,general_joke,25,25
+какая будет погода в понедельник на этой неделе,weather_query,weather_query,13,13
+твой рецепт стейка был потрясающим,cooking_recipe,general_quirky,9,12
+что происходит сегодня в мире,news_query,news_query,22,22
+какой день недели пятого декабря,datetime_query,datetime_query,0,0
+привет,general_greet,general_greet,5,5
+я хочу новости о наградах киноакадемии,news_query,news_query,22,22
+скажи мне точное время в рязани,datetime_query,datetime_query,0,0
+как там погода сегодня,weather_query,weather_query,13,13
+сегодня жарко не так ли,weather_query,weather_query,13,13
+очень жарко сегодня не так ли,weather_query,weather_query,13,13
+сто тысяч двести семнадцатый,datetime_query,datetime_query,0,0
+какой будет погода на этой неделе,weather_query,weather_query,13,13
+включи установку ночного освещения,iot_hue_lightchange,iot_hue_lightchange,1,1
+просто прибавь немного громкость,audio_volume_up,audio_volume_up,14,14
+можно мне получить заказ с доставкой от панинаро,takeaway_query,takeaway_query,3,3
+закажи еду на вынос,takeaway_order,takeaway_order,16,16
+найди и добавь в очередь все песни светланы лободы и играй без перетасовки,play_music,play_music,45,45
+сделай плейлист из всех песен клавы коки и играй в случайном порядке,play_music,play_music,45,45
+на этой неделе пойдёт снег,weather_query,weather_query,13,13
+включи музыку,play_music,play_music,45,45
+искать новые приколы,general_joke,play_podcasts,25,58
+включи софт-рок,play_music,play_music,45,45
+я хочу послушать ритмичную музыку,play_music,play_music,45,45
+включи топ десять короля и шута,play_music,play_music,45,45
+выдай прогноз на десять дней для моего города,weather_query,weather_query,13,13
+прошу дать прогноз погоды на этой неделе,weather_query,weather_query,13,13
+включи мне что-нибудь из попсы,play_music,play_music,45,45
+играй музыку из плейлиста,play_music,play_music,45,45
+сделай эспрессо пожалуйста,iot_coffee,iot_coffee,56,56
+olly включи пылесос,iot_cleaning,iot_cleaning,34,34
+включи пылесос румба,iot_cleaning,iot_cleaning,34,34
+присылай мне уведомления о любой новой теме в политике,news_query,news_query,22,22
+рейтинг,music_likeness,general_quirky,43,12
+утра или вечера,alarm_query,general_quirky,23,12
+какие последние статьи от новости mail точка ру,news_query,news_query,22,22
+найди мне любые новости из московского комсомольца за последние шесть часов,news_query,news_query,22,22
+девятьсот девяносто девять f. m. какая музыка сейчас играет,music_query,music_query,57,57
+увеличь громкость на девяносто,audio_volume_up,audio_volume_up,14,14
+да или нет что завтрашняя температура будет высокой,weather_query,weather_query,13,13
+какой прогноз погоды на этой неделе,weather_query,weather_query,13,13
+кто исполняет песню которая играет сейчас,music_query,music_query,57,57
+я не люблю эту песню выключи её,music_dislikeness,play_music,7,45
+ежедневно с десяти до одиннадцати утра начни пылесосить,iot_cleaning,iot_cleaning,34,34
+какой будет максимальная температура на следующей неделе,weather_query,weather_query,13,13
+проверь будильник на сегодня на десять утра,alarm_query,alarm_query,23,23
+включи ольгу бузову,play_music,play_music,45,45
+включи клава кока,play_music,play_music,45,45
+это возможно чтоб ты поставил лайки моей музыке,music_query,music_likeness,57,43
+какие последние новости с украины,news_query,news_query,22,22
+мне нужно немного больше света,iot_hue_lightup,iot_hue_lightup,18,18
+скажи мне текущее время,datetime_query,datetime_query,0,0
+моя любимая певица земфира,music_likeness,music_likeness,43,43
+что происходит во владивостоке,news_query,news_query,22,22
+включи мои самые прослушиваемые песни,play_music,play_music,45,45
+открой youtube и включи мне сборник лучших свадебных песен,play_music,play_music,45,45
+принеси последние технические новости,news_query,news_query,22,22
+добавить эту песню в мой список топ десять избранное,music_likeness,music_likeness,43,43
+эта песня была классной можешь повторить,music_likeness,music_likeness,43,43
+уменьши освещение на кухне,iot_hue_lightdim,iot_hue_lightdim,31,31
+сохрани эту песню и мое мнение,music_likeness,music_likeness,43,43
+сообщи мне результаты выборов,news_query,news_query,22,22
+что аналитики говорят о новой иммиграционной политике,news_query,news_query,22,22
+статус заказа в ресторане,takeaway_query,takeaway_query,3,3
+предупреди меня в пять часов,alarm_set,alarm_set,48,48
+запусти моего робота пылесоса,iot_cleaning,iot_cleaning,34,34
+включи музыку,play_music,play_music,45,45
+какая текущая группа даты и времени,datetime_query,datetime_query,0,0
+начни уборку дома,iot_cleaning,iot_cleaning,34,34
+выключи свет,iot_hue_lightoff,iot_hue_lightoff,40,40
+смешная шутка,general_joke,general_joke,25,25
+какая песня сейчас играет,music_query,music_query,57,57
+сохрани информацию которую предоставил даня милохин в этой песне,music_likeness,music_likeness,43,43
+эй alexa включии освещение в стиле диско в моей квартире и начни вечеринку,iot_hue_lighton,iot_hue_lightchange,41,1
+пожалуйста замолчи,audio_volume_mute,audio_volume_mute,46,46
+включи рэп,play_music,play_music,45,45
+какой будет погода на этой неделе,weather_query,weather_query,13,13
+какой солнечный день,weather_query,weather_query,13,13
+встреча назначена на завтра,calendar_query,calendar_query,32,32
+сегодня облачно,weather_query,weather_query,13,13
+нажми кнопку заглушки,audio_volume_mute,audio_volume_mute,46,46
+включи мне последний кавер крем-соды,play_music,play_music,45,45
+давай послушаем шансон и рэп не из россии,play_music,play_music,45,45
+проверить название текущей музыки,music_query,music_query,57,57
+в суши вок есть доставка,takeaway_query,takeaway_query,3,3
+включи мой последний использованный плейлист,play_music,play_music,45,45
+какое сейчас время в лондоне,datetime_query,datetime_query,0,0
+включи поп,play_music,play_music,45,45
+установи настроение пожалуйста,iot_hue_lightchange,audio_volume_up,1,14
+сделай свет голубым,iot_hue_lightchange,iot_hue_lightchange,1,1
+смени свет в гостиной на красный,iot_hue_lightchange,iot_hue_lightchange,1,1
+расскажи мне о погоде в лагани калмыкия olly,weather_query,weather_query,13,13
+siri как там погода,weather_query,weather_query,13,13
+какой день был в мою дату рождения,datetime_query,calendar_query,0,32
+какой название песни которая сейчас играет,music_query,music_query,57,57
+можешь ли ты мне сказать время,datetime_query,datetime_query,0,0
+погода в понедельник,weather_query,weather_query,13,13
+погода на вторник,weather_query,weather_query,13,13
+повтори песню,music_settings,music_settings,28,28
+расскажи мне что там с погодой сейчас,weather_query,weather_query,13,13
+пожалуйста можешь ли ты выключить свет в моей спальне,iot_hue_lightoff,iot_hue_lightoff,40,40
+эй расскажи мне такую шутку чтобы я стал счастливее,general_joke,general_joke,25,25
+как много недель осталось до нового года,datetime_query,datetime_query,0,0
+у тебя есть какие-нибудь новости о новостных агентствах,news_query,news_query,22,22
+погода в хабаровске,weather_query,weather_query,13,13
+пожалуйста переведи девять утра по центральному времени в восточное время,datetime_convert,datetime_convert,38,38
+выключи свет в шкафу,iot_hue_lightoff,iot_hue_lightoff,40,40
+играть музыку группы сплин,play_music,play_music,45,45
+включи мои самые популярные поп песни пожалуйста,play_music,play_music,45,45
+установи синий цвет для всего света в моем доме,iot_hue_lightchange,iot_hue_lightchange,1,1
+я навсегда хип-хоп,music_likeness,music_likeness,43,43
+olly убавь свет до семи,iot_hue_lightdim,iot_hue_lightdim,31,31
+убавь свет до семи,iot_hue_lightdim,iot_hue_lightdim,31,31
+мощность освещения на минимум,iot_hue_lightdim,iot_hue_lightdim,31,31
+какой будет погода седьмого,weather_query,weather_query,13,13
+пожалуйста убери звук динамика,audio_volume_mute,audio_volume_mute,46,46
+какое название музыки которая играет сейчас,music_query,music_query,57,57
+повысь громкость,audio_volume_up,audio_volume_up,14,14
+что это за песня,music_query,music_query,57,57
+я хочу послушать моя половина,play_music,play_music,45,45
+перемашай текущий альбом песен,music_settings,play_music,28,45
+какие есть обновления новостей из известий,news_query,news_query,22,22
+что нового в комсомольской правде,news_query,news_query,22,22
+что новенького в комсомольской правде,news_query,news_query,22,22
+скажи мне какое сейчас время,datetime_query,datetime_query,0,0
+сколько сейчас времени в россии,datetime_query,datetime_query,0,0
+какие будильники скоро будут,alarm_query,alarm_query,23,23
+olly выключи свет,iot_hue_lightoff,iot_hue_lightoff,40,40
+есть ли какой-то способ узнать последние срочные новости о трампе,news_query,news_query,22,22
+включи свет,iot_hue_lighton,iot_hue_lightup,41,18
+закажи на вынос,takeaway_order,takeaway_order,16,16
+приглуши весь свет,iot_hue_lightdim,iot_hue_lightdim,31,31
+дай мне новости,news_query,news_query,22,22
+выключи свет,iot_hue_lightdim,iot_hue_lightoff,31,40
+какая погода на этой неделе,weather_query,weather_query,13,13
+расскажи мне о погоде на эту неделю,weather_query,weather_query,13,13
+эй olly как мне включить робот пылесос,iot_cleaning,iot_cleaning,34,34
+пожалуйста помоги мне включить робота пылесоса,iot_cleaning,iot_cleaning,34,34
+я хочу послушать немного современного рока,play_music,play_music,45,45
+какой статус моего последнего заказа,takeaway_query,takeaway_query,3,3
+как там на улице,weather_query,weather_query,13,13
+какой день недели день валентина,datetime_query,datetime_query,0,0
+расскажи о погоде в казани татарстан,weather_query,weather_query,13,13
+включи музыку из плейлиста для тренировок,play_music,play_music,45,45
+поставь будильник на завтрашнее утро в восемь,alarm_set,alarm_set,48,48
+приглуши свет в спальне пожалуйста,iot_hue_lightdim,iot_hue_lightdim,31,31
+назови мне имя этого исполнителя,music_query,music_query,57,57
+какое название песни,music_query,music_query,57,57
+что происходит в мировых новостях сегодня,news_query,news_query,22,22
+какие последние международные новости,news_query,news_query,22,22
+я хочу кофе,iot_coffee,iot_coffee,56,56
+пожалуйста выключи мою прикроватную лампу,iot_hue_lightoff,iot_hue_lightoff,40,40
+включи пылесос пожалуйста,iot_cleaning,iot_cleaning,34,34
+включи сейчас пылесос,iot_cleaning,iot_cleaning,34,34
+заглушить все ответы сейчас,audio_volume_mute,lists_remove,46,53
+прошу перестань говорить,audio_volume_mute,audio_volume_up,46,14
+есть ли у нас любое обновление от нового провайдера,news_query,news_query,22,22
+что нового о владимире,news_query,news_query,22,22
+включи ольгу бузову,play_music,play_music,45,45
+какой прогноз погоды для москвы,weather_query,weather_query,13,13
+на следующей неделе пойдет снег,weather_query,weather_query,13,13
+что в волгограде мэр думает о проблеме бездомных,news_query,news_query,22,22
+получай новости от россия сегодня,news_query,news_query,22,22
+сколько всего будильников я поставил на утро между шестью и девятью,alarm_query,alarm_query,23,23
+включи плейлист,play_music,play_music,45,45
+подтверди заказ,takeaway_order,takeaway_order,16,16
+сделай мне чашку кофе,iot_coffee,iot_coffee,56,56
+я хочу послушать рок,play_music,play_music,45,45
+окей google включи рок музыку,play_music,play_music,45,45
+отключи ток,iot_hue_lightoff,iot_wemo_off,40,8
+поставь будильник на пять тридцать,alarm_set,alarm_set,48,48
+могу ли я заказать доставку из этого ресторана,takeaway_query,takeaway_query,3,3
+делает ли мой любимый ресторан доставку,takeaway_query,takeaway_query,3,3
+у них есть на вынос,takeaway_query,takeaway_query,3,3
+запусти кофеварку,iot_coffee,iot_coffee,56,56
+какие новости в политике,news_query,news_query,22,22
+покажи мне время,datetime_query,datetime_query,0,0
+включи музыку из джаза,play_music,play_music,45,45
+какая дата в следующую субботу,datetime_query,datetime_query,0,0
+янки победили вчера вечером,news_query,general_quirky,22,12
+заглуши звук из динамиков,audio_volume_mute,audio_volume_mute,46,46
+сделай ярче свет в гостиной,iot_hue_lightup,iot_hue_lightup,18,18
+сделай какой нибудь к офе,iot_coffee,takeaway_order,56,16
+измени свет с голубого на белый,iot_hue_lightchange,iot_hue_lightchange,1,1
+сделай свет в доме красным,iot_hue_lightchange,iot_hue_lightchange,1,1
+на какой день приходится шестнадцатое апреля,datetime_query,datetime_query,0,0
+пожалуйста включи пылесос на один час,iot_cleaning,iot_cleaning,34,34
+скажи мне сегодняшнюю дату,datetime_query,datetime_query,0,0
+установи красный свет в гостиной,iot_hue_lightchange,iot_hue_lightchange,1,1
+как осуществляет доставка из ресторана,takeaway_query,takeaway_query,3,3
+послушай эту песню,music_query,play_music,57,45
+в додо пицце готовят пиццу на вынос,takeaway_query,takeaway_query,3,3
+смени свет на синий цвет,iot_hue_lightchange,iot_hue_lightchange,1,1
+скажи мне мои будильники,alarm_query,alarm_query,23,23
+пожалуйста удали какие-либо будильники которые я ставил,alarm_remove,alarm_remove,52,52
+пожалуйста найди статью про сидящую собаку в утренних новостях,news_query,news_query,22,22
+какая погода здесь,weather_query,weather_query,13,13
+закажи блин на вынос,takeaway_order,takeaway_order,16,16
+есть ли какие нибудь новые видео на youtube от россии сегодня,news_query,social_query,22,27
+включи прыгну со скалы следующей,play_music,play_music,45,45
+играй мой кантри плейлист,play_music,play_music,45,45
+воспроизведи второй плейлист,play_music,play_music,45,45
+какое сегодня число,datetime_query,datetime_query,0,0
+alexa выключи вентилятор в главной спальне,iot_wemo_off,iot_hue_lightoff,8,40
+alexa пожалуйста сохрани текущую песню в любимые,music_likeness,music_likeness,43,43
+я люблю хип хоп,music_likeness,music_likeness,43,43
+пожалуйста воспроизведи мою любимую песню сплина,play_music,play_music,45,45
+пожалуйста завари кофе,iot_coffee,iot_coffee,56,56
+приглуши свет,iot_hue_lightdim,iot_hue_lightdim,31,31
+ночной режим,iot_hue_lightdim,audio_volume_mute,31,46
+трендовые новости технологий,news_query,news_query,22,22
+последние заголовки из раздела технологии,news_query,news_query,22,22
+включи следующую песню,play_music,play_music,45,45
+в каком году написана эта песня,music_query,music_query,57,57
+найди мою еду,takeaway_query,takeaway_order,3,16
+olly прогноз по выпавшему снегу в казани,weather_query,weather_query,13,13
+olly трендовые темы в новостях,news_query,news_query,22,22
+следующий будильник,alarm_query,alarm_query,23,23
+я жутко хочу китайскую еду прямо сейчас пожалуйста дай мне заказать с собой,takeaway_order,takeaway_order,16,16
+что нового в политике сегодня можешь отфильтровать новости про трампа,news_query,news_query,22,22
+мне нужно две стандартные пиццы,takeaway_order,cooking_recipe,16,9
+включи песню,play_music,play_music,45,45
+выключить освещение,iot_hue_lightoff,iot_hue_lightoff,40,40
+какая температура на юге солнечно ли,weather_query,weather_query,13,13
+включи мне музыку,play_music,play_music,45,45
+где поблизости можно заказать еду навынос,takeaway_order,takeaway_query,16,3
+уменьши свою громкость пожалуйста,audio_volume_down,audio_volume_up,35,14
+на какое время у меня установлен будильник,alarm_query,alarm_query,23,23
+у меня есть какие нибудь будильники на завтрашнее утро,alarm_query,alarm_query,23,23
+удалить мои ранние будильники,alarm_remove,alarm_remove,52,52
+поставь плейлист классическая камерная музыка,play_music,play_music,45,45
+воспроизведи эту песню следующей,play_music,play_music,45,45
+как зовут солиста этой группы,music_query,music_query,57,57
+выключи питание,iot_wemo_off,iot_hue_lightoff,8,40
+siri включи мой поп плейлист,play_music,play_music,45,45
+есть ли какие-нибудь новости об этой теме,news_query,news_query,22,22
+мне нравится джаз тебе стоит знать,music_likeness,music_likeness,43,43
+пожалуйста проверь мой плейлист,music_likeness,play_music,43,45
+можешь поставить будильник на тринадцать часов,alarm_set,alarm_set,48,48
+отмени будильник на завтра,alarm_remove,alarm_remove,52,52
+какое центральное время сейчас,datetime_query,datetime_query,0,0
+удали будильники на завтра,alarm_remove,alarm_remove,52,52
+olly приглуши свет пожалуйста,iot_hue_lightdim,iot_hue_lightdim,31,31
+завтра в краснодаре будет дождь,weather_query,weather_query,13,13
+сколько времени в гусь хрустальном,datetime_query,datetime_query,0,0
+какая разница во времени между восточным и тихоокеанским,datetime_convert,datetime_convert,38,38
+доставляет ли ближайший китайский ресторан,takeaway_query,takeaway_query,3,3
+что с погодой в лесосибирске,weather_query,weather_query,13,13
+эй google что там с погодой,weather_query,weather_query,13,13
+уменьши освещение,iot_hue_lightdim,iot_hue_lightdim,31,31
+включи мою умную розетку пожалуйста,iot_wemo_on,iot_wemo_on,24,24
+что с погодой на следующей неделе,weather_query,weather_query,13,13
+как повторить песню,music_query,music_settings,57,28
+что это за музыка,music_query,music_query,57,57
+побольше света пожалуйста,iot_hue_lightup,iot_hue_lightup,18,18
+включи романтический плейлист,play_music,play_music,45,45
+на какой день недели выпадает двадцать второе число в этом месяце,datetime_query,datetime_query,0,0
+перейди в спящий режим,audio_volume_mute,audio_volume_mute,46,46
+я хочу чтобы завтра в семь утра меня разбудил будильник,alarm_set,alarm_set,48,48
+включи всё наружное освещение пожалуйста,iot_hue_lighton,iot_hue_lightchange,41,1
+увеличь громкость пожалуйста,audio_volume_up,audio_volume_up,14,14
+открой текущие новости о временном прекращении работы правительства,news_query,news_query,22,22
+включи короля и шута,play_music,play_music,45,45
+ночное время,general_quirky,general_quirky,12,12
+закажи мне еду на вынос,takeaway_order,takeaway_order,16,16
+включи что то романтическое,play_music,play_music,45,45
+на пляже в пятницу будет приятно,weather_query,weather_query,13,13
+включи четвертый альбом арии,play_music,play_music,45,45
+пожалуйста сделай мне кофе,iot_coffee,iot_coffee,56,56
+в какой день на этой неделе будет дождь,weather_query,weather_query,13,13
+как с погодой на этой неделе,weather_query,weather_query,13,13
+поставить будильник на час дня,alarm_set,alarm_set,48,48
+какие последние новости о выборах в соединённых штатах,news_query,news_query,22,22
+пожалуйста сделай мне кофе,iot_coffee,iot_coffee,56,56
+сегодня день солнечный,weather_query,weather_query,13,13
+какая погода сейчас в саранске,weather_query,weather_query,13,13
+я хочу послушать мой плейлист поставишь его сейчас,play_music,play_music,45,45
+olly поставь я в моменте джарахова,play_music,play_music,45,45
+как жарко сейчас в краснодаре,weather_query,weather_query,13,13
+какое текущее время в пензе,datetime_query,datetime_query,0,0
+какое текущее время в сочи краснодарский край,datetime_query,datetime_query,0,0
+в воскресенье будет слишком холодно если одеть платье,weather_query,weather_query,13,13
+включи несколько песен ани лорак,play_music,play_music,45,45
+это слишком ярко,iot_hue_lightdim,iot_hue_lightdim,31,31
+закажи две большие пиццы и горячие крылышки в dominoes,takeaway_order,takeaway_order,16,16
+какой сегодня день и сколько времени,datetime_query,datetime_query,0,0
+включи мой текущий плейлист сверху,play_music,play_music,45,45
+включи мою самую любимую кантри песню,play_music,play_music,45,45
+сколько времени сейчас в зимбабве,datetime_query,datetime_query,0,0
+алиса сколько времени сейчас в тюмени,datetime_query,datetime_query,0,0
+пожалуйста поставь клаву коку покинула чат,play_music,play_music,45,45
+дай мне узнать время,datetime_query,datetime_query,0,0
+какие последние новости о спринте,news_query,news_query,22,22
+после этого воспроизведи прыгну со скалы,play_music,play_music,45,45
+я хочу послушать какой нибудь джаз,play_music,play_music,45,45
+покажи погоду на неделю для ростова,weather_query,weather_query,13,13
+пожалуйста выключи умную розетку,iot_wemo_off,iot_wemo_off,8,8
+включи чайник,iot_wemo_on,iot_coffee,24,56
+замедли громкость динамика,audio_volume_down,audio_volume_up,35,14
+включи робот пылесос,iot_cleaning,iot_cleaning,34,34
+закажи мне китайскую еду,takeaway_order,takeaway_order,16,16
+кто написал песню которая играет по радио,music_query,music_query,57,57
+какой счёт во второй игре лиги чемпионов которая проходит прямо сейчас,news_query,news_query,22,22
+какой заголовок в московском комсомольце,news_query,news_query,22,22
+какой будет погода в оставшиеся дни недели,weather_query,weather_query,13,13
+в погоде будут резкие перепады,weather_query,weather_query,13,13
+что там с погодой сейчас,weather_query,weather_query,13,13
+сделай свет ярче,iot_hue_lightup,iot_hue_lightup,18,18
+будет снег на следующей неделе,weather_query,weather_query,13,13
+пожалуйста удали будильник на вечер среды,alarm_remove,alarm_remove,52,52
+сколько снега выпало в якутии сегодня,weather_query,weather_query,13,13
+сохрани этот жанр песен для меня,music_likeness,music_likeness,43,43
+я бы хотел чтобы ты вспомнил что мне нравится эта песня,music_likeness,music_likeness,43,43
+после этой песни включи мало половин,play_music,play_music,45,45
+предупреди меня через три часа,alarm_set,alarm_set,48,48
+инди,play_music,news_query,45,22
+что там с погодой сейчас,weather_query,weather_query,13,13
+расскажи мне что происходит в европейской политике,news_query,news_query,22,22
+я хочу знать кто на данный момент возглавляет российскую премьер лигу,news_query,qa_factoid,22,49
+алекса какие новости в моём районе,news_query,news_query,22,22
+время послушать что нибудь из короля и шута,play_music,play_music,45,45
+включи повтор,music_settings,play_podcasts,28,58
+включи уборку,iot_cleaning,iot_cleaning,34,34
+на следующей неделе в какой день лучше сходить за пиццей,datetime_query,calendar_query,0,32
+какой тип погоды ожидает нас сегодня,weather_query,weather_query,13,13
+сколько времени в волгограде,datetime_query,datetime_query,0,0
+пожалуйста заведи будильник на восемь утра,alarm_set,alarm_set,48,48
+добавь побольше сплина и басты в плейлист,play_music,lists_createoradd,45,21
+можешь включить мне какую-нибудь танцевальную музыку,play_music,play_music,45,45
+включи песни из плейлиста,play_music,play_music,45,45
+какие будильники у меня установлены прямо сейчас,alarm_query,alarm_query,23,23
+какой будет температура сегодня в петрозаводске карелия,weather_query,weather_query,13,13
+загрузи spotify,play_music,play_radio,45,36
+эй олли расскажи анекдот,general_joke,general_joke,25,25
+я хочу заказать немного китайской еды сегодня вечером кто доставляет ко мне,takeaway_order,takeaway_order,16,16
+эй siri поменяй текущие настройки освещения,iot_hue_lightchange,iot_hue_lightchange,1,1
+я уже слышал этот рифф какая песня украла этот рифф он точно такой же,music_query,music_query,57,57
+удали будильник на четыре ноль ноль ночи,alarm_remove,alarm_remove,52,52
+завтра будет больше девяноста градусов,weather_query,weather_query,13,13
+поставь мою любимую песню прошлого года,play_music,play_music,45,45
+пожалуйста не отвечай,audio_volume_mute,audio_volume_mute,46,46
+можешь ли ты выключить настольную лампу,iot_hue_lightoff,iot_hue_lightoff,40,40
+выключи настольную лампу один,iot_hue_lightoff,iot_hue_lightoff,40,40
+включи свет,iot_hue_lightup,iot_hue_lightup,18,18
+нужно ли мне взять зонт с собой на работу сегодня,weather_query,weather_query,13,13
+я могу пойти сегодня в магазин в шортах,weather_query,weather_query,13,13
+воспроизвести музыку кино,play_music,play_music,45,45
+включи последний альбом басты,play_music,play_music,45,45
+поставь будильник на десять часов утра завтра,alarm_set,alarm_set,48,48
+разбуди меня в десять,alarm_set,alarm_set,48,48
+включи группу крови кино,play_music,play_music,45,45
+покажи доставки рядом со мной,takeaway_order,takeaway_query,16,3
+открой интернет,takeaway_order,qa_factoid,16,49
+дай мне послушать немного музыки,play_music,play_music,45,45
+я хочу послушать отличную музыку,play_music,play_music,45,45
+увеличить яркость лампы,iot_hue_lightup,iot_hue_lightup,18,18
+пожалуйста поставь громкость на самую громкую настройку,audio_volume_up,audio_volume_up,14,14
+убери звук аудио,audio_volume_mute,audio_volume_mute,46,46
+останови звук,audio_volume_mute,audio_volume_mute,46,46
+хоть на этой неделе будет дождь,weather_query,weather_query,13,13
+приглуши весь свет внутри,iot_hue_lightdim,iot_hue_lightdim,31,31
+я сегодня смогу обойтись шортами,weather_query,weather_query,13,13
+должна ли я одеться тепло сегодня,weather_query,weather_query,13,13
+включи свет случайного цвета,iot_hue_lightchange,iot_hue_lightchange,1,1
+открой последние новости из российской газеты,news_query,news_query,22,22
+отключи настройки,audio_volume_mute,audio_volume_mute,46,46
+на этой неделе будет снег,weather_query,weather_query,13,13
+поменяй цвет света,iot_hue_lightchange,iot_hue_lightchange,1,1
+какой день двадцать второе апреля,datetime_query,datetime_query,0,0
+как скоро к нам придет дождь,weather_query,weather_query,13,13
+прогноз погоды который ты выдал для другого города я хочу знать температуру там где я сейчас нахожусь,weather_query,weather_query,13,13
+закажи двойной чизбургер с беконом с беконом и белым американским сыром,takeaway_order,takeaway_order,16,16
+включи король и шут,play_music,play_music,45,45
+последние новости в апреле о жирафе,news_query,news_query,22,22
+какая погода поблизости на этой неделе,weather_query,weather_query,13,13
+пожалуйста включи здесь свет,iot_hue_lightup,iot_hue_lightup,18,18
+пожалуйста прибавь громкость динамика,audio_volume_up,audio_volume_up,14,14
+отличается ли моё время от московского,datetime_query,datetime_query,0,0
+скажи мне где доступна еда на вынос,takeaway_query,takeaway_query,3,3
+небо будет затянуто облаками,weather_query,weather_query,13,13
+проверь едет ли ко мне мой заказ из пицца хат,takeaway_query,takeaway_query,3,3
+включи новую умную розетку,iot_wemo_on,iot_wemo_on,24,24
+убавь свет до второго уровня,iot_hue_lightdim,iot_hue_lightdim,31,31
+какой прогноз погоды на этой неделе,weather_query,weather_query,13,13
+пожалуйста выключи свет в спальне,iot_hue_lightoff,iot_hue_lightoff,40,40
+когда теремок доставит,takeaway_query,takeaway_query,3,3
+как называется эта музыкальная группа,music_query,music_query,57,57
+когда следующая пресс конференция трампа,news_query,news_query,22,22
+какова текущая цена акций яндекс,qa_stock,qa_stock,4,4
+как бы не накрылась моя игра в гольф из за дождя,weather_query,general_quirky,13,12
+какая погода в москве,weather_query,weather_query,13,13
+поставь будильник на пять утра,alarm_set,alarm_set,48,48
+пожалуйста установи будильник на десять вечера,alarm_set,alarm_set,48,48
+какой будет погода завтра,weather_query,weather_query,13,13
+завтра будет ясно,weather_query,weather_query,13,13
+какой прогноз в моём районе на сегодня,weather_query,weather_query,13,13
+перечисли мои все будильники,alarm_query,alarm_query,23,23
+включить уведомление обо всех новостях на фондовом рынке,qa_stock,qa_stock,4,4
+сообщай мне о последних новостях на фондовом рынке,qa_stock,qa_stock,4,4
+открой мою музыку,play_music,play_music,45,45
+расскажи мне о последних новостях,news_query,news_query,22,22
+хочу занудную шутку,general_joke,general_joke,25,25
+мне надеть шорты сегодня,weather_query,weather_query,13,13
+можешь ли ты рассказать мне хорошую шутку,general_joke,general_joke,25,25
+повтори последнюю песню снова,music_settings,play_music,28,45
+какой день недели двадцать седьмое июня в этом году,datetime_query,datetime_query,0,0
+нужно ли мне тепло одеваться,weather_query,weather_query,13,13
+что сегодня,datetime_query,datetime_query,0,0
+выключи свет в спальне,iot_hue_lightoff,iot_hue_lightoff,40,40
+перевести часовой пояс,datetime_convert,datetime_convert,38,38
+сколько сейчас времени в другом городе,datetime_query,datetime_query,0,0
+когда закат,qa_factoid,calendar_query,49,32
+прогноз на десять дней,weather_query,weather_query,13,13
+можешь поменять свет на зеленый,iot_hue_lightchange,iot_hue_lightchange,1,1
+покажи мне новости коммерсанта,news_query,news_query,22,22
+есть какие нибудь новости,news_query,news_query,22,22
+включи выхода нет сплин,play_music,play_music,45,45
+пусть будильник прозвенит через пять минут,alarm_set,alarm_set,48,48
+пожалуйста поставь мой будильник,alarm_set,alarm_set,48,48
+позвони в мо фан чтобы заказать мне омлет фу янг,takeaway_order,takeaway_order,16,16
+какая сейчас температура,weather_query,weather_query,13,13
+включи какую-нибудь музыку,play_music,play_music,45,45
+ты знаешь этот текст,music_query,music_query,57,57
+кто это поёт,music_query,music_query,57,57
+открой какие-нибудь классные шутки,general_joke,general_joke,25,25
+расскажи мне шутку,general_joke,general_joke,25,25
+выключи свет,iot_hue_lightoff,iot_hue_lightoff,40,40
+сообщи мне последние новости об урагане,news_query,news_query,22,22
+пришлите мне новости фондового рынка за сегодняшний день,qa_stock,qa_stock,4,4
+какие выигрышные номера столото были вчера вечером,news_query,news_query,22,22
+удали федин будильник для сна,alarm_remove,alarm_remove,52,52
+пожалуйста разговаривай со мной тихо,audio_volume_down,audio_volume_mute,35,46
+сколько времени в восточном временном поясе,datetime_query,datetime_query,0,0
+расскажите мне пожалуйста последние новости об избирательной компании в нашем штате,news_query,news_query,22,22
+мне нравится r n b,music_likeness,music_likeness,43,43
+покажи красный,iot_hue_lightchange,iot_hue_lightchange,1,1
+двадцать третье апреля это суббота,datetime_query,datetime_query,0,0
+какая сегодня неделя,datetime_query,datetime_query,0,0
+какая погода в моём родном городе,weather_query,weather_query,13,13
+включи музыку из этого плейлиста,play_music,play_music,45,45
+скажи мне когда появятся свежие местные новости,news_query,news_query,22,22
+измени непрозрачность цвета,iot_hue_lightchange,iot_hue_lightchange,1,1
+смени цвет со светлого на тёмный,iot_hue_lightchange,iot_hue_lightchange,1,1
+включи пылесос,iot_wemo_on,iot_cleaning,24,34
+установи будильник на шесть утра,alarm_set,alarm_set,48,48
+сделай здесь темно,iot_hue_lighton,iot_hue_lightdim,41,31
+olly отмени будильники,alarm_remove,alarm_remove,52,52
+siri отмени будильники на йогу,alarm_remove,alarm_remove,52,52
+олли увеличь громкость,audio_volume_up,audio_volume_up,14,14
+google перемешай плейлист,music_settings,play_music,28,45
+воспроизведи зажигать следующей,play_music,play_music,45,45
+какая завтра будет погода,weather_query,weather_query,13,13
+о наркотиках в тверской области,news_query,news_query,22,22
+не могли бы вы мне сказать что с прогнозом погоды на эту неделю,weather_query,weather_query,13,13
+включи кофеварку,iot_coffee,iot_coffee,56,56
+здесь слишком ярко выключи свет,iot_hue_lightoff,iot_hue_lightoff,40,40
+какую погоду обещают на эту неделю,weather_query,weather_query,13,13
+пожалуйста добавь эту песню в мой плейлист избранное,music_likeness,music_likeness,43,43
+пожалуйста воспроизведи эту песню снова,play_music,play_music,45,45
+в четверг всё еще будет ветрено,weather_query,weather_query,13,13
+расскажи шутку,general_joke,general_joke,25,25
+olly дай мне новости о дональде трампе,news_query,news_query,22,22
+olly есть какие нибудь новости о президентских выборах,news_query,news_query,22,22
+какая погода вероятнее будет сегодня в моём районе,weather_query,weather_query,13,13
+будь добр выключи свет в зале для рисования,iot_hue_lightoff,iot_hue_lightoff,40,40
+сообщи мне самые последние новости,news_query,news_query,22,22
+сколько пробегов сделал вчера александр есин,news_query,qa_factoid,22,49
+включи мой плейлист для тренажёрного зала,play_music,play_music,45,45
+пожалуйста выключи свет в ванной,iot_hue_lightoff,iot_hue_lightoff,40,40
+olly мне надевать перчатки сегодня,weather_query,weather_query,13,13
+мне нужен зонтик на улице,weather_query,weather_query,13,13
+запусти недавно добавленный плейлист,play_music,play_music,45,45
+покажи текущие новости с b. b. c.,news_query,news_query,22,22
+покажи р.и.а. новости в прямом эфире,news_query,news_query,22,22
+как там на улице,weather_query,weather_query,13,13
+что там с погодой сегодня в заринске алтай,weather_query,weather_query,13,13
+скажи мне на какое время установлены будильники,alarm_query,alarm_query,23,23
+можешь мне дать местные новости о московских полицейских,news_query,news_query,22,22
+играй из моего плейлиста,play_music,play_music,45,45
+переключись на восточный часовой пояс,datetime_convert,datetime_convert,38,38
+когда будет двадцать четвёртое на следующей неделе,datetime_query,datetime_query,0,0
+что нового в itunes,music_query,news_query,57,22
+пожалуйста покажи мне погоду на двадцать седьмое марта две тысячи семнадцатого,weather_query,weather_query,13,13
+какие новости в ирландии,news_query,news_query,22,22
+что за песня играет,music_query,music_query,57,57
+прибавь звук,audio_volume_up,audio_volume_up,14,14
+пусть робот пылесос начнет убираться на кухне,iot_cleaning,iot_cleaning,34,34
+пожалуйста поделись подробностями о песне светланы лободы,music_query,music_query,57,57
+удали будильник на пять вечера,alarm_remove,alarm_remove,52,52
+запусти индийский фолк,play_music,play_music,45,45
+мне нужна куртка после десяти утра,weather_query,weather_query,13,13
+хочу почитать новости yahoo,news_query,news_query,22,22
+мне взять с собой перчатки сегодня вечером,weather_query,weather_query,13,13
+нужна ли мне сегодня куртка,weather_query,weather_query,13,13
+olly сделай ярче светильники,iot_hue_lightup,iot_hue_lightup,18,18
+измени цвет света,iot_hue_lightchange,iot_hue_lightchange,1,1
+olly активируй другой цвет света,iot_hue_lightchange,iot_hue_lightchange,1,1
+активируй свет другого цвета,iot_hue_lightchange,iot_hue_lightchange,1,1
+результаты последнего опроса общественного мнения о путине,news_query,news_query,22,22
+отметь эту музыку как любимую,music_likeness,music_likeness,43,43
+выключи свет в комнате,iot_hue_lightoff,iot_hue_lightoff,40,40
+какой день двадцать второго мая,datetime_query,datetime_query,0,0
+поставь без звука пока не сказал по-другому,audio_volume_mute,audio_volume_mute,46,46
+пожалуйста повтори текущую песню,music_settings,music_settings,28,28
+пожалуйста скажи мне время утреннего будильника в будние дни,alarm_query,alarm_query,23,23
+спасибо антону за фотографии,general_quirky,general_quirky,12,12
+сыграй какой-нибудь олдскульный рэп,play_music,play_music,45,45
+прочитай мне новости за день,news_query,news_query,22,22
+илья и максим снова вместе,news_query,general_quirky,22,12
+установи будильник на двадцать пятое мая в пять вечера,alarm_set,alarm_set,48,48
+пожалуйста включи мою музыку,play_music,play_music,45,45
+ассистент перемешай всю библиотеку,play_music,play_audiobook,45,20
+ближайший суши вок,takeaway_order,takeaway_order,16,16
+перемешать и включить блю плейлист,play_music,play_music,45,45
+отчитайся о настройках будильника,alarm_query,alarm_query,23,23
+температура сейчас,weather_query,weather_query,13,13
+перемешай и воспроизведи все песни в исполнении джарахова,play_music,play_music,45,45
+мне нужен крем от загара в эти выходные,weather_query,weather_query,13,13
+надо ли мне купить немного соли для плавления льда в магазине,weather_query,cooking_recipe,13,9
+включи розетку wemo,iot_wemo_on,iot_wemo_on,24,24
+включить wemo розетку,iot_wemo_on,iot_wemo_on,24,24
+какая дата сегодня,datetime_query,datetime_query,0,0
+погода обновляется каждую секунду на weatherit либо обновляет прогнозы гидрометцентр либо погода ком оба приложения довольно плохие для моего сайта,weather_query,weather_query,13,13
+нажми начать а затем выбери настройки,alarm_query,play_audiobook,23,20
+сколько времени в москве россия,datetime_query,datetime_query,0,0
+включи песни для вечеринки,play_music,play_music,45,45
+алла пугачева,play_music,qa_factoid,45,49
+начни уборку дома,iot_cleaning,iot_cleaning,34,34
+мне надеть куртку на работу,weather_query,weather_query,13,13
+можешь ли ты говорить громче,audio_volume_up,audio_volume_up,14,14
+увеличить яркость каждого светильника в комнате,iot_hue_lightup,iot_hue_lightup,18,18
+пожалуйста играй мне снова песню аллы пугачевой,play_music,play_music,45,45
+диктофон оревена дай мне системную страницу куда сохранять песни,play_music,music_query,45,57
+климат,weather_query,weather_query,13,13
+на какой день выпадает мой день рождения в следующем году,datetime_query,calendar_query,0,32
+какой день недели двенадцатое,datetime_query,datetime_query,0,0
+включи звук,audio_volume_up,audio_volume_up,14,14
+включи исполнителя,play_music,play_music,45,45
+ресторан терраса принимает заказы навынос,takeaway_query,takeaway_query,3,3
+будет туман после заката,weather_query,weather_query,13,13
+на улице холодно,weather_query,weather_query,13,13
+будильник,datetime_query,alarm_set,0,48
+поставь будильник на пять часов этим вечером с названием такси,alarm_set,alarm_set,48,48
+погода в родном городе,weather_query,weather_query,13,13
+включи четвёртую песню этого же альбома после этой песни,play_music,play_music,45,45
+alexa включи классический рок,play_music,play_music,45,45
+запусти робот пылесос,iot_cleaning,iot_cleaning,34,34
+это самый жаркий день в рязани,weather_query,weather_query,13,13
+скажи мне о времени на будильниках,alarm_query,alarm_query,23,23
+значение данного слова,general_quirky,qa_definition,12,26
+хочу послушать музыку,play_music,play_music,45,45
+вечером мне потребуется плащ,weather_query,weather_query,13,13
+рынок международной торговли и бизнеса,news_query,news_query,22,22
+не могла бы ты пожалуйста на некоторое время отключиться,audio_volume_mute,audio_volume_mute,46,46
+я хочу заказать еду,takeaway_order,takeaway_order,16,16
+на какое время ты для меня поставил будильник,alarm_query,alarm_query,23,23
+я хочу какой нибудь кофе,iot_coffee,iot_coffee,56,56
+приготовь мой утренний кофе,iot_coffee,iot_coffee,56,56
+время для кофе,iot_coffee,iot_coffee,56,56
+готов ли мой заказ в dominos,takeaway_query,takeaway_query,3,3
+когда я могу забрать мою китайскую еду,takeaway_query,takeaway_query,3,3
+открой часы,alarm_set,datetime_query,48,0
+далее включи выбранную песню,play_music,play_music,45,45
+alexa увеличь яркость света а то здесь слишком трудно видеть хоть что то,iot_hue_lightup,iot_hue_lightup,18,18
+могу ли я забрать свой заказ сейчас,takeaway_query,takeaway_query,3,3
+будильник,alarm_set,alarm_set,48,48
+мне надо брать зонт с собой сегодня днем,weather_query,weather_query,13,13
+играй песню федука,play_music,play_music,45,45
+эй что там дождь собирается пойти сегодня в приморском районе петербурга,weather_query,weather_query,13,13
+эй olly что там с погодой сегодня в красногорске московской области,weather_query,weather_query,13,13
+включи проклятый старый дом короля и шута,play_music,play_music,45,45
+эй olly закажи крылышки с картошкой фри из суши вок,takeaway_order,takeaway_order,16,16
+эй olly закажи мне пиццу-пирог с дополнительным сыром,takeaway_order,takeaway_order,16,16
+привет olly сколько время в находке в приморском крае,datetime_query,datetime_query,0,0
+играть что-нибудь в моем недавнем плейлисте,play_music,play_music,45,45
+olly играй что нибудь из моего последнего плейлиста,play_music,play_music,45,45
+расскажи о текущей песне,music_query,music_query,57,57
+будь забавным для меня,general_joke,general_quirky,25,12
+olly мне надевать перчатки,weather_query,weather_query,13,13
+скажи мне погоду на следующий месяц,weather_query,weather_query,13,13
+включи пылесос,iot_cleaning,iot_cleaning,34,34
+надо ли мне поддеть слои одежды когда нибудь сегодня,weather_query,weather_query,13,13
+проверь прогноз погоды на эту неделю,weather_query,weather_query,13,13
+покажи мне еженедельный прогноз погоды,weather_query,weather_query,13,13
+могу я получить доставку отсюда,takeaway_query,takeaway_query,3,3
+в метро сегодня было очень людно,general_quirky,general_quirky,12,12
+расскажи о моем дне,general_quirky,general_quirky,12,12
+наташа ты замечаешь что-то странное в своём мире,general_quirky,general_quirky,12,12
+ты хочешь услышать что случилось сегодня,general_quirky,news_query,12,22
+как ты меня знаешь,general_quirky,general_quirky,12,12
+было бы здорово поужинать в этом вновь открытом ресторане в центре города,general_quirky,general_quirky,12,12
+олли как дела,general_quirky,general_quirky,12,12
+сегодня я получил награды olly,general_quirky,general_quirky,12,12
+сегодня у меня было много встреч,general_quirky,general_quirky,12,12
+откуда ты,general_quirky,general_quirky,12,12
+погода сегодня солнечная,general_quirky,weather_query,12,13
+эй googe я сорвал джекпот лотереи на миллион долларов,general_quirky,general_quirky,12,12
+расскажи важные новости за сегодня,news_query,news_query,22,22
+как день сегодня,general_quirky,datetime_query,12,0
+проснитесь чтобы cесть яйца и бекон,general_quirky,cooking_recipe,12,9
+что происходит,general_quirky,recommendation_events,12,6
+что-нибудь интересное в новостях сегодня,news_query,news_query,22,22
+меня пригласили в паб в субботу,general_quirky,calendar_set,12,50
+подскажи мне хороший алкогольный напиток,general_quirky,cooking_recipe,12,9
+расскажи мне что-нибудь о россии,general_quirky,qa_factoid,12,49
+спорт,general_quirky,news_query,12,22
+эй какие из хороших фильмов скоро выйдут,general_quirky,recommendation_movies,12,55
+что ты делаешь с моими личными данными,general_quirky,general_quirky,12,12
+когда я хочу чтобы он делал заметки,general_quirky,general_quirky,12,12
+мой недельный план,calendar_query,calendar_query,32,32
+мелочи,general_quirky,general_quirky,12,12
+темы в википедии,general_quirky,news_query,12,22
+как дела,general_quirky,general_quirky,12,12
+породы собак наиболее гипоаллергенные,general_quirky,qa_factoid,12,49
+olly я попал в аварию сегодня,general_quirky,general_quirky,12,12
+я сегодня ходил в перекресток,general_quirky,general_quirky,12,12
+саркастичные шутки,general_joke,general_joke,25,25
+новости шоу бизнеса,news_query,news_query,22,22
+мобильный,general_quirky,social_post,12,47
+я промок под дождём,general_quirky,weather_query,12,13
+мода,general_quirky,news_query,12,22
+расписание,calendar_query,calendar_query,32,32
+дай мне ответы,general_quirky,general_quirky,12,12
+сегодня нужно отметить как мой день обмана,calendar_set,calendar_set,50,50
+сегодня был изматывающий день,general_quirky,general_quirky,12,12
+тебе нравится моя девушка,general_quirky,general_quirky,12,12
+расскажи мне о нюше,general_quirky,qa_factoid,12,49
+что происходит в москве,recommendation_events,recommendation_events,6,6
+что я сделал в это время,general_quirky,general_quirky,12,12
+каким был твой день,general_quirky,general_quirky,12,12
+космос,general_quirky,general_quirky,12,12
+урони отопления в какое время в квартире,general_quirky,iot_hue_lightoff,12,40
+шутки,general_joke,general_joke,25,25
+готовка,cooking_query,cooking_recipe,37,9
+прогнозы ставок,general_quirky,qa_stock,12,4
+машины,general_quirky,transport_traffic,12,11
+очень беспокойный,general_quirky,general_quirky,12,12
+недавний совет касающийся google seo,general_quirky,general_quirky,12,12
+шутка дня,general_joke,general_joke,25,25
+нужные ингредиенты в продуктовом магазине,general_quirky,cooking_recipe,12,9
+как оно,general_quirky,general_quirky,12,12
+если бы ты мог говорить только о трёх вещах какие бы это были вещи,general_quirky,general_quirky,12,12
+исследование космоса,general_quirky,general_quirky,12,12
+книги,general_quirky,play_audiobook,12,20
+сплетни о знаменитостях,general_quirky,general_quirky,12,12
+олли какие у меня планы на оставшуюся часть недели,calendar_query,calendar_query,32,32
+очисти мой день от встреч,calendar_remove,calendar_remove,30,30
+внеси пожалуйста в мой календарь ежедневные рабочие планёрки до десяти утра,calendar_set,calendar_set,50,50
+когда моя следующая встреча,calendar_query,calendar_query,32,32
+отмени мой ежедневный прозвон в пять вечера,calendar_remove,calendar_remove,30,30
+внеси встречу с сашей,calendar_set,calendar_set,50,50
+когда это,general_quirky,datetime_query,12,0
+у меня есть какие-нибудь события сегодня,calendar_query,calendar_query,32,32
+у меня что-нибудь запланировано на завтра,calendar_query,calendar_query,32,32
+скажи мне о моих мероприятиях,calendar_query,calendar_query,32,32
+удали все события в моём календаре,calendar_remove,calendar_remove,30,30
+olly напомни мне про пикник в парке горького,calendar_set,calendar_set,50,50
+olly я хочу пойти на открытый кинопоказ в эти выходные напомни мне,calendar_set,calendar_set,50,50
+ты добавил встречу с антоном завтра в девять вечера,calendar_query,calendar_set,32,50
+удали все события в следующие пять дней,calendar_remove,calendar_remove,30,30
+есть ли у меня встречи завтра в девять часов вечера,calendar_query,calendar_query,32,32
+назначь следующее событие в календаре со следующими людьми,calendar_set,calendar_set,50,50
+можешь стереть последнее событие которое я посетил,calendar_remove,calendar_remove,30,30
+есть ли у меня какие нибудь предстоящие события в моем календаре,calendar_query,calendar_query,32,32
+когда у меня следующая встреча в календаре,calendar_query,calendar_query,32,32
+удали вечеринку день рождения завтра на два часа дня,calendar_remove,calendar_remove,30,30
+можешь удалить все события из моего календаря,calendar_remove,calendar_remove,30,30
+это очень сложный,general_quirky,general_quirky,12,12
+мне нужно напоминание каждый день в девять утра,calendar_set,calendar_set,50,50
+кого я должен ожидать на встрече сегодня,calendar_query,calendar_query,32,32
+поставь собрание в понедельник в календарь на каждый понедельник,calendar_set,calendar_set,50,50
+поставь напоминание на шестое марта что будет общественное собрание в одиннадцать утра,calendar_set,calendar_set,50,50
+есть какие либо программы на завтрашний вечер,calendar_query,calendar_query,32,32
+удали все мероприятия и информацию,calendar_remove,calendar_remove,30,30
+удали все события из расписания,calendar_remove,calendar_remove,30,30
+какое у меня расписание мероприятий на завтра,calendar_query,calendar_query,32,32
+напомни мне о встрече завтра в десять утра,calendar_set,calendar_set,50,50
+сколько встреч у меня на этой неделе,calendar_query,calendar_query,32,32
+очисти календарь,calendar_remove,calendar_remove,30,30
+пожалуйста напомни мне за один час до встречи которая у меня завтра утром,calendar_set,calendar_set,50,50
+какое у меня завтра дневное расписание,calendar_query,calendar_query,32,32
+предстоящие события,calendar_query,calendar_query,32,32
+последние события,calendar_query,calendar_query,32,32
+назначь встречу с павлом на завтра,calendar_set,calendar_set,50,50
+есть ли какие то мероприятия в ближайшее время в моём календаре,calendar_query,calendar_query,32,32
+поставь напоминание на отпуск на следующий месяц,calendar_set,calendar_set,50,50
+почисти календарь на этот месяц,calendar_remove,calendar_remove,30,30
+установи будильник на два часа от сейчас пожалуйста,alarm_set,alarm_set,48,48
+есть ли у меня что-то в эту субботу между двумя и четырьмя часами дня,calendar_query,calendar_query,32,32
+пожалуйста удали все события моего календаря на остаток дня,calendar_remove,calendar_remove,30,30
+какие события в моём календаре на сегодня,calendar_query,calendar_query,32,32
+какие записи у меня в календаре,calendar_query,calendar_query,32,32
+есть ли у меня какие нибудь напоминания сегодня,calendar_query,calendar_query,32,32
+удали сегодняшнюю встречу вечером,calendar_remove,calendar_remove,30,30
+напомни утром о моей записи к врачу двенадцатого,calendar_set,calendar_set,50,50
+сделай запись в календаре для бранча в субботу утром с павлом геннадьевичем и виктором владимировичем,calendar_set,calendar_set,50,50
+напомни мне встретить анжелику сегодня в шесть вечера,calendar_set,calendar_set,50,50
+когда у меня встреча с начальником на следующей неделе,calendar_query,calendar_query,32,32
+удали свадьбу десятого из моего календаря,calendar_remove,calendar_remove,30,30
+что сделать дальше с событиями,calendar_query,calendar_query,32,32
+у меня есть запись на завтра напомни мне,calendar_set,calendar_set,50,50
+четыре часа дня,calendar_set,datetime_query,50,0
+olly я буду встречаться со своим психологом каждый четверг в два часа дня,calendar_set,calendar_set,50,50
+удали,calendar_remove,calendar_remove,30,30
+я хочу пойти на неллин день рождения в субботу в десять вечера,calendar_set,calendar_set,50,50
+что у меня будет на следующей неделе,calendar_query,calendar_query,32,32
+скажите мне дату торжественного открытия бизнеса моего друга саши,calendar_query,calendar_set,32,50
+отметь в моём календаре второго апреля отпуск на кубе,calendar_set,calendar_set,50,50
+напомни мне в восемь вечера принять моё лекарство,calendar_set,calendar_set,50,50
+когда начнётся матч,calendar_query,calendar_query,32,32
+мне нужно отменить то что я запланировал на завтра,calendar_remove,calendar_remove,30,30
+установи напоминание о встрече в три дня на завтра,calendar_set,calendar_set,50,50
+напомни мне забрать вещи из стирки в следующий понедельник,calendar_set,calendar_set,50,50
+установи напоминание навестить моего отца завтра,calendar_set,calendar_set,50,50
+добавь в календарь событие воссоединение на этот день,calendar_set,calendar_set,50,50
+какая у меня сегодня первая встреча,calendar_query,calendar_query,32,32
+что у меня в расписании на сегодня,calendar_query,calendar_query,32,32
+напомни мне встретить игоря на обед завтра,calendar_set,calendar_set,50,50
+можешь назначить дом моей сестры как место проведения этого события,calendar_set,calendar_set,50,50
+удали следующее мероприятие из календаря,calendar_remove,calendar_remove,30,30
+добавить день рождения вари двенадцатого июля в мой календарь,calendar_set,calendar_set,50,50
+запиши в календаре что мы ужинаем с фёдором в восемь вечера девятого августа,calendar_set,calendar_set,50,50
+какие события в моём календаре на март,calendar_query,calendar_query,32,32
+когда планируется свадьба,calendar_query,calendar_query,32,32
+какие встречи есть в марте,calendar_query,calendar_query,32,32
+пожалуйста проверь третье событие двадцать второго марта две тысячи семнадцатого года,calendar_query,calendar_query,32,32
+добавь день святого валентина с ней завтра,calendar_set,calendar_set,50,50
+добавь день рождения с мамой на следующий месяц,calendar_set,calendar_set,50,50
+создай встречу с другом,calendar_set,calendar_set,50,50
+посетить вечеринку перед встречей,calendar_set,calendar_set,50,50
+пожалуйста создай событие только с этими людьми,calendar_set,calendar_set,50,50
+не забудь забрать меня в полдень из аэропорта у меня встреча в три часа дня,calendar_set,calendar_set,50,50
+запланируй встречу с павлом на десятое марта,calendar_set,calendar_set,50,50
+не забудь назначить встречу между мной и игроками завтра вечером в семь,calendar_set,calendar_set,50,50
+какие у меня текущие оповещения,calendar_query,calendar_query,32,32
+напомни мне о завтрашнем собеседовании,calendar_set,calendar_set,50,50
+предстоящие мероприятия,calendar_query,recommendation_events,32,6
+повтори это событие,calendar_set,calendar_set,50,50
+поставь в расписание встречу на вторник,calendar_set,calendar_set,50,50
+что мы получили на той встрече которая прошла вчера,calendar_query,calendar_query,32,32
+пожалуйста добавь мою следующую встречу,calendar_set,calendar_set,50,50
+поставь уведомление на завтра для этой вещи,calendar_set,calendar_set,50,50
+позвони человеку насчёт встречи,calendar_set,calendar_set,50,50
+когда срок следующей зарплаты,calendar_query,calendar_query,32,32
+поставь таймер на пять минут для печенек,calendar_set,play_radio,50,36
+когда в пятницу начинается хоккейный матч,calendar_query,calendar_query,32,32
+пожалуйста удали все записи в календаре,calendar_remove,calendar_remove,30,30
+напомни мне приготовить пиццу завтра утром,calendar_set,calendar_set,50,50
+установи молитву в полдень на каждую пятницу,calendar_set,calendar_set,50,50
+есть ли у меня какое нибудь ждущее напоминание,calendar_query,calendar_query,32,32
+не забудь мне напомнить про день рождения брата двадцатого апреля,calendar_set,calendar_set,50,50
+я хочу добавить встречу за обедом с сергеем иваном и андреем,calendar_set,calendar_set,50,50
+напомни мне о предстоящей встрече сегодня в четыре утра,calendar_set,calendar_set,50,50
+убери предстоящую встречу из списка,calendar_set,lists_remove,50,53
+найди и удали все мои мероприятия на выходных с татьяной викторовной,calendar_remove,calendar_remove,30,30
+отметь это событие в моем календаре,calendar_set,calendar_set,50,50
+есть ли у меня какие либо текущие напоминания,calendar_query,calendar_query,32,32
+обязательно напомни мне об этом,calendar_set,calendar_set,50,50
+эй olly поставь пожалуйста уведомление на завтрашнее утро в десять утра встреча,calendar_set,calendar_set,50,50
+пожалуйста назови мне предстоящие напоминания,calendar_query,calendar_query,32,32
+скажи мне о встрече которые у меня есть на этой неделе,calendar_query,calendar_query,32,32
+у меня день рождения в понедельник настрой событие,calendar_set,calendar_set,50,50
+у меня рейс пятнадцатого числа,calendar_set,calendar_query,50,32
+создай событие на вечер,calendar_set,calendar_set,50,50
+поставь вовин день рождения на каждое третье июня,calendar_set,calendar_set,50,50
+напоминай мне ходить в магазин каждую пятницу,calendar_set,calendar_set,50,50
+удали покупки продуктов из моего субботнего расписания,calendar_remove,calendar_remove,30,30
+удали все данные моего календаря,calendar_remove,calendar_remove,30,30
+что я должен сделать в понедельник,calendar_query,calendar_query,32,32
+повтори событие в моём календаре,calendar_set,calendar_set,50,50
+есть ли способы очистить мой календарь на месяц,calendar_remove,calendar_remove,30,30
+добавь мою практику в парке горького четвертого февраля на два часа дня,calendar_set,calendar_set,50,50
+напомни мне пожалуйста о дне рождения николая,calendar_set,calendar_set,50,50
+как выглядит сегодняшнее расписание,calendar_query,calendar_query,32,32
+добавь примечание участвовать,calendar_set,lists_createoradd,50,21
+создай повторяющиеся уведомления о моих рабочих задачах каждый день в восемь утра,calendar_set,calendar_set,50,50
+очисти моё расписание,calendar_remove,calendar_remove,30,30
+мне нужно где-нибудь быть между восемью утра и пятью часами вечера сегодня,calendar_query,calendar_set,32,50
+какие напоминания будут на этой неделе,calendar_query,calendar_query,32,32
+добавь событие тренировка по бейсболу в пять часов сегодня вечером,calendar_set,calendar_set,50,50
+что у меня утром завтра,calendar_query,calendar_query,32,32
+кто будет на встрече в эту пятницу,calendar_query,calendar_query,32,32
+что произошло между вторым и пятнадцатым,news_query,calendar_query,22,32
+расскажи мне обо всех событиях от сегодняшнего дня до двадцать первого,calendar_query,calendar_query,32,32
+пожалуйста давай мне обновление о выборах каждые полчаса,calendar_set,news_query,50,22
+у меня есть какие-нибудь встречи сегодня,calendar_query,calendar_query,32,32
+открой календарь удали все события,calendar_remove,calendar_remove,30,30
+напомни мне о моем тесте по биологии м. г. у. в пятницу,calendar_set,calendar_set,50,50
+что есть на двадцатое ноября,calendar_query,calendar_query,32,32
+когда запланирован следующий концерт монеточки,calendar_query,calendar_query,32,32
+что мне надо знать о представлении,calendar_query,general_quirky,32,12
+кто и почему в театре сегодня вечером,recommendation_events,recommendation_events,6,6
+есть ли какое-нибудь напоминание установленное на сегодня,calendar_query,calendar_query,32,32
+пожалуйста удали родительское собрание запланированное на седьмое марта,calendar_remove,calendar_remove,30,30
+есть ли у меня встреча на сегодня в моём календаре,calendar_query,calendar_query,32,32
+пожалуйста поставь напоминание о том что через десять минут мне нужно идти на работу,calendar_set,calendar_set,50,50
+сколько встреч у меня есть на следующей неделе,calendar_query,calendar_query,32,32
+четырнадцатого февраля забронируй ужин в ресторане,calendar_set,calendar_set,50,50
+что запланировано в эти выходные,calendar_query,calendar_query,32,32
+вывоз мусора на этой неделе,calendar_query,transport_taxi,32,54
+во сколько сегодня вечером начинается вечеринка,calendar_query,calendar_query,32,32
+когда моё следующее напоминание,calendar_query,calendar_query,32,32
+расскажи мне все известные подробности о турнире двадцать второго марта,calendar_query,calendar_query,32,32
+запланируйте обед в шоколаднице в москве завтра в полдень,calendar_set,calendar_set,50,50
+есть ли у меня свидание в пятницу,calendar_query,calendar_query,32,32
+пришли мне напоминание забрать собаку от грумера в час дня,calendar_set,calendar_set,50,50
+когда у меня встреча,calendar_set,calendar_query,50,32
+olly отправь и-мейл мои встречи надо перенести,email_sendemail,email_sendemail,33,33
+измени обеденное событие чтобы оно повторялось каждую пятницу,calendar_set,calendar_set,50,50
+встреча обнови мой календарь и отобрази встречи,calendar_set,calendar_set,50,50
+во сколько завтра начнут ходить поезда,calendar_query,transport_query,32,42
+установи напоминание в три часа дня забрать женю,calendar_set,calendar_set,50,50
+отмени мою встречу четырнадцатого,calendar_remove,calendar_remove,30,30
+дай мне информацию о концерте во вторник вечером,calendar_query,calendar_query,32,32
+мне нужно напомнить что во вторник в три часа дня состоится собрание по поводу выхода паши на пенсию,calendar_set,calendar_set,50,50
+что происходит в этом событии,recommendation_events,calendar_query,6,32
+что у меня происходит сегодня утром между десятью и двенадцатью,calendar_query,calendar_query,32,32
+во сколько у меня вечерняя встреча с иваном,calendar_query,calendar_query,32,32
+поставь напоминание что мне нужно вставать в пять утра каждое утро,alarm_set,calendar_set,48,50
+больше информации о концерте в москонцерт холл,calendar_query,recommendation_events,32,6
+olly напомни мне о завтрашней встрече сегодня вечером,calendar_set,calendar_set,50,50
+напоминание о встрече в среду,calendar_set,calendar_set,50,50
+добавь мою предстоящую встречу в мой календарь,calendar_set,calendar_set,50,50
+полностью очисти мой календарь пожалуйста,calendar_remove,calendar_remove,30,30
+пожалуйста удали встречу которая у меня должна быть сегодня вечером с иваном,calendar_remove,calendar_remove,30,30
+поставь напоминание по средам на два часа дня,calendar_set,calendar_set,50,50
+правда ли что день рождения светы первого марта,calendar_query,calendar_query,32,32
+ты добавила завтрашнюю встречу в мой календарь,calendar_query,calendar_set,32,50
+добавь обеденные встречи в полдень каждый день на этой неделе,calendar_set,calendar_set,50,50
+установи напоминание для встреча пятница в три часа дня,calendar_set,calendar_set,50,50
+удали всё из календаря,calendar_remove,calendar_remove,30,30
+эй siri убедись что завтра мой календарь полностью свободен,calendar_remove,calendar_query,30,32
+новое уведомление о встрече через два часа,calendar_set,calendar_set,50,50
+напомни мне о календаре,calendar_set,calendar_set,50,50
+есть ли какие-нибудь незавершенные встречи на это утро,calendar_query,calendar_query,32,32
+эта неделя неделя зарплаты,calendar_query,datetime_query,32,0
+отмени все встречи в моём календаре,calendar_remove,calendar_remove,30,30
+какие оповещения я установил,calendar_query,calendar_query,32,32
+какие есть новости на шесть сорок пять утра сегодня,calendar_query,news_query,32,22
+удали запись на час дня в моём календаре,calendar_remove,calendar_remove,30,30
+олли напомни мне что я должен быть в библиотеке через неделю в пять,calendar_set,calendar_set,50,50
+поставь напоминание на следующую субботу пойти в библиотеку в пять часов,calendar_set,calendar_set,50,50
+напомни мне о предстоящих государственных праздниках,calendar_set,calendar_set,50,50
+отмени в календаре моё событие на час дня сегодня,calendar_remove,calendar_remove,30,30
+добавь напоминание для моей встречи в пять часов вечера,calendar_set,calendar_set,50,50
+пожалуйста добавь приём в девять утра в среду у доктора ретюнского в офисе,calendar_set,calendar_set,50,50
+какие основные моменты были в сегодняшнем вечернем футбольном матче,calendar_query,news_query,32,22
+скажи мне что в моём расписании на сегодня,calendar_query,calendar_query,32,32
+когда валентин стрыкало приезжает в екатеринбург,calendar_query,qa_factoid,32,49
+я хочу добавить кое-что в свой календарь,calendar_set,calendar_set,50,50
+удали событие из календаря и обнови,calendar_remove,calendar_remove,30,30
+какие события у меня намечаются,calendar_query,calendar_query,32,32
+удали следующее мероприятие в календаре,calendar_remove,calendar_remove,30,30
+отмени пожалуйста следующее мероприятие в календаре,calendar_remove,calendar_remove,30,30
+какие встречи у меня сегодня между восемью и десятью,calendar_query,calendar_query,32,32
+напомни мне завтра в два дня,calendar_set,calendar_set,50,50
+запланируй событие в моём календаре вечеринка у бассейна в доме василия в эту субботу,calendar_set,calendar_set,50,50
+по какому адресу запланировано мероприятие первого января,calendar_query,calendar_query,32,32
+я хочу встретиться с таней завтра,calendar_set,calendar_set,50,50
+отмени мою встречу с лизой во вторник и перенеси её на четверг,calendar_set,calendar_remove,50,30
+удали ланч в четверг из моего календаря,calendar_remove,calendar_remove,30,30
+установи событие для пятнадцатого числа каждого месяца чтобы напомнить мне оплатить счёт за интернет,calendar_set,calendar_set,50,50
+добь следующую дату и время в мой календарь,calendar_set,calendar_set,50,50
+когда состоится событие,calendar_query,calendar_query,32,32
+добавь событие на пятое мая с началом в три часа дня на болотовой даче в подмосковье выпускной антона,calendar_set,calendar_set,50,50
+сколько часов я провёл на встречах за последний год,calendar_query,calendar_query,32,32
+удали встречу,calendar_remove,calendar_remove,30,30
+у меня встреча с аллой двадцать первого марта в десять,calendar_set,calendar_set,50,50
+мне нужно было подготовиться к встрече,calendar_query,calendar_query,32,32
+покажи мои предстоящие события,calendar_query,calendar_query,32,32
+удали из календаря следующее событие,calendar_remove,calendar_remove,30,30
+написано ли в моём календаре что я свободен первого апреля две тысячи семнадцатого года,calendar_query,calendar_query,32,32
+установи еженедельное напоминание о встрече,calendar_set,calendar_set,50,50
+отметь через два дня от сегодня как мой отпуск,calendar_set,calendar_set,50,50
+вторник встреча полдень,calendar_set,calendar_set,50,50
+у меня что-нибудь запланировано на седьмое марта,calendar_query,calendar_query,32,32
+олли запланируй мой приём у врача в пятницу в два часа дня,calendar_set,calendar_set,50,50
+можешь добавить мою бронь на ужины в мой календарь,calendar_set,calendar_set,50,50
+добавь в календарь информацию о свадьбе альберта,calendar_set,calendar_set,50,50
+у меня есть какие-то события в календаре сегодня,calendar_query,calendar_query,32,32
+поищи праздники в моей локации,recommendation_events,recommendation_events,6,6
+поиск актуальных событий в конкретные дни,recommendation_events,recommendation_events,6,6
+есть ли у меня какие либо напоминания в моём списке,calendar_query,lists_query,32,59
+пожалуйста напомни мне о,calendar_set,calendar_set,50,50
+пожалуйста установи будильник на,alarm_set,alarm_set,48,48
+надо ли мне напоминать о встречах в понедельник,calendar_set,calendar_query,50,32
+событие календаря ошибочно,calendar_query,calendar_query,32,32
+сотри все мои встречи на остаток недели,calendar_remove,calendar_remove,30,30
+добавь в календарь второе мая олин день рождения повторять каждый год,calendar_set,calendar_set,50,50
+я хочу чтобы ты напомнил мне взять плащ потому что может пойти дождь,calendar_set,calendar_set,50,50
+пожалуйста скажи мне надеть шорты потому что сегодня будет очень жарко,calendar_set,weather_query,50,13
+какое у меня расписание на четырнадцатое июня две тысячи семнадцатого года,calendar_query,calendar_query,32,32
+пожалуйста удали все напоминания воскресенья,calendar_remove,calendar_remove,30,30
+помнить ужин в четверг в bistro italia,calendar_set,calendar_set,50,50
+поставь напоминание,calendar_set,calendar_set,50,50
+внести мероприятие с этими людьми в календарь,calendar_set,calendar_set,50,50
+очисти мое расписание на сегодня,calendar_remove,calendar_remove,30,30
+что у меня в календаре,calendar_query,calendar_query,32,32
+расскажи о последних событиях,calendar_query,calendar_query,32,32
+когда мои встречи,calendar_query,calendar_query,32,32
+на когда запланирована вечеринка,calendar_query,calendar_query,32,32
+уведомляй меня о всех событиях на следующей неделе,calendar_set,calendar_set,50,50
+годовщина свадьбы павла,calendar_set,calendar_set,50,50
+когда праздничные выходные в этом месяце,calendar_query,calendar_query,32,32
+сообщите мне о встрече во вторник,calendar_set,calendar_set,50,50
+я хочу чтобы ты напомнил мне о вечерней программе,calendar_set,calendar_set,50,50
+удалить день рождения артура из календаря,calendar_remove,calendar_remove,30,30
+окей google запланируй встречу с вице президентом департамента на двадцать первое марта две тысячи семнадцатого года,calendar_set,calendar_set,50,50
+мне нужна встреча с финансовым директором в четверг,calendar_set,calendar_set,50,50
+убери событие день рождения из моего календаря,calendar_remove,calendar_remove,30,30
+напомни мне пятого апреля о встрече с начальником,calendar_set,calendar_set,50,50
+создай напоминание оформление визы в этот четверг,calendar_set,calendar_set,50,50
+сделай пустым календарь на третье июля,calendar_remove,calendar_remove,30,30
+заведи будильник на четыре часа дня на вторник,alarm_set,alarm_set,48,48
+создай напоминание о свадьбе ирины во вторник,calendar_set,calendar_set,50,50
+помести повторяющееся событие в календарь,calendar_set,calendar_set,50,50
+занят ли я в эти выходные,calendar_query,calendar_query,32,32
+у меня есть встреча на следующей неделе,calendar_query,calendar_query,32,32
+удалить день после события,calendar_remove,calendar_remove,30,30
+напомни о нужных событиях которые необходимо переназначить,calendar_set,calendar_set,50,50
+добавь моя сестра придёт в гости в мой семейный календарь,calendar_set,calendar_set,50,50
+где расположен конференц-центр,qa_factoid,recommendation_locations,49,19
+любая встреча в пятницу,calendar_query,calendar_set,32,50
+напомни мне что у меня назначена встреча в двенадцать часов дня в субботу,calendar_set,calendar_set,50,50
+olly у меня есть какие-нибудь события в календаре в этом месяце,calendar_query,calendar_query,32,32
+olly сделай пожалуйста запись в календаре на следующую субботу в десять утра пожалуйста,calendar_set,calendar_set,50,50
+напомни мне о встрече двадцать второго января,calendar_set,calendar_set,50,50
+напомни мне о встрече через час,calendar_set,calendar_set,50,50
+напомни мне через один час о моей встрече,calendar_set,calendar_set,50,50
+включи какое-нибудь радио,play_radio,play_radio,36,36
+радио европа плюс,play_radio,play_radio,36,36
+открой pandora включи рок станцию,play_radio,play_radio,36,36
+включи рок на яндекс музыка,play_radio,play_music,36,45
+включи русское радио,play_radio,play_radio,36,36
+включи радио,play_radio,play_radio,36,36
+эльдорадио,play_radio,play_radio,36,36
+включи радио,play_radio,play_radio,36,36
+настрой пожалуйста радиостанцию,play_radio,play_radio,36,36
+я бы хотел послушать это радио,play_radio,play_radio,36,36
+включи радио,play_radio,play_radio,36,36
+можешь включить радио сто семь и восемь ф. м.,play_radio,play_radio,36,36
+включи музыку,play_radio,play_music,36,45
+настрой на частоту девятьсот девяносто семь,play_radio,audio_volume_up,36,14
+настройся на канал сто шесть и два,play_radio,play_radio,36,36
+включи пожалуйста радио,play_radio,play_radio,36,36
+включи радио,play_radio,play_radio,36,36
+переключи на мой любимый радио канал,play_radio,play_radio,36,36
+сыграй песню которая заставит меня улыбнуться,play_music,play_music,45,45
+включи европа плюс,play_radio,play_radio,36,36
+включи европу плюс пожалуйста,play_radio,play_radio,36,36
+включи радио зенит,play_radio,play_radio,36,36
+пожалуйста открыть мою ф. м. радиостанцию и проиграть девятьсот восемьдесят семь,play_radio,play_radio,36,36
+olly я хочу послушать радио максимум,play_radio,play_radio,36,36
+включи футбольный матч на радио,play_radio,play_radio,36,36
+у скольких моих спортивных подкастов есть новые выпуски которые я ещё не слушал,play_radio,play_podcasts,36,58
+открой pandora и включи топ хиты,play_radio,play_music,36,45
+пожалуйста воспроизведи популярную музыку на pandora,play_radio,play_music,36,45
+воспроизведи русское радио для меня,play_radio,play_radio,36,36
+включи мне какую-нибудь радио музыку с радио рекорд,play_radio,play_radio,36,36
+пожалуйста включи топ кантри,play_music,play_music,45,45
+включи музыкальные программы на радио,play_radio,play_radio,36,36
+запусти текущий плейлист,play_music,play_music,45,45
+найти трансляцию европы плюс на sirius,play_radio,play_radio,36,36
+включи станцию европа плюс,play_radio,play_radio,36,36
+играй новостной ф. м.,play_radio,news_query,36,22
+воспроизведи эпизод сплин в легких людях в галерее мастеров,play_radio,play_podcasts,36,58
+включить европу плюс,play_radio,play_radio,36,36
+включи бизнес ф м,play_radio,play_music,36,45
+ok google можешь включить алексея венедиктова,play_radio,play_music,36,45
+включи мою любимую станцию в девять часов вечера,play_radio,play_radio,36,36
+радио европа плюс,play_radio,play_radio,36,36
+включи группу крови кино,play_radio,play_music,36,45
+на каких станциях сегодня утром играет хорошая музыка,play_radio,recommendation_movies,36,55
+настройся на сто семь и восемь ф. м.,play_radio,play_radio,36,36
+включи станцию шансон,play_radio,play_radio,36,36
+переключись на шоу ивана урганта,play_radio,play_radio,36,36
+включи радио рекорд,play_radio,play_radio,36,36
+включи эту программу,play_radio,play_radio,36,36
+можешь включить мою любимую аудиокнигу войны и мир,play_audiobook,play_audiobook,20,20
+поставь аудиокнигу льва толстого,play_audiobook,play_audiobook,20,20
+начни седьмую главу в войне и мире,play_audiobook,play_audiobook,20,20
+возобнови аудиокнигу история рима,play_audiobook,play_audiobook,20,20
+можешь поставить аудио на паузу,play_audiobook,audio_volume_mute,20,46
+продолжи воспроизведение моей аудиокниги,play_audiobook,play_audiobook,20,20
+поставь на паузу аудиокнигу,play_audiobook,play_audiobook,20,20
+включи ревизор на том месте где остановился,play_audiobook,play_audiobook,20,20
+начни проигрывание аудиокниги ревизор,play_audiobook,play_audiobook,20,20
+включи недавно добавленную аудиокнигу,play_audiobook,play_audiobook,20,20
+включи аудио,play_audiobook,play_music,20,45
+возобнови мою аудиокнигу где мы остановились в прошлый раз,play_audiobook,play_audiobook,20,20
+продолжи воспроизведение аудиокниги,play_audiobook,play_audiobook,20,20
+пожалуйста включи недавно поставленное на паузу аудио,play_audiobook,play_audiobook,20,20
+возобнови мою аудиокнигу сначала той главы на которой я остановился,play_audiobook,play_audiobook,20,20
+сыграй в идиота,play_audiobook,play_game,20,51
+давай сделаем перерыв на пять минут,play_audiobook,play_podcasts,20,58
+начни чтение книги,play_audiobook,play_audiobook,20,20
+возобнови преступление и наказание для меня,play_audiobook,play_audiobook,20,20
+продолжи воспроизведение аудиокниги ревизор,play_audiobook,play_audiobook,20,20
+найди эту запись в аудиокниге и воспроизведи для меня,play_audiobook,play_audiobook,20,20
+пожалуйста возобнови эту аудиокнигу,play_audiobook,play_audiobook,20,20
+слушать нефритовые чётки на downpour,play_audiobook,play_radio,20,36
+начни читать вечера на хуторе близ диканьки с четвертой главы,play_audiobook,play_audiobook,20,20
+продолжи песню из аудиокниги артура пирожкова,play_audiobook,play_audiobook,20,20
+включи аудиокнигу колобок,play_audiobook,play_audiobook,20,20
+продолжить слушать аудиокнигу дюймовочка,play_audiobook,play_audiobook,20,20
+включи аудиокнигу останься,play_audiobook,play_audiobook,20,20
+возобновить чтение уроки французского,play_audiobook,play_audiobook,20,20
+включи пожалуйста гармонию,play_audiobook,audio_volume_up,20,14
+начни читать ту книгу достоевского,play_audiobook,play_audiobook,20,20
+продолжить мою аудиокнигу пожалуйста,play_audiobook,play_audiobook,20,20
+продолжи воспроизводить золушка,play_audiobook,play_audiobook,20,20
+олли возобнови герой нашего времени,play_audiobook,play_audiobook,20,20
+включи с этого места из этой аудиокниги,play_audiobook,play_audiobook,20,20
+расскажи мне как сделать чесночный хлеб,cooking_recipe,cooking_recipe,9,9
+сколько варить макароны,cooking_recipe,cooking_recipe,9,9
+что приготовить из броколли и курицы,cooking_recipe,cooking_recipe,9,9
+дай инструкции по приготовлению,cooking_recipe,cooking_recipe,9,9
+как варить макароны,cooking_recipe,cooking_recipe,9,9
+каким ингредиентом можно заменить белое вино,cooking_recipe,cooking_recipe,9,9
+можешь пожалуйста показать видео о приготовлении итальянской еды,cooking_recipe,cooking_recipe,9,9
+олли как мне сделать рассольник,cooking_recipe,cooking_recipe,9,9
+как приготовить овощное рагу,cooking_recipe,cooking_recipe,9,9
+какая самая соблазнительная еда чтобы приготовить на свидание,cooking_recipe,cooking_recipe,9,9
+как много времени нужно печь пиццу чтобы она была идеально хрустящей,cooking_recipe,cooking_recipe,9,9
+как приготовить коровий горох,cooking_recipe,cooking_recipe,9,9
+покажи рецепты,cooking_recipe,cooking_recipe,9,9
+используй google чтобы показать мне как готовить,cooking_recipe,cooking_recipe,9,9
+дай мне лучшие идеи для готовки,cooking_recipe,cooking_recipe,9,9
+покажи рецепт печенья,cooking_recipe,cooking_recipe,9,9
+как испечь печенье,cooking_recipe,cooking_recipe,9,9
+как много чашек в литре,cooking_recipe,cooking_recipe,9,9
+как мне запечь картошку,cooking_recipe,cooking_recipe,9,9
+поищи рецепт пиццы,cooking_recipe,cooking_recipe,9,9
+как приготовить мясной рулет,cooking_recipe,cooking_recipe,9,9
+найди рецепт куриного супа с лапшой,cooking_recipe,cooking_recipe,9,9
+поищи меню без глютена,cooking_recipe,takeaway_order,9,16
+покажи мне как приготовить рецепт,cooking_recipe,cooking_recipe,9,9
+сколько нужно охлаждать творожный торт,cooking_recipe,cooking_recipe,9,9
+как приготовить омлет с сыром четырёх видов,cooking_recipe,cooking_recipe,9,9
+найди рецепт приготовления хотдога,cooking_recipe,cooking_recipe,9,9
+рецепт приготовления тушёной курицы в мультиварке,cooking_recipe,cooking_recipe,9,9
+найди рецепт спагетти,cooking_recipe,cooking_recipe,9,9
+открой рецепт фрикаделек из индейки,cooking_recipe,cooking_recipe,9,9
+рецепты,cooking_recipe,cooking_recipe,9,9
+сколько жарить куриные грудки,cooking_recipe,cooking_recipe,9,9
+рецепт для крабового мяса,cooking_recipe,cooking_recipe,9,9
+мне нужны рецепты мексиканской кухни для ужина,cooking_recipe,cooking_recipe,9,9
+больше нет комментариев,cooking_recipe,lists_remove,9,53
+сколько по времени готовятся варёные яйца,cooking_recipe,cooking_recipe,9,9
+найти простой рецепт миндального молока,cooking_recipe,cooking_recipe,9,9
+найди рецепт куриной запеканки,cooking_recipe,cooking_recipe,9,9
+поищи рецепт еды,cooking_recipe,cooking_recipe,9,9
+алиса сыграй со мной в шахматы,play_game,play_game,51,51
+я бы сыграла в шахматы ты можешь играть,play_game,play_game,51,51
+как насчет приятной игры в шашки,play_game,general_quirky,51,12
+играть в пасьянс,play_game,play_game,51,51
+включи гоночную игру,play_game,play_game,51,51
+сыграем в пинбол,play_game,play_game,51,51
+давай сыграем в паука,play_game,play_game,51,51
+хочешь поиграть в игру со мной,play_game,play_game,51,51
+я хочу чтобы ты включил мою танки онлайн игру с пятого уровня,play_game,play_game,51,51
+включи танки онлайн,play_game,play_game,51,51
+найди игру,play_game,play_game,51,51
+играй со мной в змейку,play_game,play_game,51,51
+давай решим головоломку,play_game,general_quirky,51,12
+открыть весёлую ферму,play_game,play_game,51,51
+сыграем в шашки,play_game,play_game,51,51
+включи игры,play_game,play_game,51,51
+можешь сыграть роль соперника в танках онлайн,play_game,play_game,51,51
+сыграй со мной в шахматы пожалуйста,play_game,play_game,51,51
+включи игру танки онлайн,play_game,play_game,51,51
+не могли бы вы сыграть со мной в покер,play_game,play_game,51,51
+давай поиграем в танки онлайн,play_game,play_game,51,51
+давай сыграем в мафию,play_game,play_game,51,51
+список товаров в моём списке покупок алиса,lists_query,lists_query,59,59
+я бы хотел отменить поездку в краснодар на следующей неделе,lists_remove,calendar_remove,53,30
+что сегодня в моём списке покупок,lists_query,lists_query,59,59
+вычеркнуть хлеб из списка покупок,lists_remove,lists_remove,53,53
+добавить водку в мой список покупок для вечеринки,lists_query,lists_createoradd,59,21
+удали список что купить,lists_remove,lists_remove,53,53
+можешь создать новый список,lists_createoradd,lists_createoradd,21,21
+удалить список продуктов питания купленных на прошлой неделе,lists_remove,lists_remove,53,53
+это зависит от увиденного,lists_remove,general_quirky,53,12
+очисти список,lists_remove,lists_remove,53,53
+создать список,lists_createoradd,lists_createoradd,21,21
+какие продуктовые магазины я добавил в список,lists_query,lists_query,59,59
+какие у меня списки,lists_query,lists_query,59,59
+какие списки доступны,lists_query,lists_query,59,59
+найти список и удалить яблоко,lists_remove,lists_remove,53,53
+стереть мой список старых английских песен,lists_remove,lists_remove,53,53
+пожалуйста удалите список,lists_remove,lists_remove,53,53
+добавь этот пункт в список,lists_createoradd,lists_createoradd,21,21
+какие последние пять списков я создал,lists_query,lists_query,59,59
+отправь мне последний загруженный список,lists_query,lists_query,59,59
+сделай список номеров для меня,lists_createoradd,lists_createoradd,21,21
+создайте новый список для меня пожалуйста,lists_createoradd,lists_createoradd,21,21
+что в моём списке дел на сегодня,lists_query,lists_query,59,59
+что я сегодня буду делать,general_quirky,calendar_query,12,32
+отметьте пятый пункт в моем списке дел,lists_query,lists_createoradd,59,21
+пожалуйста покажи мой список,lists_query,lists_query,59,59
+удали файл excel из списка,lists_remove,lists_remove,53,53
+перечисли мне плейлист,music_query,music_query,57,57
+сколько продуктов питания в списке,lists_query,lists_query,59,59
+список не должен содержать продукты питания со словом сухой,lists_remove,lists_remove,53,53
+к завтрашнему дню создать новый список,lists_createoradd,lists_createoradd,21,21
+составить новый список,lists_createoradd,lists_createoradd,21,21
+добавь карандаш в новый список покупок,lists_createoradd,lists_createoradd,21,21
+пожалуйста удали это из списка,lists_remove,lists_remove,53,53
+добавь список продуктов,lists_createoradd,lists_createoradd,21,21
+прочитай список,lists_query,lists_query,59,59
+пополнить мой список,lists_query,lists_createoradd,59,21
+скажи какие у меня есть списки,lists_query,lists_query,59,59
+удали третий пункт,lists_remove,lists_remove,53,53
+что содержит список,lists_query,lists_query,59,59
+пожалуйста добавь этот пункт в список,lists_createoradd,lists_createoradd,21,21
+покажи доступные списки,lists_query,lists_query,59,59
+можешь пожалуйста мне сказать что у меня в списке,lists_query,lists_query,59,59
+удалить перец из моего списка продуктов,lists_remove,lists_remove,53,53
+добавить что-нибудь в мой список,lists_createoradd,lists_createoradd,21,21
+удалить этот пункт из моего списка,lists_remove,lists_remove,53,53
+google переводчик,lists_query,qa_definition,59,26
+перечитайте что я записал в свой список дел на эту неделю,lists_query,lists_query,59,59
+читать пункты списка покупок,lists_query,lists_query,59,59
+добавить хлопья в мой список покупок,lists_createoradd,lists_createoradd,21,21
+в моём списке покупки есть яйца,lists_query,lists_query,59,59
+у меня есть список контактов для вечеринки к которой я готовлюсь,lists_query,email_querycontact,59,17
+удали мой список дел,lists_remove,lists_remove,53,53
+удали пункт списка,lists_remove,lists_remove,53,53
+пожалуйста добавьте молоко в список продуктов,lists_createoradd,lists_createoradd,21,21
+покажи мне пожалуйста мои списки,lists_query,lists_query,59,59
+открой списки удали список,lists_remove,lists_remove,53,53
+алиса что дальше в моём списке,lists_query,lists_query,59,59
+убрать молоко из моего списка продуктов,lists_remove,lists_remove,53,53
+пожалуйста скажите мне какие списки я сделал,lists_query,lists_query,59,59
+переставить это из списка,lists_remove,lists_remove,53,53
+убери это из списка,lists_remove,lists_remove,53,53
+оля что ещё у меня в списке дел,lists_query,lists_query,59,59
+добавь покупку продуктов в мой список дел на сегодня,lists_createoradd,lists_createoradd,21,21
+подскажите пожалуйста как удалить пункт,lists_remove,lists_remove,53,53
+я могу проверить свои списки,lists_query,lists_query,59,59
+я составлял список покупок,lists_query,lists_query,59,59
+удалить пункт из моего списка,lists_remove,lists_remove,53,53
+создать новый список,lists_createoradd,lists_createoradd,21,21
+скажи о чём список,lists_query,lists_query,59,59
+пожалуйста убери первый список,lists_remove,lists_remove,53,53
+удали встречу в среду утром,calendar_remove,calendar_remove,30,30
+создать новый список моих ожидающих счетов,lists_createoradd,lists_createoradd,21,21
+прочитай мне мой список,lists_query,lists_query,59,59
+дай мне мой список,lists_query,lists_query,59,59
+составить список для работы,lists_createoradd,lists_createoradd,21,21
+пожалуйста удалите список под названием футбол,lists_remove,lists_remove,53,53
+мне больше не нужен этот список,lists_remove,lists_remove,53,53
+у меня есть что нибудь в моем списке дел,lists_query,lists_query,59,59
+какие сейчас есть списки,lists_query,lists_query,59,59
+удалить последнюю строку,lists_remove,lists_remove,53,53
+создать новый список школьных принадлежностей,lists_createoradd,lists_createoradd,21,21
+удали позвонить в газеты из моего списка дел в отпуске,lists_remove,lists_remove,53,53
+прочитай мой список покупок на сегодня,lists_query,lists_query,59,59
+что в списке на сегодня,lists_query,lists_query,59,59
+включить пункт в список,lists_createoradd,lists_createoradd,21,21
+исключить покупку продуктов из списка,lists_remove,lists_remove,53,53
+у нас закончилась краска поэтому удали покраску ванной из списка,lists_remove,lists_remove,53,53
+напомни мне заказать побольше мыла,lists_createoradd,calendar_set,21,50
+открыть мой список,lists_query,lists_query,59,59
+удалить последнюю проигранную песню,lists_remove,lists_remove,53,53
+пожалуйста добавь васю в список контактов,email_addcontact,email_addcontact,15,15
+ты можешь прочитать мне мои списки,lists_query,lists_query,59,59
+эй какие у меня есть списки,lists_query,lists_query,59,59
+привет алиса какие у меня списки,lists_query,lists_query,59,59
+перечисли пункты в списке продуктов,lists_query,lists_query,59,59
+что это такое в списке,lists_query,lists_query,59,59
+скажи что у меня в списке,lists_query,lists_query,59,59
+удали список,lists_remove,lists_remove,53,53
+убери молоко из списка покупок,lists_remove,lists_remove,53,53
+добавить молоко в мой список продуктов,lists_createoradd,lists_createoradd,21,21
+удалить список музыки киркорова,lists_remove,lists_remove,53,53
+что находится в этом конкретном списке,lists_query,lists_query,59,59
+могу ли я увидеть мои рабочие списки,lists_query,lists_query,59,59
+добавить это в список,lists_createoradd,lists_createoradd,21,21
+пожалуйста удалите мой список дел на сегодня,lists_remove,lists_remove,53,53
+мне не нужны яйца,lists_remove,lists_remove,53,53
+список доступных,lists_query,lists_query,59,59
+составь список продуктов на месяц которые нужно купить,lists_createoradd,lists_createoradd,21,21
+моё рабочее расписание,calendar_query,calendar_query,32,32
+мой план медицинского обслуживания,lists_query,calendar_query,59,32
+добавить пирожные в рождественский список,lists_createoradd,lists_createoradd,21,21
+удали список дел,lists_remove,lists_remove,53,53
+удалить старый плейлист и создать новый,lists_createoradd,lists_remove,21,53
+проверить список,lists_query,lists_query,59,59
+сколько дел в моём списке,lists_query,lists_query,59,59
+проверить мой список,lists_query,lists_query,59,59
+можешь промотать вперёд выпуск подкаста,play_podcasts,play_podcasts,58,58
+включи следующий эпизод,play_podcasts,play_podcasts,58,58
+найди мой подкаст,play_podcasts,play_podcasts,58,58
+перейди к следующему эпизоду,play_podcasts,play_podcasts,58,58
+включи подкаст антиква,play_podcasts,play_podcasts,58,58
+переключи на следующий эпизод,play_podcasts,play_podcasts,58,58
+включи седьмой эпизод страдающего средневековья,play_podcasts,play_podcasts,58,58
+найди и сделай плейлист со всеми новейшими танцевальными треками,play_music,play_music,45,45
+воспроизведи все песни димы билана,play_music,play_music,45,45
+подкаст встреча с песней с начала,play_podcasts,play_podcasts,58,58
+эй включи подкаст который я остановил прошлой ночью,play_podcasts,play_podcasts,58,58
+перейди к следующему подкасту,play_podcasts,play_podcasts,58,58
+повтори следующий подкаст,play_podcasts,play_podcasts,58,58
+перейди к следующему подкасту,play_podcasts,play_podcasts,58,58
+включи подкаст куджи,play_podcasts,play_podcasts,58,58
+любимый,play_podcasts,play_music,58,45
+вперёд пожалуйста,play_podcasts,play_podcasts,58,58
+найди подкаст и включи его,play_podcasts,play_podcasts,58,58
+можешь включить мой аудиофайл,play_music,play_audiobook,45,20
+включи следующий эпизод,play_podcasts,play_podcasts,58,58
+закончи этот подкаст включи новый,play_podcasts,play_podcasts,58,58
+включи последний подкаст даниила дугаева,play_podcasts,play_podcasts,58,58
+включи следующий эпизод,play_podcasts,play_podcasts,58,58
+запусти подкаст выходные на колесах,play_podcasts,play_podcasts,58,58
+покажи подкасты с самым высоким рейтингом,play_podcasts,play_podcasts,58,58
+включи серию два по цене одного как давать деньги в долг друзьям,play_podcasts,play_podcasts,58,58
+включи классические песни,play_music,play_music,45,45
+включи подкаст психология,play_podcasts,play_podcasts,58,58
+назад на один эпизод,play_podcasts,play_podcasts,58,58
+кнопка перемотать,play_podcasts,play_audiobook,58,20
+покажи мне последний эпизод,play_podcasts,play_podcasts,58,58
+олли включи подкаст встреча с песней,play_podcasts,play_podcasts,58,58
+воспроизвести подкаст психология на дожде сохраненный на устройстве,play_podcasts,play_podcasts,58,58
+русское радио подкаст,play_podcasts,play_podcasts,58,58
+намного понятнее и предметно,play_podcasts,general_quirky,58,12
+король и шут,play_podcasts,qa_factoid,58,49
+включи самый последний эпизод от первого лица,play_podcasts,play_podcasts,58,58
+хочу послушать этот подкаст,play_podcasts,play_podcasts,58,58
+какие новые фильмы показывают в кинотеатрах на этой неделе,recommendation_movies,recommendation_movies,55,55
+проходят ли выставки собак рядом с санкт-петербургом,recommendation_events,recommendation_events,6,6
+где ближайший паб в городе,recommendation_locations,recommendation_locations,19,19
+какие концерты должны состояться поблизости,recommendation_events,recommendation_events,6,6
+какие фильмы сейчас идут в кинотеатре каро фильм,recommendation_movies,recommendation_movies,55,55
+какие выставки или представления намечены в крокус экспо,recommendation_events,recommendation_events,6,6
+какие мероприятия проходят рядом со мной,recommendation_events,recommendation_events,6,6
+куда мне пойти за узбекской едой в моём районе,recommendation_locations,recommendation_locations,19,19
+я хочу суши что ближе всего,recommendation_locations,takeaway_order,19,16
+найди китайские рестораны поблизости,recommendation_locations,recommendation_locations,19,19
+где фестиваль еды сегодня вечером,recommendation_events,recommendation_events,6,6
+я ищу показы одежды можешь найти магазины в радиусе одной мили,recommendation_locations,recommendation_locations,19,19
+где ближайший ресторан,recommendation_locations,recommendation_locations,19,19
+olly отметь мне местоположение магазина,recommendation_locations,social_post,19,47
+какие новые фильмы сегодня доступны к просмотру,recommendation_movies,recommendation_movies,55,55
+покажи какой-нибудь фуд-корт ближайший к моему местоположению,recommendation_locations,recommendation_events,19,6
+какие-нибудь хорошие веломагазины в гатчине,recommendation_locations,recommendation_locations,19,19
+лучший местный бар в районе,recommendation_locations,recommendation_locations,19,19
+расскажи о всех местных событиях,recommendation_events,recommendation_events,6,6
+ближайший продуктовый магазин,recommendation_locations,recommendation_locations,19,19
+какую романтическую комедию я могу посмотреть в театрах рядом с санкт-петербургом,recommendation_movies,recommendation_movies,55,55
+составь список что надо сделать во время посещения московского парка победы,recommendation_events,calendar_set,6,50
+что я должен сделать при посещении алтайского заповедника,recommendation_events,recommendation_events,6,6
+что происходит вокруг меня,recommendation_events,news_query,6,22
+театры возле меня,recommendation_movies,recommendation_movies,55,55
+какие мероприятия книжной ярмарки проходят на следующей неделе в москве,recommendation_events,recommendation_events,6,6
+в каком ближайшем кинотеатре идет новый фильм вина дизеля,recommendation_movies,recommendation_movies,55,55
+какие события проходят в москве,recommendation_events,recommendation_events,6,6
+мажор,recommendation_movies,qa_factoid,55,49
+кто продает самые дешевые нетбуки в нижнем новгороде,recommendation_locations,qa_stock,19,4
+какие лучшие магазины одежды здесь,recommendation_locations,recommendation_locations,19,19
+найди магазин в котором продаётся пиво,recommendation_locations,recommendation_locations,19,19
+какие фильмы показывают в кинотеатрах рядом со мной,recommendation_movies,recommendation_movies,55,55
+какие фильмы из тех что показывают рядом имеют хорошие отзывы,recommendation_movies,recommendation_movies,55,55
+фильмы с хорошим rotten tomato рейтингом,recommendation_movies,recommendation_movies,55,55
+какие мероприятия проводятся в моем районе,recommendation_events,recommendation_events,6,6
+какие аттракционы самые лучшие,recommendation_events,recommendation_events,6,6
+что стоит посмотреть,recommendation_movies,recommendation_events,55,6
+расскажи о мероприятиях в моём регионе в эти выходные,recommendation_events,recommendation_events,6,6
+что проходит в санкт-петербурге,recommendation_events,recommendation_events,6,6
+какие магазины есть рядом с моей местностью,recommendation_locations,recommendation_locations,19,19
+можешь ли ты порекомендовать дешевый ресторан в этом районе,recommendation_locations,recommendation_locations,19,19
+olly какие рестораны рядом со мной,recommendation_locations,recommendation_locations,19,19
+где я могу найти ближайший ирландский паб в моем районе,recommendation_locations,recommendation_locations,19,19
+олли какие бары есть недалеко от меня,recommendation_locations,recommendation_locations,19,19
+покажи мне мероприятия проходящие в ярославле,recommendation_events,recommendation_events,6,6
+скажи что происходит в моем городе,recommendation_events,news_query,6,22
+что происходит в санкт-петербурге сегодня,recommendation_events,recommendation_events,6,6
+как много продуктовых магазинов в моём районе,recommendation_locations,recommendation_locations,19,19
+найди ресторан в моём районе,recommendation_locations,recommendation_locations,19,19
+я умираю с голоду что хорошего поесть в твери,recommendation_locations,recommendation_locations,19,19
+olly где я могу набрать напитки в южном бутово,recommendation_locations,recommendation_locations,19,19
+сегодняшние мероприятия,recommendation_events,calendar_query,6,32
+перечисли все ближайшие магазины,recommendation_locations,recommendation_locations,19,19
+можешь ли рекомендовать какой-нибудь паб на резной улице,recommendation_locations,recommendation_locations,19,19
+что происходит по соседству,recommendation_events,recommendation_events,6,6
+мне нужно место которое доставит мне пиццу в орле,recommendation_locations,takeaway_query,19,3
+в пермском районе есть какие-нибудь китайские рестораны,recommendation_locations,recommendation_locations,19,19
+пожалуйста поищи мероприятия в моем месте,recommendation_events,recommendation_events,6,6
+эй olly я хочу знать какие есть поезда в новосибирск в среду,transport_ticket,transport_query,2,42
+когда следующий поезд в анапу,transport_query,transport_query,42,42
+как лучше всего ехать в россию,transport_query,transport_query,42,42
+я еду в китайский квартал через полчаса закажи мне uber,transport_taxi,transport_taxi,54,54
+olly забронируй билет в нижний тагил на р. ж. д. в пять часов вечера в эту пятница,transport_ticket,transport_ticket,2,2
+закажи сидячий билет в вагон с кондиционером на поезд из москвы в санкт-петербург,transport_ticket,transport_ticket,2,2
+как с пробками на улице большая зеленина,transport_traffic,transport_traffic,11,11
+вызови мне яндекс такси прямо сейчас,transport_taxi,transport_taxi,54,54
+на улице юности пробки сильнее,transport_traffic,transport_traffic,11,11
+какое движение прямо сейчас на улице ленина,transport_traffic,transport_traffic,11,11
+отправь ко мне uber прямо сейчас,transport_taxi,transport_taxi,54,54
+где находится железнодорожная станция,transport_query,transport_query,42,42
+можешь пожалуйста заказать uber к моему дому через пятнадцать минут,transport_taxi,transport_taxi,54,54
+мне нужно такси чтобы попасть в аэропорт пожалуйста,transport_taxi,transport_taxi,54,54
+закажи мне билет на самолет,transport_ticket,transport_ticket,2,2
+найди такси чтобы ехать домой,transport_taxi,transport_taxi,54,54
+закажи uber от моего дома,transport_taxi,transport_taxi,54,54
+какие следующие четыре поезда по расписанию до санкт петербурга,transport_query,transport_query,42,42
+как движение по большой зеленина,transport_traffic,transport_traffic,11,11
+каковы условия движения,transport_traffic,transport_traffic,11,11
+возьми мне билет на самую позднюю ласточку до выборга в следующий четверг,transport_query,transport_ticket,42,2
+в какое время по расписанию почта из новгорода приходит в псков,transport_query,transport_query,42,42
+когда следующий поезд до улицы алтайская,transport_query,transport_query,42,42
+давай возьмем такси,transport_taxi,transport_taxi,54,54
+направить меня к ближайшей железнодорожной станции,transport_query,transport_query,42,42
+время поезда с чкаловской на спортивную,transport_query,transport_query,42,42
+поищи два билета на поезд во вторник в москву,transport_ticket,transport_ticket,2,2
+как движение по дороге с работы домой,transport_traffic,transport_traffic,11,11
+расскажи мне про условия на дороге отсюда домой,transport_traffic,transport_traffic,11,11
+забронируй такси,transport_taxi,transport_taxi,54,54
+автобус и стоимость проезда,transport_ticket,transport_query,2,42
+в москве слишком много пробок,transport_traffic,transport_traffic,11,11
+закажи такси в аэропорт на завтрашнее утро,transport_taxi,transport_taxi,54,54
+я хотел бы знать состояние трафика,transport_traffic,transport_traffic,11,11
+закажи мне ближайшее такси,transport_taxi,transport_taxi,54,54
+как мне добраться до москвы,transport_query,transport_query,42,42
+вызови мне яндекс такси,transport_taxi,transport_taxi,54,54
+закажи такси,transport_taxi,transport_taxi,54,54
+выкупи последний билет на поезд до мытищ,transport_ticket,transport_ticket,2,2
+купи мне билет на поезд сегодня в кострому,transport_ticket,transport_ticket,2,2
+дорога до ближайшего магазина связной,transport_query,transport_query,42,42
+дай мне представление о текущем состоянии дорожного движения,transport_traffic,transport_traffic,11,11
+во сколько уезжают поезда из твери в архангельск,transport_query,transport_query,42,42
+как добраться до твери из москвы,transport_query,transport_query,42,42
+как обстановка на дорогах из дома на работу,transport_traffic,transport_traffic,11,11
+поймать попутку,transport_taxi,transport_taxi,54,54
+в какое время поезд уходит двадцать третьего до благовещенска,transport_query,transport_query,42,42
+купи билет на поезд,transport_ticket,transport_ticket,2,2
+нужно такси на завтра в восемь утра,transport_taxi,transport_taxi,54,54
+закажите билет на вылет на утро,transport_ticket,transport_ticket,2,2
+найди водителя uber свободного сегодня вечером после десяти вечера,transport_taxi,transport_taxi,54,54
+в какое время отправляется поезд в санкт-петербург,transport_query,transport_query,42,42
+можешь заказать билет на поезд в санкт петербург на следующий вторник,transport_ticket,transport_ticket,2,2
+во сколько отправляется поезд из москвы,transport_query,transport_query,42,42
+когда следующий поезд р ж д в екатеринбург,transport_query,transport_query,42,42
+дайте мне номер местного сервиса такси,transport_taxi,transport_taxi,54,54
+подскажи как добраться до места,transport_query,transport_query,42,42
+маршрут до диво острова,transport_query,transport_query,42,42
+мне нужно добраться до места вызови такси,transport_taxi,transport_taxi,54,54
+мне нужен список всех цен на билеты на поезд в это местоположение,transport_query,transport_ticket,42,2
+мне нужно поехать в казань купить билет на поезд,transport_ticket,transport_ticket,2,2
+расписание поездов из санкт-петербурга в москву,transport_query,transport_query,42,42
+олли купи мне билет на поезд до атланты пожалуйста,transport_ticket,transport_ticket,2,2
+сколько стоит билет на поезд,transport_query,transport_query,42,42
+пожалуйста пришли мне информацию как купить билет на поезд в ярославль,transport_query,transport_query,42,42
+покажи расписание поездов на смоленск,transport_query,transport_query,42,42
+закажи мне билет на поезд до вологды на завтра утром до десяти,transport_ticket,transport_ticket,2,2
+я хочу поехать в сбербанк покажи маршруты,transport_query,transport_query,42,42
+пожалуйста забронируй один билет на поезд в санкт-петербург,transport_ticket,transport_ticket,2,2
+мне нужно такси завтра в восемь утра чтобы отвезти меня на работу,transport_taxi,transport_taxi,54,54
+текущий трафик,transport_traffic,transport_traffic,11,11
+когда отправляется поезд,transport_query,transport_query,42,42
+проверь пожалуйста пробки по пути домой,transport_traffic,transport_traffic,11,11
+сильные пробки,transport_traffic,transport_traffic,11,11
+купи мне билет на поезд до казани,transport_ticket,transport_ticket,2,2
+на сколько сильные обычно пробки в выборге в ленинградской области,transport_traffic,transport_traffic,11,11
+забронируй билет на поезд на это время,transport_ticket,transport_ticket,2,2
+настрой uber,transport_taxi,transport_taxi,54,54
+найди мне поездку в торговый центр depo пожалуйста,transport_taxi,transport_taxi,54,54
+вызови такси чтобы забрать меня прямо сейчас,transport_taxi,transport_taxi,54,54
+есть ли пробки,transport_traffic,transport_traffic,11,11
+как доехать до ближайшего mcdonalds,transport_query,transport_query,42,42
+по какой улице мне пойти чтобы попасть в центр города,transport_query,transport_query,42,42
+мне нужно купить билет на поезд,transport_ticket,transport_ticket,2,2
+купи билет на поезд до,transport_ticket,transport_ticket,2,2
+сколько стоит билет на поезд в санкт-петербург,transport_query,transport_query,42,42
+закажи яндекс такси,transport_taxi,transport_taxi,54,54
+как обстановка на дорогах этим утром,transport_traffic,transport_traffic,11,11
+какое сейчас дорожное движение,transport_traffic,transport_traffic,11,11
+как обстоит дело с движением рядом со мной,transport_traffic,transport_traffic,11,11
+какое сейчас дорожное движение в московской области,transport_traffic,transport_traffic,11,11
+покажи время отправления всех поездов в москву,transport_query,transport_query,42,42
+покажи все поезда и время в москву,transport_query,transport_query,42,42
+билет на поезд до москвы на сегодня,transport_ticket,transport_ticket,2,2
+какой путь до кунсткамеры самый близкий,transport_query,transport_query,42,42
+открой приложение р. ж. д. и перейди на страницу бронирования билетов,transport_ticket,transport_ticket,2,2
+забронируй мне билет на поезд в москву,transport_ticket,transport_ticket,2,2
+закажи такси чтобы забрало меня из моего текущего местоположения через один час,transport_taxi,transport_taxi,54,54
+по какой дороге сегодня меньше пробок,transport_traffic,transport_traffic,11,11
+забронируй мне билет на поезд до казани,transport_ticket,transport_ticket,2,2
+закажи мне такси в аэропорт в пятницу на пять тридцать утра,transport_taxi,transport_taxi,54,54
+закажи мне билет на пригородный поезд из екатеринбурга в алапаевск,transport_ticket,transport_ticket,2,2
+составь список поездов во всеволожск на следующий день,transport_query,transport_query,42,42
+узкая или широкая дорога в этой области,transport_traffic,transport_traffic,11,11
+забронируй мне место в поезде на двадцатое марта,transport_ticket,transport_ticket,2,2
+пожалуйста дай знать расписание поездов российских железных дорог,transport_query,transport_query,42,42
+пожалуйста забронируй следующее такси,transport_taxi,transport_taxi,54,54
+открой приложение uber и закажи машину,transport_taxi,transport_taxi,54,54
+эй во сколько я могу сесть на ближайший ко мне поезд,transport_query,transport_query,42,42
+найди определение,qa_definition,qa_definition,26,26
+кто президент польши,qa_factoid,qa_factoid,49,49
+какую валюту использует хорватия,qa_currency,qa_currency,10,10
+какого роста жираф,qa_factoid,qa_factoid,49,49
+при каком сценарии ты бы использовал слово неудобство,qa_definition,qa_definition,26,26
+рассчитай сопротивление этого резистора,qa_factoid,general_quirky,49,12
+google,qa_maths,news_query,39,22
+центры просмотра,qa_maths,recommendation_movies,39,55
+скажите мне краткое определение эвакуации,qa_definition,qa_definition,26,26
+как ты думаешь путешествия во времени возможны,general_quirky,general_quirky,12,12
+сколько лет полине гагариной,qa_factoid,qa_factoid,49,49
+и-мейл другу,email_sendemail,email_sendemail,33,33
+объясни мне какие различные страны представлены в книге откровения,general_quirky,qa_factoid,12,49
+сколько будет три раза по семь,qa_maths,qa_maths,39,39
+что бы сегодня вечером приготовить,general_quirky,cooking_recipe,12,9
+скажи мне что происходит когда мы умираем,general_quirky,general_quirky,12,12
+из какого штата дэвид линч,qa_factoid,qa_factoid,49,49
+установи дату только для нас с тобой,general_quirky,calendar_set,12,50
+чему равен квадратный корень из сорока двух,qa_maths,qa_maths,39,39
+скажи почему джим керри лучший комедиант чем адам сэндлер,qa_factoid,general_quirky,49,12
+скажи мне второе имя тома хэнкса,qa_factoid,qa_factoid,49,49
+как пишется слово жираф,qa_definition,qa_definition,26,26
+ты способен выговорить слово демонетизация,qa_definition,qa_definition,26,26
+какое здание было самым высоким в мире,qa_factoid,qa_factoid,49,49
+ты слушаешь песни эдуарда артемьева,music_query,music_query,57,57
+добавь в распорядок встречу с моими коллегами,calendar_set,calendar_set,50,50
+актер который играет роль,qa_definition,qa_factoid,26,49
+пожалуйста дай мне информацию о следующем фильме никиты михалкова,qa_factoid,recommendation_movies,49,55
+никто,qa_factoid,general_quirky,49,12
+ты можешь лгать,general_quirky,general_quirky,12,12
+что такое ураган,qa_definition,qa_definition,26,26
+поищи слово в google,qa_definition,qa_definition,26,26
+рассчитай дистанцию от новгорода до пскова,qa_factoid,transport_query,49,42
+сделай расчеты,qa_maths,qa_maths,39,39
+какое население в москве,qa_factoid,qa_factoid,49,49
+какой язык твоей матери,general_quirky,qa_factoid,12,49
+сколько лет алле пугачёвой,qa_factoid,qa_factoid,49,49
+подведите итог всему что я мог бы сделать чтобы сделать себя счастливее,general_quirky,general_quirky,12,12
+если бы были десять легких шагов чтобы сделать меня богатым какими бы они были,general_quirky,general_quirky,12,12
+самое большое животное,qa_factoid,qa_factoid,49,49
+самое высокое здание,qa_factoid,qa_factoid,49,49
+где находится домашняя база джастина бибера,qa_factoid,qa_factoid,49,49
+какое моё местоположение,general_quirky,email_querycontact,12,17
+со всей информацией которую вы можете собрать в интернете не могли бы вы пожалуйста предоставить мне наиболее вероятное объяснение того кто убил президента кеннеди,qa_factoid,qa_factoid,49,49
+я бы хотел написать оригинальные романтические сообщения для моей жены,general_quirky,email_sendemail,12,33
+расскажи мне историю о раманудже и его математическом путешествии,qa_factoid,qa_factoid,49,49
+в следующем вопросе вас просят проанализировать цели и действия учителя,qa_factoid,general_quirky,49,12
+кто величайшие исполнители хип-хопа,qa_factoid,qa_factoid,49,49
+что значит лицемерие,qa_definition,qa_definition,26,26
+что означает слово лицемерие,qa_definition,qa_definition,26,26
+ответь на этот вопрос кто первый босс в супер братьях марио,general_quirky,qa_factoid,12,49
+используй в предложении,qa_definition,lists_createoradd,26,21
+каков ответ на два плюс два,qa_maths,qa_maths,39,39
+дай определение слова отклонение,qa_definition,qa_definition,26,26
+используй словарь при определении слов и внеси в предложение чтобы сделать его более понятным,general_quirky,qa_definition,12,26
+кто вдохдит в пятерку лучших бомбардиров н. х. л. за всё время,general_quirky,qa_factoid,12,49
+когда родился бенджамин франклин,qa_factoid,qa_factoid,49,49
+кто губернатор москвы,qa_factoid,qa_factoid,49,49
+каково определение к. п. к.,qa_definition,qa_definition,26,26
+каков рейтинг одобрения путина,qa_factoid,news_query,49,22
+можешь ли ты мне сказать как получить ответ на это,general_quirky,general_quirky,12,12
+реши математическую задачу,qa_maths,general_quirky,39,12
+есть ли жизнь на других планетах,general_quirky,qa_factoid,12,49
+какой ваш любимый цвет,general_quirky,general_quirky,12,12
+что ты думаешь о трёх законах робототехники,general_quirky,general_quirky,12,12
+скажи мне сегодняшний счастливый цвет,general_quirky,general_quirky,12,12
+прочитай мне стих,general_quirky,music_query,12,57
+есть ли связь между погодой в москве и ценами на бензин за прошлую неделю,general_quirky,weather_query,12,13
+сергей безруков единственный ребёнок,qa_factoid,qa_factoid,49,49
+пожалуйста поищи это слово,qa_definition,qa_definition,26,26
+почему небо голубое,qa_factoid,general_quirky,49,12
+сколько будет двадцать четыре раза по двадцать четыре,qa_maths,qa_maths,39,39
+насколько длинный день на земле,qa_factoid,qa_factoid,49,49
+надеюсь мы сможем пообедать вместе,general_quirky,general_quirky,12,12
+кто был в битлз,qa_factoid,qa_factoid,49,49
+будет ли конец света и когда,general_quirky,general_quirky,12,12
+что означает напряжённый,qa_definition,qa_definition,26,26
+где сейчас моя девушка,general_quirky,email_querycontact,12,17
+посмотрите определение для скорой помощи,qa_definition,qa_definition,26,26
+желейные шоты без калорий,qa_factoid,weather_query,49,13
+можешь подсказать где дешевле всего купить говяжий фарш,recommendation_locations,recommendation_locations,19,19
+что значит картофель,qa_definition,qa_definition,26,26
+расскажи мне интересный факт об этом,general_quirky,general_quirky,12,12
+когда следующий тур,general_quirky,transport_query,12,42
+каков обменный курс между долларом и евро в настоящее время,qa_currency,qa_currency,10,10
+определение слова рамка,qa_definition,qa_definition,26,26
+опишите картофель,qa_definition,qa_definition,26,26
+сколько раз адель становилась бриллиантом,qa_factoid,qa_factoid,49,49
+расскажи мне что самое странное произошло в мире сегодня,general_quirky,news_query,12,22
+скажи мне время,datetime_query,datetime_query,0,0
+как определить текстовый,qa_definition,qa_definition,26,26
+я хочу бесплатно путешествовать по россии ты можешь меня свозить,general_quirky,transport_taxi,12,54
+каков обменный курс иены к доллару с. ш. а.,qa_currency,qa_currency,10,10
+сколько миль в пяти километрах,qa_maths,qa_factoid,39,49
+какой возраст саши бортич,qa_factoid,qa_factoid,49,49
+где находится стоктон штат калифорния,qa_factoid,qa_factoid,49,49
+что делает дмитрий медведев прямо сейчас,qa_factoid,news_query,49,22
+что такое вышка сотовой связи,qa_definition,qa_definition,26,26
+сколько будет доллар с. ш. а. во франках,qa_currency,qa_currency,10,10
+сколько миль от нью-йорка до лос-анджелеса,qa_factoid,qa_factoid,49,49
+какой обменный курс u. s. d. на cad,qa_currency,qa_currency,10,10
+что вы знаете о статуе свободы,qa_definition,general_quirky,26,12
+каковы обменные курсы между с. ш. а. и китаем,qa_currency,qa_currency,10,10
+найди мне информацию,qa_definition,email_querycontact,26,17
+какова средняя высота над уровнем моря в соединенных штатах,qa_factoid,qa_factoid,49,49
+какой курс обмена между америкой и россией,qa_currency,qa_currency,10,10
+сколько людей живет в сан-франциско,qa_factoid,qa_factoid,49,49
+siri сколько будет один американский доллар в японских йенах,qa_currency,qa_currency,10,10
+в каком году родился билл пуллман,qa_factoid,qa_factoid,49,49
+расскажи мне о грибах-сморчках,qa_definition,qa_factoid,26,49
+цены акций walmart,qa_stock,qa_stock,4,4
+какая религия самая правильная,general_quirky,qa_factoid,12,49
+сколько миль между иллинойсом и луизианой,qa_factoid,qa_factoid,49,49
+сколько лет тому хэнксу,qa_factoid,qa_factoid,49,49
+любовь орлова когда-нибудь получала оскар,qa_factoid,qa_factoid,49,49
+скажи мне обменный курс йены,qa_currency,qa_currency,10,10
+сколько стоит американский доллар по отношению к рублю,qa_currency,qa_currency,10,10
+пожалуйста покажите мне обменный курс между долларом и иеной,qa_currency,qa_currency,10,10
+каково определение хоум-рана,qa_definition,qa_definition,26,26
+сколько лет бараку обабе,qa_factoid,qa_factoid,49,49
+мне нужно занять двух малышей скажи мне что делать,general_quirky,general_quirky,12,12
+можешь ты мне дать обменный курс доллара в рупиях,qa_factoid,qa_currency,49,10
+расскажи мне о садовых кольях на солнечных батареях,qa_definition,general_quirky,26,12
+какой самый большой город в калининградской области,qa_factoid,qa_factoid,49,49
+что значит очки виртуальной реальности,qa_definition,qa_definition,26,26
+есть ли у меня новые совпадения в тиндере,calendar_query,news_query,32,22
+как выглядит банан,qa_definition,qa_definition,26,26
+кто такой дональд трамп,qa_factoid,qa_factoid,49,49
+где находится дания,qa_factoid,qa_factoid,49,49
+что такое фьорд,qa_factoid,qa_definition,49,26
+где родилась ирина аллегрова,qa_factoid,qa_factoid,49,49
+что значит твитнуть,qa_definition,qa_definition,26,26
+где находится южная карелия,qa_factoid,qa_factoid,49,49
+что значит триумф,qa_definition,qa_definition,26,26
+какой штат сша находится дальше всего к северу,qa_factoid,qa_factoid,49,49
+где находится стоунхендж,qa_factoid,qa_factoid,49,49
+мне нужна цена бурже amazon,qa_stock,qa_stock,4,4
+какой курс российского рубля,qa_currency,qa_currency,10,10
+что такое бермудский треугольник,qa_factoid,qa_definition,49,26
+какой обменный курс филиппинского песо,qa_currency,qa_currency,10,10
+какой текущий курса акций вконтакте,qa_stock,qa_stock,4,4
+показать биографию рианны,qa_factoid,qa_factoid,49,49
+евро к доллару сша,qa_currency,qa_currency,10,10
+не могла ба ты назвать мне день рождения махатмы ганди,qa_factoid,calendar_query,49,32
+к какому типу брюк относятся брюки-кюлоты,qa_factoid,qa_factoid,49,49
+попробуй в википедии,qa_definition,general_quirky,26,12
+olly доллар стоит больше или меньше в россии,qa_currency,qa_currency,10,10
+как выглядит рубашка,qa_definition,qa_definition,26,26
+спроси моего советчика,qa_stock,general_quirky,4,12
+какой сегодня индекс доу джонса,qa_stock,qa_stock,4,4
+пожалуйста скажи мне когда я смогу разбогатеть если вложу деньги в акции dow сегодня и какова будет отдача через пять лет,qa_stock,general_quirky,4,12
+в каком году родился элвис,qa_factoid,qa_factoid,49,49
+найди точное местоположение мест,recommendation_locations,qa_factoid,19,49
+как много дюймов в одном футе,qa_maths,qa_maths,39,39
+цена евро по отношению к российскому рублю,qa_currency,qa_currency,10,10
+список пяти лучших фильмов эммы уотсон,qa_factoid,recommendation_movies,49,55
+какой обменный курс американского доллара к евро,qa_currency,qa_currency,10,10
+сколько будет шесть минус четыре,qa_maths,qa_maths,39,39
+скажи скольким долларам равен один евро,qa_currency,qa_currency,10,10
+насколько большая россия,qa_factoid,qa_factoid,49,49
+расскажи мне о москве,qa_factoid,qa_factoid,49,49
+покажите различные растения на земле,qa_factoid,qa_factoid,49,49
+что сегодня с акциями вимм билль данна,qa_stock,qa_stock,4,4
+кто жена путина,qa_factoid,qa_factoid,49,49
+сегодняшняя цена закрытия для газпром,qa_stock,qa_stock,4,4
+упомяни цену акции газпром,qa_stock,qa_stock,4,4
+что означает гипотеза,qa_definition,qa_definition,26,26
+когда была сделана статуя свободы,qa_factoid,qa_factoid,49,49
+в каком возрасте майкл фелпс женился,qa_factoid,qa_factoid,49,49
+кто такой арнольд шварценеггер,qa_factoid,qa_factoid,49,49
+каково определение зачаточный,qa_definition,qa_definition,26,26
+высота эмпайр стэйт билдинг,qa_factoid,qa_factoid,49,49
+какой обменный курс между долларом сша и индийской рупией,qa_currency,qa_currency,10,10
+опиши текущее состояние политики,qa_factoid,general_quirky,49,12
+когда родился дима билан,qa_factoid,qa_factoid,49,49
+объясни себя одним словом,general_quirky,qa_definition,12,26
+где ближайший итальянский ресторан,recommendation_locations,recommendation_locations,19,19
+можешь ли ты мне сказать на что похож гуляш,qa_definition,qa_definition,26,26
+наша записывает новый альбом,qa_factoid,play_music,49,45
+определение имени объекта,qa_definition,qa_definition,26,26
+как бы выглядел автомобиль volkswagen golf,qa_definition,general_quirky,26,12
+особенности ipad air,general_quirky,qa_definition,12,26
+какое расстояние между солнцем и луной,qa_factoid,qa_factoid,49,49
+найди значение слова мир в словаре,qa_definition,qa_definition,26,26
+какой смартфон был лучшим в дветысячи семнадцатом году,qa_factoid,general_quirky,49,12
+обменный курс я получу с иностранной валютой,qa_currency,qa_currency,10,10
+покажи информацию об этом человеке,general_quirky,general_quirky,12,12
+пожалуйста расскажи подробности об этом человеке,general_quirky,general_quirky,12,12
+какая самая большая проблема в россии сегодня я что можно сделать чтобы эффективно её решить,general_quirky,general_quirky,12,12
+кто был двадцать пятым президентом соединенных штатов америки,qa_factoid,qa_factoid,49,49
+скажи мне как поехать на бали без самолета с самой низкой стоимостью вариант время не имеет значения за двести дней времени на пути и только доллары для расстрат,general_quirky,general_quirky,12,12
+дайте мне описание схемы ноутбука,qa_definition,qa_definition,26,26
+когда обычно падает акция iphone,qa_stock,qa_stock,4,4
+объясни,qa_definition,general_quirky,26,12
+объясни мне как работает гравитация,qa_factoid,general_quirky,49,12
+когда поженились пугачёва и галкин,qa_factoid,qa_factoid,49,49
+курсы обмена между долларом и евро,qa_currency,qa_currency,10,10
+можете ли вы сказать мне что означает гипертрофия,qa_definition,qa_definition,26,26
+название акционерной компании,qa_stock,qa_stock,4,4
+мне бы понравилось если робот делал за меня мою работу,general_quirky,general_quirky,12,12
+дайте мне описание схемы ноутбука,qa_definition,qa_definition,26,26
+определи ху,qa_definition,qa_definition,26,26
+покажи мне начальную цену акций apple,qa_stock,qa_stock,4,4
+где я могу достать органическую пшеницу,recommendation_locations,recommendation_locations,19,19
+акции пожалуйста,qa_stock,qa_stock,4,4
+изменение курса доллара к рупиям,qa_currency,qa_currency,10,10
+курс обмена доллар рубль,qa_currency,qa_currency,10,10
+какой фактор позволил путину выиграть выборы,general_quirky,general_quirky,12,12
+предсказание землетрясения,general_quirky,general_quirky,12,12
+эй google как быстро и просто приготовить индейку,cooking_query,cooking_recipe,37,9
+для чего предназначен бройлер и как мне его использовать,general_quirky,cooking_recipe,12,9
+дай мне определение слова бройлер,qa_definition,qa_definition,26,26
+где находится статуя свободы,qa_factoid,qa_factoid,49,49
+опиши мне как выглядит мяч,qa_definition,qa_definition,26,26
+алиса сообщи всё что знаешь об альберте вейнике,qa_factoid,qa_factoid,49,49
+скажи мне цену акций amd,qa_stock,qa_stock,4,4
+какая цена акций amd,qa_stock,qa_stock,4,4
+какова цена акции google,qa_stock,qa_stock,4,4
+ты принес новые схемы,general_quirky,general_quirky,12,12
+конвертировать один фунт в доллар с. ш. а.,qa_currency,qa_currency,10,10
+высокая цена акций,qa_stock,qa_stock,4,4
+сколько мегапикселей у canon,qa_factoid,qa_factoid,49,49
+как пэрис хилтон стала знаменитой,qa_factoid,qa_factoid,49,49
+какой ответ дважды три,qa_maths,qa_maths,39,39
+сколько будет двенадцать разделить на четыре,qa_maths,qa_maths,39,39
+каков естественный цвет волос джулии робертс,qa_factoid,qa_factoid,49,49
+если у меня пять долларов сша сколько это в австралийских долларах,qa_currency,qa_currency,10,10
+опиши для меня луну,qa_definition,qa_definition,26,26
+сколько всего рек в мире,qa_factoid,qa_factoid,49,49
+найди мне каких-нибудь знаменитостей-козерогов,qa_factoid,qa_factoid,49,49
+если это потребительский товар то каковы отзывы клиентов,general_quirky,general_quirky,12,12
+сколько стоит индийская рупия по отношению к доллару с. ш. а.,qa_currency,qa_currency,10,10
+не могли бы вы описать этот объект пожалуйста,qa_definition,qa_definition,26,26
+какой был первый спутник запущенный наса,qa_factoid,qa_factoid,49,49
+пожалуйста опишите мне слона,qa_definition,qa_definition,26,26
+какой сегодня курс американского доллара,qa_currency,qa_currency,10,10
+как давно принцесса кейт беременна,qa_factoid,qa_factoid,49,49
+какая цена акций дикси,qa_stock,qa_stock,4,4
+я бы хотел чтобы он проводил инвентаризацию и сообщал мне когда что-либо заканчивалось,general_quirky,general_quirky,12,12
+о чем говорил трамп на этой неделе,qa_factoid,news_query,49,22
+каково определение маринары,qa_definition,qa_definition,26,26
+каким образом людям удаётся думать так чтобы всё утаить от бога,general_quirky,general_quirky,12,12
+курс обмена валют,qa_currency,qa_currency,10,10
+что такое by,qa_definition,qa_definition,26,26
+какой возраст ольги бузовой,qa_factoid,qa_factoid,49,49
+расскажи мне как начинался мир,general_quirky,general_quirky,12,12
+скажи мне обменный курс десяти долларов к евро,qa_currency,qa_currency,10,10
+что такое компьютер,qa_definition,qa_definition,26,26
+какой самый маленький остров в мире,qa_factoid,qa_factoid,49,49
+насколько велика япония,qa_factoid,qa_factoid,49,49
+как далеко москва от японии,transport_query,qa_factoid,42,49
+можешь ли мне сказать какие фильмы сегодня вечером показывают в кинотеатрах,recommendation_movies,recommendation_movies,55,55
+олли каково определение слова неразбериха,qa_definition,qa_definition,26,26
+олли каков обменный курс между долларом с. ш. а. и австралийским долларом,qa_currency,qa_currency,10,10
+в какую цену торгуются акции apple,qa_stock,qa_stock,4,4
+привет olly дай определение слову пассивный,qa_definition,qa_definition,26,26
+сколько лет было альберту эйнштейну когда он придумал теорию относительности,qa_factoid,qa_factoid,49,49
+посчитай близкий интеграл экспоненциальной функции от нуля до пяти,qa_factoid,qa_maths,49,39
+скажите мне как brexit повлияет на граждан великобритании в долгосрочной и среднесрочной перспективе,qa_factoid,news_query,49,22
+пожалуйста посмотри обменный курс между соединенными штатами и мексикой,qa_currency,qa_currency,10,10
+olly найди мне описание samsung t. v.,qa_definition,qa_definition,26,26
+какой биржевой курс samsung,qa_currency,qa_stock,10,4
+как далеко,qa_factoid,qa_factoid,49,49
+что это за штука,qa_definition,general_quirky,26,12
+что сейчас с акциями i. b. m.,qa_stock,qa_stock,4,4
+что в тренде на twitter,social_query,social_query,27,27
+что последнее сказала моя мама,social_query,email_query,27,44
+сообщи мне новости из facebook андрея с выходных,social_query,social_query,27,27
+найди мне новые комментарии из моего фейсбука,social_query,social_query,27,27
+сколько лайков у моей последней фотографии в instagram,social_query,social_query,27,27
+прочитай мне последний твит из ленты ру,social_query,social_query,27,27
+опубликуй новый статус на facebook время праздновать,social_post,social_post,47,47
+мое обновление facebook должно быть доступно каждый третий час,social_query,social_post,27,47
+выложи это в facebook,social_post,social_post,47,47
+это очень крутая статья можешь поделиться ссылкой у меня на facebook,social_post,social_post,47,47
+опубликуй видео в youtube,social_post,social_post,47,47
+статус на facebook загруженный день,social_post,social_post,47,47
+пожалуйста напиши андрею,social_post,email_sendemail,47,33
+пожалуйста подтверди статус на facebook,social_post,social_post,47,47
+покажи мне список мест где побывали мои родственники на основе их фотографий,social_query,general_quirky,27,12
+последние новости в ленте из facebook,social_query,social_query,27,27
+дай мне детали о моём twitter включая общее число подписчиков,social_query,social_query,27,27
+здорово можеть запостить это мне на facebook,social_post,social_post,47,47
+можешь сказать мне что случилось с моими социальными сетями,social_query,social_query,27,27
+что нового в моей ленте,social_query,social_query,27,27
+пожалуйста дай мне знать о любых новых обновлениях статуса,social_query,social_query,27,27
+популярные социальные сети,social_query,social_query,27,27
+новый твит,social_post,social_post,47,47
+открой facebook и напиши с днём рождения россия,social_post,social_post,47,47
+я недоволен ozon пожалуйста помоги мне,social_post,social_post,47,47
+можете ли вы отправить твит в lif сообщив что их приложении произошёл сбой,social_post,social_post,47,47
+размести следующее как статус на facebook,social_post,social_post,47,47
+пожалуйста опубликуй статус в twitter о том что,social_post,social_post,47,47
+пожалуйста запость эту фотографию на моей странице вконтакте,social_post,social_post,47,47
+твитни додо пицца и сообщи им что мое приложение вылетело,social_post,social_post,47,47
+скажи моей группе на facebook что я пришёл,social_post,social_post,47,47
+пожалуйста напиши жалобу в яндекс,social_post,social_post,47,47
+скажи им что их речь была слишком длинной,social_post,general_quirky,47,12
+мне нужна кормушка,general_quirky,general_quirky,12,12
+отправь это сообщение в microsoft в твиттере,social_post,social_post,47,47
+выложи изображение с моего телефона на facebook alexa,social_post,social_post,47,47
+твитни жалобу на сайт сушкоф и дель песто,social_post,social_post,47,47
+пошли твит в аэрофлот я зол потому что вы потеряли мои сумки,social_post,social_post,47,47
+у меня было ужасное обслуживание в olive garden мне нужно твитнуть им,social_post,social_post,47,47
+отправь жалобу через twitter в службу поддержки клиентов,social_post,social_post,47,47
+можешь твитнуть жалобу в клиентскую службу мебельного магазина,social_post,social_post,47,47
+сообщи ростелекому что я до сих пор на линии,social_post,email_sendemail,47,33
+напиши жалобу в ситилинк насчет планшета который я сегодня купил,social_post,social_post,47,47
+пусть лоэск знает что электричество снова отключено,social_post,iot_wemo_off,47,8
+свяжись со службой поддержки ozon через twitter,social_post,social_post,47,47
+пожалуйста обнови меня на моих аккаунтах соцсетей,social_query,social_query,27,27
+твитни жалобу в samsung,social_post,social_post,47,47
+пожалуйста отправь твит в компанию dell о некорректной работе ноутбука,social_post,social_post,47,47
+твитнуть перекресток и сказать им что их обслуживание клиентов ужасное,social_post,social_post,47,47
+алиса отправь твит в папу джонс скажи что у них худшее обслуживание на свете,social_post,social_post,47,47
+жалоба на клиентский сервис твитни следующее,social_post,social_post,47,47
+запостил ли илья что-нибудь новое на facebook,social_query,social_query,27,27
+отправь твит в додо пицца о плохой качестве доставки,social_post,social_post,47,47
+напомни мне твитнуть этой компании,calendar_set,social_post,50,47
+опубликуй в facebook оооо я заболел,social_post,social_post,47,47
+запости вконтакте мне весело,social_post,social_post,47,47
+разобраться в ситуации,general_quirky,general_quirky,12,12
+твитни жалобу на бургер кинг,social_post,social_post,47,47
+olly твитни в компанию,social_post,social_post,47,47
+твитни жалобу о моём холодильнике в l. g.,social_post,social_post,47,47
+открой галерею опубликуй название видео,social_post,social_post,47,47
+запость в twitter у меня впереди сумбурный день,social_post,social_post,47,47
+твитни обслуживание клиентов не очень хорошее для услуги литр за грамм в моем аккаунте в twitter,social_post,social_post,47,47
+опубликуй жалобу,social_post,social_post,47,47
+какие последние фото в моём аккаунте в instagram,social_query,social_query,27,27
+окей google твитни что сервис в закусочной мо ужасный,social_post,social_post,47,47
+сделай твит для меня о забитом сливе,social_post,social_post,47,47
+социальная информация,social_query,email_querycontact,27,17
+твитни службе поддержки потребителей что я очень разочарован моим недавним общением,social_post,social_post,47,47
+я хочу запостить статус в твиттере,social_post,social_post,47,47
+когда получено письмо от николая смирнова про автоаварию,email_query,email_query,44,44
+дай знать пришли мне новые письма,email_query,email_query,44,44
+пошли письмо эмилии с сообщением я буду поздно не ждите меня на ужин,email_sendemail,email_sendemail,33,33
+есть что нибудь от эмилии,email_query,email_query,44,44
+пожалуйста отправь электронное письмо ирине,email_sendemail,email_sendemail,33,33
+проверь входящие,email_query,email_query,44,44
+напиши дмитрию о встрече завтра дмитрий давай встретимся завтра после обеда,email_sendemail,email_sendemail,33,33
+olly я хочу узнать о машиной вечеринке,general_quirky,calendar_query,12,32
+открой мой самый последний и-мейл и ответь,email_sendemail,email_sendemail,33,33
+отправь эти материалы по электронной почте,email_sendemail,email_sendemail,33,33
+пошли электронное письмо маме тема погода текст какой будет погода на этой неделе,email_sendemail,email_sendemail,33,33
+проверь и-мейлы есть ли непрочитанные и-мейлы от мамы,email_query,email_query,44,44
+дай мне детали александра из моих контактов,email_querycontact,email_querycontact,17,17
+у меня в списке есть контакт по имени юрий,email_querycontact,email_querycontact,17,17
+отправь поздравления с новым годом на john собака gmail точка com,email_sendemail,email_sendemail,33,33
+как фамилия ивана,email_querycontact,qa_factoid,17,49
+напиши ответ другу на его вопрос,email_sendemail,email_sendemail,33,33
+проверь электронные письма за последние два часа,email_query,email_query,44,44
+проверь почту за последние двенадцать часов,email_query,email_query,44,44
+alexa добавь erosova собака hotmail точка com в качестве нового контакта для елены росовой,email_addcontact,email_addcontact,15,15
+дай мне знать если появятся какие либо новые электронные письма от авито,email_query,email_query,44,44
+пожалуйста отправь следующее сообщение этому контакту,email_sendemail,email_sendemail,33,33
+проверь не приходило ли письмо от эдуарда речкалова касательно бюджета,email_query,email_query,44,44
+сохрани этот адрес в контактах,email_addcontact,email_addcontact,15,15
+пошли сергею подтверждение что его техническая тема доступна,email_sendemail,email_sendemail,33,33
+дай мне знать когда оля напишет мне на электронную почту,email_query,email_query,44,44
+дай мне знать что накопилось в почтовом ящике с трех часов дня,email_query,email_query,44,44
+ты можешь отправить и-мэйл моему другу роману о том что я завтра занят,email_sendemail,email_sendemail,33,33
+ищи от максима дедлайны,email_query,email_query,44,44
+эй напиши письмо коллеге,email_sendemail,email_sendemail,33,33
+открой новый и-мейл этому коллеге на этот адрес электронной почты,email_sendemail,email_sendemail,33,33
+пожалуйста обнови мои входящие на gmail,email_query,email_query,44,44
+скажи привет,email_sendemail,general_greet,33,5
+покажи последние письма от максима,email_query,email_query,44,44
+отправь письмо моему руководителю,email_sendemail,email_sendemail,33,33
+покажи последние и-мейлы васи,email_query,email_query,44,44
+письмо жене васильеву,email_sendemail,email_sendemail,33,33
+какие нибудь новые письма за последние пять минут,email_query,email_query,44,44
+отправь письмо моему другу напиши поздравляю с днем рождения,email_sendemail,email_sendemail,33,33
+какой адрес электронной почты у мамы,email_querycontact,email_querycontact,17,17
+я бы хотел чтобы этот новый адрес электронной почты был добавлен в мои контакты,email_sendemail,email_addcontact,33,15
+отправь письмо саше и напиши что я собираюсь отправить фалы на следующий день,email_sendemail,email_sendemail,33,33
+покажи все полученные письма с отметкой времени,email_query,email_query,44,44
+покажи новые письма,email_query,email_query,44,44
+открой ответить,email_sendemail,email_sendemail,33,33
+ответь на это письмо,email_sendemail,email_sendemail,33,33
+отправь и-мелй внучке скажи ей бабуля любит её и надеется у неё прекрасные выходные,email_sendemail,email_sendemail,33,33
+напиши ответ,email_sendemail,email_sendemail,33,33
+дай мне контактную информацию моего брата,email_querycontact,email_querycontact,17,17
+отправка этого сообщения семейной группе начинается с,email_sendemail,email_sendemail,33,33
+от кого пришли письма и какие темы каждого из сообщений,email_query,email_query,44,44
+olly пожалуйста ответь на письмо григория что его идея просто потрясающая,email_sendemail,email_sendemail,33,33
+отправь электронное письмо моему начальнику встретиться для разбора полётов,email_sendemail,email_sendemail,33,33
+вова живёт в россии,email_querycontact,qa_factoid,17,49
+уведоми меня если я получу любое письмо на моём почтовом аккаунте,email_query,email_query,44,44
+отправь письмо с приглашением на ужин сегодня вечером братану,email_sendemail,email_sendemail,33,33
+отправить электронное письмо парню продающему лодку сказать ему что у меня есть деньги,email_sendemail,email_sendemail,33,33
+сообщи кто вчера отправил электронное письмо про начальника,email_query,email_query,44,44
+что в больнице сказали по поводу моих обследований,email_query,general_quirky,44,12
+можем мы найти информацию об этом контакте,email_querycontact,email_querycontact,17,17
+прочитай мои непрочитанные имейлы,email_query,email_query,44,44
+проверь новые письма,email_query,email_query,44,44
+можешь проверить есть ли у меня какие-нибудь оповещения о недавних письмах,email_query,email_query,44,44
+отправь мне электронное письмо,email_sendemail,email_sendemail,33,33
+ответить всем,email_sendemail,email_sendemail,33,33
+скажи вове кузнецову,email_sendemail,email_sendemail,33,33
+ответь с благодарностью,email_sendemail,email_sendemail,33,33
+есть ли у меня какие-то новые электронные письма от евгения смирнова,email_query,email_query,44,44
+есть какие-нибудь и-мейлы насчёт моего повышения,email_query,email_query,44,44
+эй проверь электронную почту,email_query,email_query,44,44
+перечисли все темы и отправителей емейлов за последнюю неделю,email_query,email_query,44,44
+кто писал мне на почту в последнее время и о чем они писали,email_query,email_query,44,44
+отправь письмо ивану,email_sendemail,email_sendemail,33,33
+начни письмо,email_sendemail,email_sendemail,33,33
+сколько у меня непрочитанных писем,email_query,email_query,44,44
+отправь и-мейл никите в какое время ужин,email_sendemail,email_sendemail,33,33
+пошли письмо в ростелеком с тектом их сервис отстой,email_sendemail,email_sendemail,33,33
+пожалуйста проверь нет ли недавних входящих в электронной почте от этого отправителя,email_query,email_query,44,44
+открой мой почтовый ящик и проверь есть ли у меня новая почта,email_query,email_query,44,44
+отправь письмо моему начальнику о том что я опаздываю,email_sendemail,email_sendemail,33,33
+какие новые сообщения у меня есть,email_query,email_query,44,44
+открой мои новые письма,email_query,email_query,44,44
+проверить письма от тамары,email_query,email_query,44,44
+ответить на электронное письмо марка,email_sendemail,email_sendemail,33,33
+сколько новых писем сегодня,email_query,email_query,44,44
+моя мама присылала мне имейл,email_query,email_query,44,44
+отправь электронное письмо маме я хочу пойти за покупками завтра,email_sendemail,email_sendemail,33,33
+проверь все электронные письма на эдика,email_query,email_query,44,44
+поможешь ли ты мне написать электронное письмо светлане,email_sendemail,email_sendemail,33,33
+олли пожалуйста проверь есть ли у меня какие-либо электронные письма от мамы,email_query,email_query,44,44
+отправить письмо всем сотрудникам моей компании,email_sendemail,email_sendemail,33,33
+сообщение электронной почты на адрес,email_sendemail,email_sendemail,33,33
+новый адрес,email_sendemail,email_query,33,44
+google найди новый адрес электронной почты виктора который я добавила в пятницу,email_query,email_query,44,44
+это правильный код начальника,email_querycontact,email_querycontact,17,17
+ответь,email_sendemail,email_sendemail,33,33
+пожалуйста удали контакты с которыми я не общалась три месяца,email_querycontact,lists_remove,17,53
+я хочу отправить электронное письмо олег собака yandex точка ru,email_sendemail,email_sendemail,33,33
+отправь электронное письмо дочери со словами я люблю тебя,email_sendemail,email_sendemail,33,33
+отправь и-мейл маме со словами с днём рождения,email_sendemail,email_sendemail,33,33
+пожалуйста сообщи присылали ли юлия новые письма,email_query,email_query,44,44
+есть новые письма от начальника,email_query,email_query,44,44
+я получал какие нибудь письма за последний час,email_query,email_query,44,44
+приходили какие нибудь частные письма,email_query,email_query,44,44
+открой вчерашнее письмо от моей сестры щелкни ответить и включи активацию голосом моего ответа,email_sendemail,email_sendemail,33,33
+сколько контактов у меня в моей телефонной книге,email_querycontact,email_querycontact,17,17
+можешь посмотреть что ответил мне андрей,email_query,email_query,44,44
+я хочу найти и-мейлы от сергея с темой которая содержит слово совещание,email_query,email_query,44,44
+пожалуйста отправь это письмо моей маме,email_sendemail,email_sendemail,33,33
+вова прислал мне письмо,email_query,email_query,44,44
+посмотри на моё письмо,email_query,email_query,44,44
+открыть электронное письмо от татьяны,email_sendemail,email_query,33,44
+искать и-мейл для контакта,email_query,email_query,44,44
+найди контакт,email_query,email_querycontact,44,17
+обнови мою электронную почту,email_query,email_query,44,44
+открой контакт по имени женя,email_querycontact,email_querycontact,17,17
+кому я писал недавно,email_query,email_query,44,44
+какая тема и отправитель сегодняшнего входящего и-мейла,email_query,email_query,44,44
+открой список контактов,email_querycontact,email_querycontact,17,17
+открой контактную информацию дмитрия,email_querycontact,email_querycontact,17,17
+найди все письма тимофея брадова,email_query,email_query,44,44
+отправь ответ мише,email_sendemail,email_sendemail,33,33
+эй пришли мне какие нибудь новые письма,email_query,email_query,44,44
+пошли письмо тому,email_sendemail,email_sendemail,33,33
+проверь мою почту,email_query,email_query,44,44
+мне нужно отправить и-мейл светлане и упомянуть,email_sendemail,email_sendemail,33,33
+покажи непрочитанные,email_query,lists_query,44,59
+у меня есть какие нибудь новые письма во моих входящих,email_query,email_query,44,44
+ответь на письмо,email_sendemail,email_sendemail,33,33
+отправь письмо а. в. поповой и спроси сдал ли игорь последнее домашнее задание,email_sendemail,email_sendemail,33,33
+отправить ответ на мое последнее электронное письмо,email_sendemail,email_sendemail,33,33
+ответь на письмо василия в шесть тридцать,email_sendemail,email_sendemail,33,33
+какие письма мне пришли,email_query,email_query,44,44
+я хочу написать ответ на письмо анны,email_sendemail,email_sendemail,33,33
+проверь электронные письма от карповой татьяны,email_query,email_query,44,44
+есть какие нибудь новые письма,email_query,email_query,44,44
+проверь входящие для меня,email_query,email_query,44,44
+добавь адрес в список контактов,email_addcontact,email_addcontact,15,15
+сохранить в контактах,email_addcontact,email_addcontact,15,15
+перечисли все мои недавние письма,email_query,email_query,44,44
+какая у меня недавняя в электронной почте активность,email_query,email_query,44,44
+дай мне адрес электронной почты,email_querycontact,email_querycontact,17,17
+пожалуйста сообщи мне о новых электронных письмах от михаила,email_query,email_query,44,44
+дай мне знать о новых письмах от насти,email_query,email_query,44,44
+я получал что нибудь с пяти вечера,email_query,email_query,44,44
+я получал какие нибудь письма сегодня от никиты,email_query,email_query,44,44
+опубликуй письмо сотруднику компании с информацией о сегодняшнем собрании,email_sendemail,email_sendemail,33,33
+были у меня сегодня какие-нибудь новые письма от миланы,email_query,email_query,44,44
+отправь письмо марусе,email_sendemail,email_sendemail,33,33
+позвони игорю на номер телефона,email_querycontact,email_querycontact,17,17
+есть ли новые письма,email_query,email_query,44,44
+сколько непрочитанных сообщений у меня,email_query,email_query,44,44
+пожалуйста ответь на электронное письмо которое я только что получил,email_sendemail,email_sendemail,33,33
+дарья написала мне сегодня,email_query,email_query,44,44
+какой адрес у саши,email_querycontact,email_querycontact,17,17

@@ -95,6 +95,8 @@ def evaluate(
         "loss": total_loss / total_examples,
         "accuracy": accuracy_score(gold_labels, predictions),
         "macro_f1": f1_score(gold_labels, predictions, average="macro"),
+        "gold_labels": gold_labels,
+        "predictions": predictions,
     }
     return metrics
 
@@ -325,13 +327,44 @@ def main():
 
     # Evaluate one fixed final model; target languages never guide training.
     results = {}
+    prediction_records = []
     for language, locale in languages:
         results[language] = evaluate(
             model, validation_loaders[language], device, amp_dtype,
         )
+        gold_labels = results[language]["gold_labels"]
+        predictions = results[language]["predictions"]
+        validation_utterances = dataset[split_names[locale]]["utt"]
+        prediction_records.extend([
+            {
+                "train_language": "English",
+                "evaluation_language": language,
+                "utterance": utterance,
+                "true_intent": id2label[true_id],
+                "predicted_intent": id2label[predicted_id],
+                "true_id": true_id,
+                "predicted_id": predicted_id,
+            }
+            for utterance, true_id, predicted_id in zip(
+                validation_utterances, gold_labels, predictions
+            )
+        ])
 
     results_dir = Path(__file__).resolve().parent.parent / "results"
     results_dir.mkdir(parents=True, exist_ok=True)
+    with (results_dir / "xlmr_cross_lingual_predictions.csv").open(
+        "w", newline="", encoding="utf-8"
+    ) as file:
+        writer = csv.DictWriter(
+            file,
+            fieldnames=[
+                "train_language", "evaluation_language", "utterance",
+                "true_intent", "predicted_intent", "true_id", "predicted_id",
+            ],
+        )
+        writer.writeheader()
+        writer.writerows(prediction_records)
+
     with (results_dir / "xlmr_cross_lingual_results.csv").open(
         "w", newline="", encoding="utf-8"
     ) as file:

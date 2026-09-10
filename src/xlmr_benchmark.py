@@ -371,6 +371,34 @@ def run_language(language, locale, tokenizer, device, amp_dtype):
 
     gold_labels = validation_metrics["gold_labels"]
     predictions = validation_metrics["predictions"]
+    validation_utterances = validation_split["utt"]
+    prediction_records = [
+        {
+            "utterance": utterance,
+            "true_intent": id2label[true_id],
+            "predicted_intent": id2label[predicted_id],
+            "true_id": true_id,
+            "predicted_id": predicted_id,
+        }
+        for utterance, true_id, predicted_id in zip(
+            validation_utterances, gold_labels, predictions
+        )
+    ]
+    results_dir = Path(__file__).resolve().parent.parent / "results"
+    results_dir.mkdir(parents=True, exist_ok=True)
+    with (results_dir / f"xlmr_predictions_{language}.csv").open(
+        "w", newline="", encoding="utf-8"
+    ) as file:
+        writer = csv.DictWriter(
+            file,
+            fieldnames=[
+                "utterance", "true_intent", "predicted_intent",
+                "true_id", "predicted_id",
+            ],
+        )
+        writer.writeheader()
+        writer.writerows(prediction_records)
+
     gold_intent_ids = sorted(set(gold_labels))
     _, _, per_class_f1, _ = precision_recall_fscore_support(
         gold_labels,

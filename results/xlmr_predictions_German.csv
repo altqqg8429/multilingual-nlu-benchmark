@@ -1,0 +1,2034 @@
+utterance,true_intent,predicted_intent,true_id,predicted_id
+schalte bitte die lichter aus,iot_hue_lightoff,iot_hue_lightoff,40,40
+dimme die lichter im eingangsbereich,iot_hue_lightdim,iot_hue_lightdim,31,31
+mache einen raum dunkler,iot_hue_lightdim,iot_hue_lightdim,31,31
+reinige die wohnung,iot_cleaning,iot_cleaning,34,34
+putzen ist gut staub ist so schlecht mach jetzt deinen zauber sauber mein teppich,iot_cleaning,general_quirky,34,12
+wie lautet der status meines verfügbaren speichers,general_quirky,lists_query,12,59
+liste der am besten bewerteten liefer optionen für chinesisches essen,takeaway_query,takeaway_query,3,3
+finde meine thai imbisse um den torgauer platz,takeaway_query,recommendation_locations,3,19
+ich würde gerne queen's barcelona hören,play_music,play_music,45,45
+spiel barcelona von queen,play_music,play_music,45,45
+was spielt die band gerade,music_query,music_query,57,57
+was ist mit meiner abendessensbestellung,takeaway_query,takeaway_query,3,3
+wie ist die wöchentliche worhersage,weather_query,news_query,13,22
+spiel hurts like heaven,play_music,play_music,45,45
+schalte cannibal queen an,play_music,play_music,45,45
+spiel ein bisschen david bowie,play_music,play_music,45,45
+wiederhole diesen titel,music_settings,play_audiobook,28,20
+stell die lautstärke auf niedrig,audio_volume_down,audio_volume_up,35,14
+welchen tag haben wir heute,datetime_query,datetime_query,0,0
+welches lied ist das,music_query,music_query,57,57
+ich würde gerne jazz hören,play_music,play_music,45,45
+ich möchte jazz hören,play_music,play_music,45,45
+hallo hallo,general_greet,audio_volume_up,5,14
+stelle alarm morgen um sechs uhr,alarm_set,alarm_set,48,48
+lautstärke hoch,audio_volume_up,audio_volume_up,14,14
+regnet es draußen,weather_query,weather_query,13,13
+wie spät ist es in hamburg,datetime_query,datetime_query,0,0
+wie lautet die uhrzeit von berlin,datetime_query,datetime_query,0,0
+stelle einen wecker für sechs uhr am morgen,alarm_set,alarm_set,48,48
+habe ich einen alarm morgen zum aufwachen eingestellt,alarm_query,alarm_query,23,23
+was ist in amerika los,news_query,news_query,22,22
+olly death metal jetzt,play_music,play_music,45,45
+wie spät is es jetzt in erlangen,datetime_query,datetime_query,0,0
+was sind heutige zeitungs schlagzeilen,news_query,news_query,22,22
+spiel chopin,play_music,play_music,45,45
+an welchem tag ist dieses jahr der volkstrauertag,datetime_query,datetime_query,0,0
+hier ist es zu dunkel,iot_hue_lighton,iot_hue_lightup,41,18
+wird es morgen regnen,weather_query,weather_query,13,13
+leiser,audio_volume_down,audio_volume_mute,35,46
+wie wird morgen die temperatur draußen sein,weather_query,weather_query,13,13
+was ist die morgige wetter vorhersage,weather_query,weather_query,13,13
+der zweiundzwanzigste märz ist welcher wochentag,datetime_query,datetime_query,0,0
+ist heute montag,datetime_query,datetime_query,0,0
+wie ist das wetter in hamburg,weather_query,weather_query,13,13
+ist es jetzt sonnig in nürnberg,weather_query,weather_query,13,13
+gib mir bescheid sobald es etwas neues zum brexit gibt,news_query,news_query,22,22
+den smart plug ausschalten,iot_wemo_off,iot_wemo_off,8,8
+spiele lied aus meinen favoriten,play_music,play_music,45,45
+ich würde gerne pop musik hören,play_music,play_music,45,45
+ändere meine zimmer beleuchtung damit ich gut schlafen kann,iot_hue_lightchange,iot_hue_lightchange,1,1
+wie wird das wetter am freitag,weather_query,weather_query,13,13
+welcher tag ist heute,datetime_query,datetime_query,0,0
+sollte ich heute eine jacke anziehen,weather_query,weather_query,13,13
+schalte zufallswiedergabe aus,music_settings,lists_remove,28,53
+was ist das datum,datetime_query,datetime_query,0,0
+welche dinge kannst du nicht tun,general_quirky,general_quirky,12,12
+sag mir die zeit,datetime_query,datetime_query,0,0
+ist es draußen heiß,weather_query,weather_query,13,13
+habe ich einen wecker eingestellt,alarm_query,alarm_query,23,23
+richtiger formel bitte,weather_query,qa_maths,13,39
+für die nächste stunde stummschalten,audio_volume_mute,audio_volume_mute,46,46
+spiel mein lieblings lied,play_music,play_music,45,45
+es ist ein sehr gefährlicher,weather_query,general_quirky,13,12
+gib mir ein paar internationale nachrichten,news_query,news_query,22,22
+stelle einen weckruf für zehn uhr,alarm_set,alarm_set,48,48
+stelle einen wecker für fünfzehn uhr,alarm_set,alarm_set,48,48
+stelle einen alarm für dreizehn uhr,alarm_set,alarm_set,48,48
+spiel das lied rasch,play_music,play_music,45,45
+emaile mir den text zu dem lied,music_query,music_query,57,57
+entferne meinen acht uhr wecker,alarm_remove,alarm_remove,52,52
+wird es morgen regnen,weather_query,weather_query,13,13
+ich möchte bitte we will rock you von queen anhören,play_music,play_music,45,45
+stelle wecker,alarm_set,alarm_set,48,48
+ich möchte morgen bitte um sechs uhr aufwachen,alarm_set,alarm_set,48,48
+spiel songs meiner playlist,play_music,play_music,45,45
+an welchem wochentag ist erntedankfest,datetime_query,datetime_query,0,0
+lass mich bitte six hundred and sixty six the number of the beast hören,play_music,play_radio,45,36
+kannst du mir einen tier witz finden,general_joke,general_joke,25,25
+wie ist der status vom derzeitigem wetter,weather_query,weather_query,13,13
+welche zeit ist es jetzt in sachsen anhalt,datetime_query,datetime_query,0,0
+stelle zeit zone ein,datetime_convert,datetime_convert,38,38
+schalten die t. v. steckdose ein wenn ich nach hause komme,iot_wemo_on,iot_wemo_on,24,24
+folge den nachrichten zur email affaire von hillary in der zukunft,news_query,news_query,22,22
+reduziere die lautstärke,audio_volume_down,audio_volume_up,35,14
+ich kann nicht hören erhöhe die lautstärke,audio_volume_up,audio_volume_up,14,14
+kannst du bitte die lichter hell machen,iot_hue_lightup,iot_hue_lightdim,18,31
+ich möchte jetzt chopin hören,play_music,play_music,45,45
+wer führt gerade im formel eins rennen,news_query,qa_factoid,22,49
+kaffee zubereiten,iot_coffee,iot_coffee,56,56
+lies mir die schlagzeilen der new york times vor,news_query,news_query,22,22
+kann ich die neusten nachrichten von n. t. v. bekommen,news_query,news_query,22,22
+kannst du bitte den ton leiser machen,audio_volume_down,audio_volume_up,35,14
+spiele songs vom r und b und soul genre,play_music,play_music,45,45
+können sie ausschalten wemo steckdose,iot_wemo_off,iot_wemo_off,8,8
+wie sieht das wetter diese woche aus,weather_query,weather_query,13,13
+wie wird das wetter diese woche werden,weather_query,weather_query,13,13
+sag mir ob es gerade auf der welt ein erdbeben gibt,news_query,news_query,22,22
+spiel boogie in your butt von eddie murphy,play_music,play_music,45,45
+hey olly schalte die lautsprecher auf stumm,audio_volume_mute,audio_volume_mute,46,46
+bitte die lautstärke der lautsprecher verringern,audio_volume_down,audio_volume_up,35,14
+mach jetzt kaffee,iot_coffee,iot_coffee,56,56
+o k google spiele beliebige musik,play_music,play_music,45,45
+was ist der neueste klatsch aus hollywood,news_query,news_query,22,22
+lichter aufhellen,iot_hue_lightup,iot_hue_lightup,18,18
+alarm um acht uhr morgens gestellt,alarm_set,alarm_set,48,48
+schalte den sechs uhr alarm für mittwoch aus,alarm_remove,alarm_remove,52,52
+stelle alle alarme am morgen nach freitag aus,alarm_remove,alarm_remove,52,52
+schau bitte das wetter nächste woche für mich nach,weather_query,weather_query,13,13
+spiel musik von meinem lieblings künstler,play_music,play_music,45,45
+verringere bitte ein bisschen das licht,iot_hue_lightdim,iot_hue_lightdim,31,31
+lösch diesen wecker,alarm_remove,alarm_remove,52,52
+wenn es zwanzig uhr an der ostküste ist wie spät ist es dann in münchen,datetime_convert,datetime_convert,38,38
+akzeptiert pf changs auch bestellungen zum mitnehmen,takeaway_query,takeaway_query,3,3
+kannst du mir sagen wie spät es in berlin ist,datetime_query,datetime_query,0,0
+aktuelle nachrichten n. t. v.,news_query,news_query,22,22
+bringe mich zur webseite der frankfurter rundschau,social_post,news_query,47,22
+bitte die schlagzeilen anzeigen,news_query,news_query,22,22
+was sind die schlagzeilen der frankfurter rundschau,news_query,news_query,22,22
+finde heraus ob das vapiano essen zum mitnehmen anbietet,takeaway_query,takeaway_query,3,3
+kann ich das heutige datum erfahren,datetime_query,datetime_query,0,0
+ist mein wecker für die schule gestellt,alarm_query,alarm_query,23,23
+wie heiß ist es draußen,weather_query,weather_query,13,13
+starte den staubsaugerroboter heute um dreizehn uhr,iot_cleaning,iot_cleaning,34,34
+gute assistenten,news_query,general_quirky,22,12
+schicke mir aktuelle nachrichten vom tag,news_query,news_query,22,22
+spiele lady von kenny rogers jetzt,play_music,play_music,45,45
+heute datum,datetime_query,datetime_query,0,0
+wie ist der text zum lied abschied nehmen von xavier naidoo,music_query,music_query,57,57
+irgendwas country,music_dislikeness,qa_factoid,7,49
+wenn es zweiundzwanzig uhr in kalifornien ist wie spät ist es dann in alabama,datetime_convert,datetime_convert,38,38
+ich muss regenbogen von lena meyer hören,play_music,play_music,45,45
+wie sind heute die wetterbedingunge,weather_query,weather_query,13,13
+wird es regnen,weather_query,weather_query,13,13
+in berlin ist welche uhrzeit gerade,datetime_query,datetime_query,0,0
+kannst du mir ein gesundes essen zum abendessen vorschlagen,cooking_recipe,takeaway_query,9,3
+bestelle ein essen von einem guten restaurant,takeaway_order,takeaway_order,16,16
+wandel die berlin zeit in london zeit um,datetime_convert,datetime_convert,38,38
+olly mache das wohnzimmer blau,iot_hue_lightchange,iot_hue_lightchange,1,1
+mache den wohnraum blau,iot_hue_lightchange,iot_hue_lightchange,1,1
+bitte spiele leviathan,play_music,play_music,45,45
+was sind die wetterupdates für dienstag,weather_query,weather_query,13,13
+wie wird das wetterupdate für montag mittag sein,weather_query,weather_query,13,13
+am fünfzehnten märz wird welcher tag sein,datetime_query,datetime_query,0,0
+ich möchte das datum vom letzten montag in diesem monat wissen,datetime_query,datetime_query,0,0
+wie viel uhr ist es in indien wenn es in deutschland zwölf uhr mittags ist,datetime_convert,datetime_query,38,0
+sag mir wie spät es ist,datetime_query,datetime_query,0,0
+finde den besten klopf klopf witz im internet für mich,general_joke,general_joke,25,25
+wie wird das wetter am montag diese woche,weather_query,weather_query,13,13
+dein rezept für das steak war hervorragend,cooking_recipe,cooking_recipe,9,9
+was passiert heute auf der welt,news_query,news_query,22,22
+welcher tag ist der fünfte dezember,datetime_query,datetime_query,0,0
+hallo,general_greet,general_quirky,5,12
+ich möchte nachrichten zum bambi,news_query,news_query,22,22
+nenn mir die augenblickliche uhrzeit in nürnberg,datetime_query,datetime_query,0,0
+wie wird heute das wetter,weather_query,weather_query,13,13
+es ist heiß heute oder nicht,weather_query,weather_query,13,13
+es ist heute sehr heiß oder,weather_query,weather_query,13,13
+einhunderttausendzweihundertsiebzehn,datetime_query,play_radio,0,36
+wie wird das wetter diese woche,weather_query,weather_query,13,13
+umschalten auf nachtlicht,iot_hue_lightchange,iot_hue_lightchange,1,1
+einfach die lautstärke ein wenig erhöhen,audio_volume_up,audio_volume_up,14,14
+kann ich eine bestellung von romero's geliefert bekommen,takeaway_query,takeaway_query,3,3
+bestelle essen zum mitnehmen,takeaway_order,takeaway_order,16,16
+finde und spiel alle lieder von kate perry und spiel sie ohne zufällige wiedergabe ab,play_music,play_music,45,45
+erstelle eine playlist aus allen liedern von eminem und spiel mit zufälliger wiedergabe,play_music,play_music,45,45
+wird es diese woche schneien,weather_query,weather_query,13,13
+musik an,play_music,play_music,45,45
+suche nach neuen witzen,general_joke,general_quirky,25,12
+ich möchte soft rock hören,play_music,play_music,45,45
+ich möchte up beat musik anhören,play_music,play_music,45,45
+spiele billboard top zehn,play_music,play_music,45,45
+kann ich die zehn tages vorhersage für meine gegend haben,weather_query,weather_query,13,13
+bitte rufe die wettervorhersage für diese woche ab,weather_query,weather_query,13,13
+spiel mir etwas pop,play_music,play_music,45,45
+spiel musik von der playlist,play_music,play_music,45,45
+kann ich bitte einen espresso haben,iot_coffee,iot_coffee,56,56
+olly starte den staubsauger,iot_cleaning,iot_cleaning,34,34
+kannst du den roomba starten,iot_cleaning,iot_cleaning,34,34
+schicke mir benachrichtigung zu jedem neuen thema in der politik,news_query,news_query,22,22
+bewertem,music_likeness,general_quirky,43,12
+morgens oder abends,alarm_query,general_quirky,23,12
+was sind die neusten artikel bei yahoo news,news_query,news_query,22,22
+finde nachrichten der letzten sechs stunden von der bild,news_query,news_query,22,22
+welche musik spielt neun hundertneunundneunzig f. m. gerade,music_query,music_query,57,57
+erhöhe die lautstärke der musik auf neunzig,audio_volume_up,audio_volume_up,14,14
+ist es ein ja oder nein dass die morgige temperatur heiß sein wird,weather_query,weather_query,13,13
+wie ist die wettervorhersage für diese woche,weather_query,weather_query,13,13
+wer ist der künstler des lieds das gerade spielt,music_query,music_query,57,57
+ich mag das lied nicht schalte es aus,music_dislikeness,music_likeness,7,43
+starte täglich von zehn bis elf uhr meinen staubsauger,iot_cleaning,iot_cleaning,34,34
+was wird die höchst temperatur in der kommenden woche sein,weather_query,weather_query,13,13
+stelle den alarm heute von zehn uhr aus,alarm_query,alarm_remove,23,52
+spiel enrique,play_music,play_music,45,45
+spiel michael jackson,play_music,play_music,45,45
+ist es möglich dass du mir die likes von meiner musik zur verfügung stellen kannst,music_query,music_likeness,57,43
+was sind die aktuellen nachrichten aus syrien,news_query,news_query,22,22
+ich brauche mehr lichter,iot_hue_lightup,iot_hue_lightup,18,18
+sag mir die aktuelle zeit,datetime_query,datetime_query,0,0
+meine lieblingssängerin ist helene fischer,music_likeness,music_likeness,43,43
+was ist in köln los,news_query,recommendation_events,22,6
+spiel meine meist gehörten lieder,play_music,play_music,45,45
+geh zu youtube und spiel mir die besten hochzeitssongs kollektion,play_music,play_music,45,45
+zeig mir die neuesten technik news,news_query,news_query,22,22
+füge dieses lied meinen top ten favoriten hinzu,music_likeness,music_likeness,43,43
+dieses lied war genial bitte wiederholen,music_likeness,music_likeness,43,43
+gib mir niedrige beleuchtung in der küche,iot_hue_lightdim,iot_hue_lightdim,31,31
+speichere dieses lied und meine meinung,music_likeness,music_likeness,43,43
+gib mir ein update zu den ergebnissen der wahl,news_query,news_query,22,22
+was sagen die analysten zur neuen immigrationspolitik,news_query,news_query,22,22
+status der restaurant bestellung,takeaway_query,takeaway_query,3,3
+wecke mich um fünf uhr,alarm_set,alarm_set,48,48
+starte meinen staubsaugroboter,iot_cleaning,iot_cleaning,34,34
+spiele musik,play_music,play_music,45,45
+was ist die derzeitige datumszeit gruppe,datetime_query,datetime_query,0,0
+starte haus säuberung,iot_cleaning,iot_cleaning,34,34
+ausschalten vom licht,iot_hue_lightoff,iot_hue_lightoff,40,40
+lustiger witz,general_joke,general_joke,25,25
+welches lied wird gerade wiedergegeben,music_query,music_query,57,57
+speichere die informationen welche von aman über dieses lied bereitgestellt werden,music_likeness,music_likeness,43,43
+hey alexa schalte die disco beleuchtung in meiner wohnung ein und lass uns feiern,iot_hue_lighton,iot_hue_lightchange,41,1
+bitte leise sein,audio_volume_mute,audio_volume_mute,46,46
+bitte spiele rap musik,play_music,play_music,45,45
+wie wird das wetter diese woche,weather_query,weather_query,13,13
+was für ein sonniger tag,weather_query,weather_query,13,13
+ist die besprechung für morgen geplant,calendar_query,calendar_query,32,32
+ist es heute wolkig,weather_query,weather_query,13,13
+berühre die stummschalttaste,audio_volume_mute,audio_volume_mute,46,46
+spiel mir ein aktuelles cover von cherry bomb,play_music,play_music,45,45
+lass uns ein bisschen country und western nicht von den usa anhören,play_music,play_music,45,45
+prüfe den musik titel der gerade spielt,music_query,music_query,57,57
+liefert peking garden,takeaway_query,takeaway_query,3,3
+spiele meine letzte genutzte playlist,play_music,play_music,45,45
+gib mir die zeit in hannover,datetime_query,datetime_query,0,0
+spiel pop,play_music,play_music,45,45
+stell bitte die stimmung ein,iot_hue_lightchange,play_music,1,45
+schalte die lichter auf blau,iot_hue_lightchange,iot_hue_lightchange,1,1
+schalte die wohnzimmer lichter rot,iot_hue_lightchange,iot_hue_lightchange,1,1
+sage mir wie das wetter in münchen bayern ist olly,weather_query,weather_query,13,13
+siri wie ist das wetter draußen,weather_query,weather_query,13,13
+welcher tag ist an meinem geburtsdatum,datetime_query,datetime_query,0,0
+wie ist der titel von dem lied das gerade läuft,music_query,music_query,57,57
+kannst du mir sagen wie spät es ist,datetime_query,datetime_query,0,0
+wetter am montag,weather_query,weather_query,13,13
+wetter am dienstag,weather_query,weather_query,13,13
+wiederholen lied,music_settings,play_music,28,45
+kannst du mir die aktuellen wetter verhältnisse sagen,weather_query,weather_query,13,13
+bitte schalte aus das licht von meinem schlafzimmer,iot_hue_lightoff,iot_hue_lightoff,40,40
+hey erzähle mir einen witz und mach mich glücklich,general_joke,general_joke,25,25
+wie viele wochen sind es noch bis weihnachten,datetime_query,datetime_query,0,0
+hast du irgendwelche nachrichten von der taz,news_query,news_query,22,22
+wetter in mainz,weather_query,weather_query,13,13
+errechne den zeitunterschied zwischen neun uhr c. s. t. und e. s. t.,datetime_convert,datetime_convert,38,38
+schalte aus das wandschrank licht,iot_hue_lightoff,iot_hue_lightoff,40,40
+spiel herbert grönemeyer musik,play_music,play_music,45,45
+spiel meine bestbewertete pop lieder bitte,play_music,play_music,45,45
+stell die farbe aller lichter auf blau in meinem haus,iot_hue_lightchange,iot_hue_lightchange,1,1
+hip hop,music_likeness,play_music,43,45
+olly dreh die beleuchtung auf sieben runter,iot_hue_lightdim,iot_hue_lightdim,31,31
+beleuchtung runter auf sieben,iot_hue_lightdim,iot_hue_lightdim,31,31
+verringere die lichtstärke,iot_hue_lightdim,iot_hue_lightdim,31,31
+wie wird das wetter am siebten,weather_query,weather_query,13,13
+den lautsprecher stumm schalten bitte,audio_volume_mute,audio_volume_mute,46,46
+wie ist der titel von der musik die gerade läuft,music_query,music_query,57,57
+dreh die lautstärke hoch,audio_volume_up,audio_volume_up,14,14
+welches lied ist das,music_query,music_query,57,57
+ich möchte chöre hören,play_music,play_music,45,45
+zufallswiedergabe des aktuellen albums von liedern,music_settings,play_music,28,45
+welche neuen nachrichten gibt es beim handelsblatt,news_query,news_query,22,22
+was gibt es neues in der tagesschau,news_query,news_query,22,22
+was gibt es neues bei der süddeutschen zeitung,news_query,news_query,22,22
+sag mir wie spät es ist,datetime_query,datetime_query,0,0
+lass mich die zeit in indien wissen,datetime_query,datetime_query,0,0
+welche wecker stehen an,alarm_query,alarm_query,23,23
+olly ausmachen der lichter,iot_hue_lightoff,iot_hue_lightoff,40,40
+gibt es eine möglichkeit die neusten nachrichten zu trump zu bekommen,news_query,news_query,22,22
+anmachen der lichter,iot_hue_lighton,iot_hue_lightup,41,18
+bestelle essen zum mitnehmen,takeaway_order,takeaway_order,16,16
+kannst du alle lichter dimmen,iot_hue_lightdim,iot_hue_lightdim,31,31
+gib mir die nachrichten,news_query,news_query,22,22
+lichter runter,iot_hue_lightdim,iot_hue_lightdim,31,31
+wie ist das wetter diese woche,weather_query,weather_query,13,13
+sag mir das wetter für diese woche,weather_query,weather_query,13,13
+hey olly wie starte ich den staubsaugerroboter,iot_cleaning,iot_cleaning,34,34
+hilf mir bitte den staubsaugerroboter einzuschalten,iot_cleaning,iot_cleaning,34,34
+ich möchte ein bisschen modern rock hören,play_music,play_music,45,45
+was ist der status meiner letzten bestellung,takeaway_query,takeaway_query,3,3
+wie ist es draußen,weather_query,weather_query,13,13
+auf welchen wochentag fällt der valentinstag,datetime_query,datetime_query,0,0
+sage mir wie das wetter in münchen bayern ist,weather_query,weather_query,13,13
+ich will etwas musik spiel meine workout playlist ab,play_music,play_music,45,45
+einen wecker für morgen früh um acht uhr stellen,alarm_set,alarm_set,48,48
+dimme bitte die lichter im schlafzimmer,iot_hue_lightdim,iot_hue_lightdim,31,31
+sag mir den namen des interpreten,music_query,music_query,57,57
+wie lautet der titel von diesem lied,music_query,music_query,57,57
+was passiert heute in der welt,news_query,news_query,22,22
+was sind die neuesten internationalen nachrichten,news_query,news_query,22,22
+ich hätte jetzt gern kaffee,iot_coffee,iot_coffee,56,56
+schalte bitte meine nachttischlampe aus,iot_hue_lightoff,iot_hue_lightoff,40,40
+bitte starte den staubsauger,iot_cleaning,iot_cleaning,34,34
+starte jetzt den staubsauger,iot_cleaning,iot_cleaning,34,34
+alle antworten jetzt stummschalten,audio_volume_mute,audio_volume_mute,46,46
+kein gespräch bitte,audio_volume_mute,calendar_remove,46,30
+haben wir von dem neuen anbieter ein update erhalten,news_query,news_query,22,22
+was gibt es neues zu kanzler kurz,news_query,news_query,22,22
+spiel adele,play_music,play_music,45,45
+wie ist die wettervorhersage für münchen,weather_query,weather_query,13,13
+soll es nächste woche schneien,weather_query,weather_query,13,13
+was tut der stadtrat gegen obdachlosigkeit in köln,news_query,news_query,22,22
+rufe die nachrichten von b. b. c. news auf,news_query,news_query,22,22
+wie viele wecker habe ich morgens zwischen sechs und neun uhr gestellt,alarm_query,alarm_query,23,23
+öffne playlist,play_music,play_music,45,45
+bestellung bestätigen,takeaway_order,takeaway_query,16,3
+mach mir eine tasse kaffee,iot_coffee,iot_coffee,56,56
+ich möchte rock anhören,play_music,play_music,45,45
+ok google spiele rock musik,play_music,play_music,45,45
+schalte den strom aus,iot_hue_lightoff,iot_wemo_off,40,8
+stelle einen wecker für fünf uhr dreißig,alarm_set,alarm_set,48,48
+kann ich von diesem restaurant eine lieferung erhalten,takeaway_query,takeaway_query,3,3
+bietet mein lieblings restaurant lieferung an,takeaway_query,takeaway_query,3,3
+bieten sie essen zum mitnehmen an,takeaway_query,takeaway_query,3,3
+einschalten der kaffeemaschine,iot_coffee,iot_coffee,56,56
+was gibt es neues in der politik,news_query,news_query,22,22
+zeig mir die zeit,datetime_query,datetime_query,0,0
+spiele musik aus dem jazz genre,play_music,play_music,45,45
+nächster samstag ist welches datum,datetime_query,datetime_query,0,0
+hat bayern münchen gestern abend gewonnen,news_query,news_query,22,22
+ton aus den lautsprechern stummschalten,audio_volume_mute,audio_volume_mute,46,46
+hellere lichter im wohnzimmer,iot_hue_lightup,iot_hue_lightup,18,18
+koche ein bisschen kaffee,iot_coffee,iot_coffee,56,56
+ändere die farben vom licht von blau zu weiß,iot_hue_lightchange,iot_hue_lightchange,1,1
+mache die lichter im haus rot,iot_hue_lightchange,iot_hue_lightchange,1,1
+auf welchen tag fällt der sechzehnte april,datetime_query,datetime_query,0,0
+starte bitte den staubsauger für eine stunde,iot_cleaning,iot_cleaning,34,34
+sag mir das datum von heute,datetime_query,datetime_query,0,0
+stelle die wohnzimmer lichter auf rot,iot_hue_lightchange,iot_hue_lightchange,1,1
+wie läuft es mit der lieferung des restaurants,takeaway_query,takeaway_query,3,3
+dieses lied anhören,music_query,play_music,57,45
+call a pizza bietet essen zum mitnehmen nicht wahr,takeaway_query,takeaway_order,3,16
+ändere die licht farbe auf blau,iot_hue_lightchange,iot_hue_lightchange,1,1
+sag mir meine wecker,alarm_query,alarm_query,23,23
+bitte lösche alle wecker die ich gestellt habe,alarm_remove,alarm_remove,52,52
+bitte suche den artikel zum thema hunde gassiservice aus der süddeutschen zeitung,news_query,news_query,22,22
+wie ist das wetter hier,weather_query,weather_query,13,13
+bestelle schnitzel zum mitnehmen,takeaway_order,takeaway_order,16,16
+gibt es bei youtube irgendwelche neuen videos von der süddeutschen zeitung,news_query,social_query,22,27
+spiel atmosphere als nächstes,play_music,play_music,45,45
+spiel meine country playlist,play_music,play_music,45,45
+spiele meine zweite wiedergabeliste,play_music,play_music,45,45
+was ist das heutige datum,datetime_query,datetime_query,0,0
+alexa ausschalten des ventilators im hauptschlafzimmer,iot_wemo_off,iot_hue_lightoff,8,40
+alexa speichere bitte das aktuelle lied in meinen favoriten,music_likeness,music_likeness,43,43
+ich liebe hip hop,music_likeness,music_likeness,43,43
+bitte spiele meinen lieblings song von bruno mars,play_music,play_music,45,45
+bitte starte die kaffeemaschine,iot_coffee,iot_coffee,56,56
+lichter reduzieren,iot_hue_lightdim,iot_hue_lightdim,31,31
+nachtzeit modus,iot_hue_lightdim,audio_volume_mute,31,46
+angesagte technik nachrichten,news_query,news_query,22,22
+neuste schlagzeilen zu technik,news_query,news_query,22,22
+spiel das nächste lied,play_music,play_music,45,45
+in welchem jahr wurde das lied geschrieben,music_query,music_query,57,57
+finde mein essen,takeaway_query,takeaway_query,3,3
+olly zusammenfassung von schneevorhersagen in köln,weather_query,weather_query,13,13
+olly brandheiße trendende themen,news_query,news_query,22,22
+nächster wecker,alarm_query,alarm_query,23,23
+ich habe grad richtig bock auf chinesisches bitte lass mich essen zum mitnehmen bestellen,takeaway_order,takeaway_order,16,16
+was gibt es heute neues in der politik kannst nachrichten zu trump aber bitte rausfiltern,news_query,news_query,22,22
+ich will zwei pizzen sofort,takeaway_order,takeaway_order,16,16
+mache einen song an,play_music,play_music,45,45
+ausmachen der beleuchtung,iot_hue_lightoff,iot_hue_lightoff,40,40
+ist es sonnig wie ist die temperatur,weather_query,weather_query,13,13
+spiel mir etwas musik,play_music,play_music,45,45
+wo kann ich essen zum mitnehmen in der nähe bestellen,takeaway_order,takeaway_query,16,3
+lautstärke bitte niedriger machen,audio_volume_down,audio_volume_up,35,14
+auf welche zeit ist mein aufwach alarm gestellt,alarm_query,alarm_query,23,23
+habe ich irgendwelche wecker für morgen früh,alarm_query,alarm_query,23,23
+lösche meine frühen awecker,alarm_remove,alarm_remove,52,52
+spielen klassische kammer musik wiedergabeliste,play_music,play_music,45,45
+spiel das lied als nächstes,play_music,play_music,45,45
+was ist der name des frontmanns der band,music_query,music_query,57,57
+schalte das ab,iot_wemo_off,audio_volume_mute,8,46
+siri spiel meine pop playlist,play_music,play_music,45,45
+sag mir ob es irgendwelche neuigkeiten zu diesem thema gibt,news_query,news_query,22,22
+du solltest wissen dass ich jazz mag,music_likeness,general_quirky,43,12
+überprüf bitte meine playlist,music_likeness,play_music,43,45
+kannst du den wecker auf ein uhr dreißig stellen,alarm_set,alarm_set,48,48
+lösche den wecker für morgen,alarm_remove,alarm_remove,52,52
+was ist die aktuelle zentrale uhrzeit,datetime_query,datetime_query,0,0
+entferne die für morgen eingestellten wecker,alarm_remove,alarm_remove,52,52
+olly drehe die lichter runter,iot_hue_lightdim,iot_hue_lightdim,31,31
+wird es morgen in münchen regnen,weather_query,weather_query,13,13
+was ist die zeit in wien,datetime_query,datetime_query,0,0
+wie groß ist die zeitverschiebung zwischen östlicher und pazifischer zeitzohne,datetime_convert,datetime_convert,38,38
+bietet das nächstgelegenste chinesische restaurant lieferung an,takeaway_query,takeaway_query,3,3
+wie ist das wetter in münchen,weather_query,weather_query,13,13
+ok google wie ist das wetter,weather_query,weather_query,13,13
+beleuchtung verringern,iot_hue_lightdim,iot_hue_lightdim,31,31
+bitte mache meine wemo steckdose an,iot_wemo_on,iot_wemo_on,24,24
+wie wird nächste woche das wetter,weather_query,weather_query,13,13
+wie kann man ein lied wiederholen,music_query,music_query,57,57
+welche musik ist es,music_query,music_query,57,57
+erhöhe bitte die lichter,iot_hue_lightup,iot_hue_lightdim,18,31
+spiel romantische wiedergabeliste,play_music,play_music,45,45
+auf welchen wochentag fällt der zweiundzwanzigste diesen monat,datetime_query,datetime_query,0,0
+gehe schlafen,audio_volume_mute,general_quirky,46,12
+ich hätte gerne einen wach auf alarm um sieben uhr morgen,alarm_set,alarm_set,48,48
+bitte alle lampen außen anschalten,iot_hue_lighton,iot_hue_lightoff,41,40
+erhöhe die lautstärke bitte,audio_volume_up,audio_volume_up,14,14
+suche nach aktuellen nachrichten zum regierungsshutdown,news_query,news_query,22,22
+spiele musik von den beatles,play_music,play_music,45,45
+nacht zeit,general_quirky,datetime_query,12,0
+besorge mir takeaway essen,takeaway_order,takeaway_order,16,16
+spiel etwas romantisches,play_music,play_music,45,45
+wird es am freitag schön am strand,weather_query,weather_query,13,13
+spiele afi's viertes album,play_music,play_music,45,45
+mach mir bitte einen kaffee,iot_coffee,iot_coffee,56,56
+welche tage werden diese woche regnerisch,weather_query,weather_query,13,13
+wie ist das wetter in dieser woche,weather_query,weather_query,13,13
+stell meinen wecker auf ein uhr,alarm_set,alarm_set,48,48
+was sind die neusten nachrichten zur bundestagswahl,news_query,news_query,22,22
+mache mir bitte einen kaffee,iot_coffee,iot_coffee,56,56
+ist heute ein sonniger tag,weather_query,weather_query,13,13
+wie ist gerade das wetter in münchen,weather_query,weather_query,13,13
+ich möchte meine playlist hören spiel diese bitte jetzt ab,play_music,play_music,45,45
+olly mädchen lucilectric anmachen,play_music,takeaway_order,45,16
+wie heiß ist es in münchen,weather_query,weather_query,13,13
+wie lautet die aktuelle uhrzeit in leipzig sachsen,datetime_query,datetime_query,0,0
+wie ist die aktuelle uhrzeit in münchen bayern,datetime_query,datetime_query,0,0
+wird es am sonntag zu kalt für ein kleid sein,weather_query,weather_query,13,13
+kann ich ein bisschen britney spears hören,play_music,play_music,45,45
+das ist zu hell,iot_hue_lightdim,iot_hue_lightdim,31,31
+bestelle zwei große pizza und hot wings von dominoes,takeaway_order,takeaway_order,16,16
+was ist die zeit und das datum für heute,datetime_query,datetime_query,0,0
+spiele meine aktuelle playlist von oben,play_music,play_music,45,45
+spiel mein lieblings country lied,play_music,play_music,45,45
+wie spät ist es momentan in polen,datetime_query,datetime_query,0,0
+olly wie spät ist es augenblicklich in deutschland,datetime_query,datetime_query,0,0
+spiel bitte aretha franklin's call me next,play_music,play_music,45,45
+lass mich die zeit wissen,datetime_query,datetime_query,0,0
+was sind die neusten nachrichten über die grünen,news_query,news_query,22,22
+bitte spiel nach dem hier rebel yell,play_music,play_radio,45,36
+ich möchte ein wenig jazz hören,play_music,play_music,45,45
+zeige mir das wetter von köln für eine woche,weather_query,weather_query,13,13
+bitte schalte die intelligente steckdose aus,iot_wemo_off,iot_wemo_off,8,8
+schalte den wemo plug socket ein,iot_wemo_on,iot_wemo_on,24,24
+reduziere die lautstärke,audio_volume_down,audio_volume_up,35,14
+stelle an den roomba,iot_cleaning,iot_wemo_on,34,24
+bestell mir chinesisches essen,takeaway_order,takeaway_order,16,16
+wer hat das lied geschrieben was im radio ist,music_query,music_query,57,57
+was ist der aktuelle stand bei den beiden fußballspielen die gerade stattfinden,news_query,calendar_query,22,32
+was ist die schlagzeile der frankfurter rundschau,news_query,news_query,22,22
+wie wird das wetter den rest der woche werden,weather_query,weather_query,13,13
+wird es in nächster zeit flip flop wetter geben,weather_query,weather_query,13,13
+wie ist das wetter jetzt,weather_query,weather_query,13,13
+bitte licht verstärken,iot_hue_lightup,iot_hue_lightdim,18,31
+gibt es nächste woche schnee,weather_query,weather_query,13,13
+lösche den alarm für mittwoch abend,alarm_remove,alarm_remove,52,52
+wieviel schnee hat mainz heute abbekommen,weather_query,weather_query,13,13
+speichere von diesem lied das genre,music_likeness,music_likeness,43,43
+ich möchte dass du dich daran erinnerst dass ich das lied mag,music_likeness,music_likeness,43,43
+spiel thriller nach diesem song,play_music,play_music,45,45
+alarmiere mich in drei stunden,alarm_set,alarm_set,48,48
+indie,play_music,play_music,45,45
+wie ist das wetter jetzt gerade,weather_query,weather_query,13,13
+sag mir was in der europäischen politik passiert,news_query,news_query,22,22
+ich möchte wissen wer gerade die bundesliga anführt,news_query,qa_factoid,22,49
+alexa was sind die nachrichten in meiner region,news_query,news_query,22,22
+es ist zeit etwas mark forster zu hören,play_music,play_music,45,45
+schalte wiederholung ein,music_settings,play_radio,28,36
+die reinigung beginnen,iot_cleaning,iot_cleaning,34,34
+was ist der beste tag nächste woche um pizza essen zu gehen,datetime_query,takeaway_query,0,3
+welche art von wetter kann ich heute erwarten,weather_query,weather_query,13,13
+in münchen ist es jetzt wieviel uhr,datetime_query,datetime_query,0,0
+bitte stell einen wecker für acht uhr morgens,alarm_set,alarm_set,48,48
+füge viel annenmaykantereit und cat stevens zu der playliste hinzu,play_music,play_music,45,45
+kannst du etwas dance musik spielen,play_music,play_music,45,45
+spiel lieder von der wiedergabeliste,play_music,play_music,45,45
+welche alarme habe ich richtig jetzt,alarm_query,alarm_query,23,23
+wie ist heute die temperatur in münchen bayern,weather_query,weather_query,13,13
+lade spotify,play_music,play_music,45,45
+hey olly erzähl mir einen witz,general_joke,general_joke,25,25
+ich möchte heute abend chinesisches essen was liefert zu mir,takeaway_order,takeaway_order,16,16
+hey siri ändere die aktuellen licht einstellungen,iot_hue_lightchange,iot_hue_lightchange,1,1
+ich hab dieses riff schon mal gehört welches lied hat dieses riff gestohlen es ist genau dasselbe,music_query,music_query,57,57
+lösche den wecker um vier uhr,alarm_remove,alarm_remove,52,52
+morgen über neunzig grad,weather_query,weather_query,13,13
+spiel meinen lieblings song vom letzten jahr,play_music,play_music,45,45
+bitte nicht antworten,audio_volume_mute,email_sendemail,46,33
+kannst du meine schreibtischlampe einschalten,iot_hue_lightoff,iot_hue_lightoff,40,40
+schreibtischlampe eins aus,iot_hue_lightoff,iot_hue_lightoff,40,40
+licht hoch,iot_hue_lightup,iot_hue_lightdim,18,31
+muss ich heute einen regenschirm mit in die arbeit nehmen,weather_query,weather_query,13,13
+kann ich heute beim einkaufen kurze hosen tragen,weather_query,weather_query,13,13
+spiel musik von queen,play_music,play_music,45,45
+spiel das neueste album von jay z.,play_music,play_music,45,45
+stelle einen wecker für morgen früh zehn uhr,alarm_set,alarm_set,48,48
+wecke mich auf um zehn,alarm_set,alarm_set,48,48
+spiel so ist es von sero,play_music,play_music,45,45
+lieferdienst in meiner nähe zeigen,takeaway_order,takeaway_query,16,3
+internet öffnen,takeaway_order,alarm_remove,16,52
+lass mich etwas musik hören,play_music,play_music,45,45
+ich möchte gute musik anhören,play_music,play_music,45,45
+erhöhe das licht der lampe,iot_hue_lightup,iot_hue_lightdim,18,31
+bitte dreh die lautstärke auf die lauteste einstellung,audio_volume_up,audio_volume_up,14,14
+schalte das audio stumm,audio_volume_mute,audio_volume_mute,46,46
+audio anhalten,audio_volume_mute,audio_volume_mute,46,46
+wird es diese woche überhaupt regnen,weather_query,weather_query,13,13
+dimme alle lichter im innenbereich,iot_hue_lightdim,iot_hue_lightdim,31,31
+werde ich heute mit kurzer hose durchkommen,weather_query,weather_query,13,13
+sollte ich mich heute in lagen anziehen,weather_query,weather_query,13,13
+ändere meiner lichter auf eine zufällige farbe,iot_hue_lightchange,iot_hue_lightchange,1,1
+zeig mir das neuste der new york times,news_query,news_query,22,22
+stelle die einstellungen lautlos,audio_volume_mute,audio_volume_mute,46,46
+soll es diese woche schnee geben,weather_query,weather_query,13,13
+ändere die farbe der lichter,iot_hue_lightchange,iot_hue_lightchange,1,1
+tag am zweiundzwanzigsten april,datetime_query,calendar_query,0,32
+wie schnell können wir mit regen rechnen,weather_query,weather_query,13,13
+die wettervorhersage die du mir gegeben hast ist für die falsche stadt ich möchte wissen wie die temperatur ist wo ich gerade bin,weather_query,weather_query,13,13
+bestell einen double bacon cheeseburger mit speck und gouda,takeaway_order,takeaway_order,16,16
+spiele etwas von den smashing pumpkins,play_music,play_music,45,45
+update zu april die giraffe,news_query,news_query,22,22
+wie ist diese woche das wetter in meiner umgebung,weather_query,weather_query,13,13
+drehe die beleuchtung hier drin auf,iot_hue_lightup,iot_hue_lightup,18,18
+bitte drehe die lautstärke der lautsprecher hoch,audio_volume_up,audio_volume_up,14,14
+ist in hannover eine andere zeit,datetime_query,datetime_query,0,0
+sag mir welche catering pakete verfügbar sind,takeaway_query,takeaway_query,3,3
+wird der himmel bedeckt sein,weather_query,weather_query,13,13
+schau nach ob pizza hut meine bestellung auf den weg gebracht hat,takeaway_query,takeaway_query,3,3
+starte neue smarte steckdose,iot_wemo_on,iot_wemo_on,24,24
+dimme die lichter auf level zwei,iot_hue_lightdim,iot_hue_lightdim,31,31
+wie ist die wettervorhersage für diese woche,weather_query,weather_query,13,13
+stelle die schlafzimmer beleuchtung aus,iot_hue_lightoff,iot_hue_lightoff,40,40
+wann wird taco bell ankommen,takeaway_query,recommendation_locations,3,19
+was ist der name dieser gruppe,music_query,qa_factoid,57,49
+wann ist die nächste presse konferenz von baerbock,news_query,news_query,22,22
+was sind die derzeitigen aktienpreise von google,qa_stock,qa_stock,4,4
+wird mein goldspiel verregnet,weather_query,general_quirky,13,12
+wie ist das wetter in hamburg,weather_query,weather_query,13,13
+stelle einen wecker für fünf uhr,alarm_set,alarm_set,48,48
+stell bitte einen wecker für zweiundzwanzig uhr,alarm_set,alarm_set,48,48
+wie soll morgen das wetter werden,weather_query,weather_query,13,13
+wird es morgen schön werden,weather_query,weather_query,13,13
+wie ist die vorhersage für heute in meiner gegend,weather_query,weather_query,13,13
+liste meine unterschiedlichen wecker auf,alarm_query,alarm_query,23,23
+schalte die benachrichtigung für alle nachrichten vom aktienmarkt,qa_stock,qa_stock,4,4
+benachrichtige mich über die aktuellsten nachrichten zum aktienmarkt,qa_stock,qa_stock,4,4
+öffne meine musik,play_music,play_music,45,45
+sag mir was die letzten neuigkeiten sind,news_query,news_query,22,22
+ich will einen nerd witz,general_joke,general_joke,25,25
+sollte ich heute eine kurze hose anziehen,weather_query,weather_query,13,13
+kannst du mir einen guten witz sagen,general_joke,general_joke,25,25
+wiederhole das letzte lied nochmal,music_settings,music_likeness,28,43
+welcher wochentag ist in diesem jahr der siebenundzwanzigste juni,datetime_query,datetime_query,0,0
+muss ich mich warm halten,weather_query,weather_query,13,13
+was ist es heute,datetime_query,weather_query,0,13
+schalte das licht im schlafzimmer aus,iot_hue_lightoff,iot_hue_lightoff,40,40
+konvertiere die zeitzone,datetime_convert,datetime_convert,38,38
+wie spät ist es in einer anderen stadt,datetime_query,datetime_query,0,0
+wann ist der sonnenuntergang,qa_factoid,datetime_query,49,0
+zehn tage vorschau,weather_query,calendar_query,13,32
+können die lichter auf grün geändert werden,iot_hue_lightchange,iot_hue_lightchange,1,1
+zeige mir die nachrichten von der süddeutschen zeitung,news_query,news_query,22,22
+gibt es irgendwelche nachrichten,news_query,news_query,22,22
+spiel uptown girl von billy joel,play_music,play_music,45,45
+stelle einen wecker für fünf minuten ab jetzt,alarm_set,alarm_set,48,48
+stelle meinen wecker,alarm_set,alarm_set,48,48
+ruf china city an und bestell mir ein chinesisches omelett,takeaway_order,takeaway_order,16,16
+wie ist die aktuelle temperatur,weather_query,weather_query,13,13
+spiel ein bisschen musik,play_music,play_music,45,45
+weißt du was vom text,music_query,music_query,57,57
+wer sang das,music_query,music_query,57,57
+öffne einige coole witze,general_joke,general_joke,25,25
+erzähl mir einen witz,general_joke,general_joke,25,25
+schalte die lichter aus,iot_hue_lightoff,iot_hue_lightoff,40,40
+gib mir nachrichten updates zu dem sturm,news_query,news_query,22,22
+schicke mir die aktienmarkt neuigkeiten von heute,qa_stock,qa_stock,4,4
+was waren die lottozahlen letzte nacht,news_query,news_query,22,22
+entferne finjas schlafenszeit wecker,alarm_remove,alarm_remove,52,52
+bitte sprich leiser mit mir,audio_volume_down,audio_volume_mute,35,46
+wie spät ist es in der östlichen zeitzone,datetime_query,datetime_query,0,0
+bitte informiere mich über die neuesten entwicklungen bei den wahlen in unserem land,news_query,news_query,22,22
+ich mag r. and b.,music_likeness,music_likeness,43,43
+zeige uns rot,iot_hue_lightchange,general_quirky,1,12
+ist der dreiundzwanzigste april ein samstag,datetime_query,datetime_query,0,0
+welche woche ist heute,datetime_query,datetime_query,0,0
+wie ist das wetter in meiner heimatstadt,weather_query,weather_query,13,13
+spiele musik aus dieser playlist,play_music,play_music,45,45
+informiere mich wenn es neue nachrichten in meinen lokalnachrichten gibt,news_query,news_query,22,22
+ändere die opazität der farben,iot_hue_lightchange,iot_hue_lightchange,1,1
+farbe von hell nach dunkel ersetzen,iot_hue_lightchange,iot_hue_lightchange,1,1
+stelle wemo an,iot_wemo_on,iot_cleaning,24,34
+stell einen wecker für sechs uhr,alarm_set,alarm_set,48,48
+es ist dunkel hier drin,iot_hue_lighton,iot_hue_lightdim,41,31
+olly wecker sreichen,alarm_remove,alarm_set,52,48
+siri lösche meinen yoga wecker,alarm_remove,alarm_remove,52,52
+olly bitte dreh die lautstärke hoch,audio_volume_up,audio_volume_up,14,14
+google mische wiedergabeliste,music_settings,play_music,28,45
+spiele thinking out loud als nächstes,play_music,play_music,45,45
+wie wird das wetter am tag danach,weather_query,weather_query,13,13
+der bundesanzeiger bonn meldet der missbrauch verschreibungspflichtiger medikamente nimmt zu,news_query,news_query,22,22
+kannst du mir bitte sagen wie die wettervorhersage für diese woche ist,weather_query,weather_query,13,13
+würdest du die kaffeemaschine anschalten,iot_coffee,iot_coffee,56,56
+hier drin ist es zu hell kannst du ein licht aus machen,iot_hue_lightoff,iot_hue_lightoff,40,40
+wie soll das wetter diese woche werden,weather_query,weather_query,13,13
+dieses lied meiner playlist lieblinge hinzufügen,music_likeness,music_likeness,43,43
+bitte spiel diesen song nochmal ab,play_music,play_music,45,45
+wird es am donnerstag noch windig sein,weather_query,weather_query,13,13
+erzähl einen witz,general_joke,general_joke,25,25
+siri besorge mir die nachrichten zu donald trump,news_query,news_query,22,22
+siri gibt es aktuelle nachrichten zur bundestagswahl,news_query,news_query,22,22
+wie wird das wetter wahrscheinlich in meiner gegen heute sein,weather_query,weather_query,13,13
+bitte schalte das licht im lesezimmer aus,iot_hue_lightoff,iot_hue_lightoff,40,40
+besorg mir die aktuellsten nachrichten,news_query,news_query,22,22
+wieviele tore hat nadine angerer gestern geschossen,news_query,qa_factoid,22,49
+spiel meine fitnessplaylist,play_music,play_music,45,45
+schalte bitte die lichter im badezimmer aus,iot_hue_lightoff,iot_hue_lightoff,40,40
+olly muss ich heute handschuhe anziehen,weather_query,weather_query,13,13
+ist ein regenschirm notwendig für meinen ausflug,weather_query,weather_query,13,13
+starte die in letzter zeit hinzugefügte playlist,play_music,play_music,45,45
+zeige aktuelle nachrichten von n. t. v.,news_query,news_query,22,22
+zeige mir die live n. t. v. nachrichten,news_query,news_query,22,22
+wie ist es draußen,weather_query,weather_query,13,13
+wie ist heute das wetter in münchen bayern,weather_query,weather_query,13,13
+sag mir die wecker zeiten die du gestellt hast,alarm_query,alarm_query,23,23
+bekomme ich die regionalen nachrichten zur hamburger feuerwehr,news_query,news_query,22,22
+spiel von meiner playlist,play_music,play_music,45,45
+schalte zur standard zeitzone,datetime_convert,datetime_convert,38,38
+wann wird der vierundzwanzigste nächste woche sein,datetime_query,datetime_query,0,0
+was gibt es neues auf itunes,music_query,social_query,57,27
+bitte zeige mir wetter am siebenundzwanzigsten märz zweitausendsiebzehn,weather_query,weather_query,13,13
+wie sind die nachrichten in irland,news_query,news_query,22,22
+was für ein lied läuft gerade,music_query,music_query,57,57
+lautstärke erhöhen,audio_volume_up,audio_volume_up,14,14
+den roomba zum reinigen der küche einsetzen,iot_cleaning,iot_cleaning,34,34
+bitte geben sie mir einzelheiten über qntai lied,music_query,music_query,57,57
+werde den siebzehn uhr wecker los,alarm_remove,alarm_set,52,48
+spiel einen indian folk song,play_music,play_music,45,45
+brauche ich nach zehn uhr eine jacke oder nicht,weather_query,weather_query,13,13
+ich möchte die yahoo news lesen,news_query,news_query,22,22
+sollte ich heute abend handschuhe mitnehmen,weather_query,weather_query,13,13
+brauche ich heute eine jacke,weather_query,weather_query,13,13
+olly erhelle die lichter,iot_hue_lightup,iot_hue_lightdim,18,31
+ändere die farbe der beleuchtung,iot_hue_lightchange,iot_hue_lightchange,1,1
+wechsel zu einer anderen licht farbe,iot_hue_lightchange,iot_hue_lightchange,1,1
+aktiviere eine andere licht farbe,iot_hue_lightchange,iot_hue_lightchange,1,1
+was ist die neueste umfrage von der öffentlichen meinung über donald trump,news_query,news_query,22,22
+favorisiere diese musik,music_likeness,music_likeness,43,43
+schalte die zimmer beleuchtung aus,iot_hue_lightoff,iot_hue_lightoff,40,40
+was für ein tag ist der zweiundzwanzigste mai,datetime_query,datetime_query,0,0
+schalte auf stumm bis ich was anderes sage,audio_volume_mute,audio_volume_mute,46,46
+wiederhole bitte das aktuelle lied wird gespielt,music_settings,music_query,28,57
+bitte teile mir die morgendliche weckzeit für wochentage mit,alarm_query,alarm_query,23,23
+danke an ally für die ganzen fotos,general_quirky,general_quirky,12,12
+spiele etwas old school rap,play_music,play_music,45,45
+lies mir die nachrichten des tages vor,news_query,news_query,22,22
+sind ben und jen wieder zusammen,news_query,calendar_query,22,32
+stell einen wecker für den fünfundzwanzigsten mai um siebzehn uhr,alarm_set,alarm_set,48,48
+spiel meine musik ab,play_music,play_music,45,45
+assistent shuffle die gesamte bibliothek,play_music,play_music,45,45
+das nächste chipotle,takeaway_order,play_podcasts,16,58
+mischen blaue wiedergabeliste,play_music,play_music,45,45
+berichte weckereinstellungen,alarm_query,alarm_set,23,48
+temperatur jetzt,weather_query,weather_query,13,13
+spiele alle lieder der sängerin siri svegler zufällig ab,play_music,play_music,45,45
+werde ich dieses wochenende sonnenblocker brauchen,weather_query,weather_query,13,13
+sollte ich etwas streusalz vom laden mitnehmen,weather_query,takeaway_query,13,3
+schalten die wemo steckdose ein,iot_wemo_on,iot_wemo_on,24,24
+kippschalter wemo steckdose auf,iot_wemo_on,iot_wemo_on,24,24
+lass mich einfach nur das aktuelle datum von heute wissen,datetime_query,datetime_query,0,0
+die wetter vorhersage für berlin von wetter punkt com und apple ist leider schlecht für meine region,weather_query,weather_query,13,13
+clicke auf start und wähle die einstellungen aus,alarm_query,lists_createoradd,23,21
+wie spät ist es in weimar deutschland,datetime_query,datetime_query,0,0
+spiel partylieder,play_music,play_music,45,45
+kool savas,play_music,general_quirky,45,12
+fang an mit der hausreinigung,iot_cleaning,iot_cleaning,34,34
+muss ich eine jacke zur arbeit anziehen,weather_query,weather_query,13,13
+kannst du lauter sprechen,audio_volume_up,audio_volume_up,14,14
+steigere jedes licht im zimmer,iot_hue_lightup,iot_hue_lightdim,18,31
+bitte spiel das madonna lied nochmal,play_music,play_music,45,45
+orevena voice recorder lass mich auf die systemseite wo ich lieder speichern kann,play_music,music_likeness,45,43
+klima,weather_query,weather_query,13,13
+an welchem tag ist mein geburtstag nächstes jahr,datetime_query,calendar_query,0,32
+welcher wochentag ist der zwölfte,datetime_query,datetime_query,0,0
+ton an,audio_volume_up,audio_volume_up,14,14
+spiel eine künstlerin,play_music,play_music,45,45
+kann man im restaurant royale essen abholen,takeaway_query,takeaway_query,3,3
+wird es heute nebel nach sonnenuntergang geben,weather_query,weather_query,13,13
+es ist kalt draußen,weather_query,weather_query,13,13
+weck uhr,datetime_query,alarm_set,0,48
+stelle einen wecker für fünf uhr heute abend mit dem namen taxi,alarm_set,alarm_set,48,48
+wetter in der heimatstadt,weather_query,weather_query,13,13
+spiel nach diesem lied das vierte lied auf dem selben album,play_music,play_music,45,45
+alexa spiel klassischer rock,play_music,play_music,45,45
+schalte den staubsaugerroboter ein,iot_cleaning,iot_cleaning,34,34
+ist dies der heißeste tag in münchen,weather_query,weather_query,13,13
+erzähl mir von den weckern,alarm_query,alarm_query,23,23
+bedeutung eines bestimmten wortes,general_quirky,qa_definition,12,26
+musik hören,play_music,play_music,45,45
+benötige ich einen abendlichen regenmantel,weather_query,weather_query,13,13
+internationaler handels und wirtschaftsmarkt,news_query,news_query,22,22
+kannst du bitte stumm sein für eine weile,audio_volume_mute,audio_volume_mute,46,46
+ich will essen bestellen,takeaway_order,takeaway_order,16,16
+zu welcher zeit hast du den wecker für mich gestellt,alarm_query,alarm_query,23,23
+ich hätte nun gern etwas kaffee,iot_coffee,iot_coffee,56,56
+koche meinen morgendlichen kaffee,iot_coffee,iot_coffee,56,56
+es ist kaffeezeit,iot_coffee,iot_coffee,56,56
+ist meine bestellung bei domino's bereit,takeaway_query,takeaway_query,3,3
+wann kann ich mein chinesisches essen abholen,takeaway_query,takeaway_query,3,3
+öffne uhr,alarm_set,datetime_query,48,0
+spiele das lied haus am see als nächstes,play_music,play_music,45,45
+alexa erhöhe die helligkeit des licht es ist schwer hier unten zu sehen,iot_hue_lightup,iot_hue_lightdim,18,31
+ist meine bestellung jetzt bereit zum abholen,takeaway_query,takeaway_query,3,3
+wecker,alarm_set,alarm_set,48,48
+muss ich diesen nachmittag einen regenschirm mitnehmen,weather_query,weather_query,13,13
+spiel ein song von daddy yankee,play_music,play_music,45,45
+hey wird es heute in münchen regnen,weather_query,weather_query,13,13
+hey olly wie ist das wetter in aubing münchen,weather_query,weather_query,13,13
+spiel michael buble save the last dance,play_music,play_music,45,45
+hey olly bestell mir zwei chicken wings mit pommes frites von dem asialaden,takeaway_order,takeaway_order,16,16
+hey olly bestell eine pizza mit extra käse,takeaway_order,takeaway_order,16,16
+hey olly wie spät es in potsdam brandenburg,datetime_query,datetime_query,0,0
+spiele irgendwas von meiner aktuellen playlist,play_music,play_music,45,45
+spiel irgendwas von meiner neusten playlist,play_music,play_music,45,45
+gib mir informationen zum lied das gerade spielt,music_query,music_query,57,57
+sei lustig für mich,general_joke,general_joke,25,25
+olly sollte ich meine handschuhe anziehen oder nicht,weather_query,weather_query,13,13
+sag mir das wetter für den folgenden monat,weather_query,weather_query,13,13
+anmachen vom staubsauger,iot_cleaning,iot_cleaning,34,34
+sollte ich heute irgendwann lagen tragen,weather_query,weather_query,13,13
+checke den wetterbericht für diese woche,weather_query,weather_query,13,13
+zeige mir die vorhersage für eine woche,weather_query,weather_query,13,13
+kann ich hier lieferung nehmen,takeaway_query,takeaway_query,3,3
+die u-bahn war heute total voll,general_quirky,general_quirky,12,12
+erzähl mir von meinem tag,general_quirky,general_quirky,12,12
+dolores fällt dir etwas merkwürdiges in deiner welt auf,general_quirky,news_query,12,22
+willst du wissen was heute passiert ist,general_quirky,general_quirky,12,12
+woher kennst du mich,general_quirky,email_querycontact,12,17
+es wäre toll in diesem neu eröffneten restaurant in der innenstadt zu essen,general_quirky,recommendation_locations,12,19
+olly wie läufts,general_quirky,general_quirky,12,12
+heute habe ich belohnungen bekommen siri,general_quirky,general_quirky,12,12
+ich hatte heute viele meetings,general_quirky,general_quirky,12,12
+wo kommst du her,general_quirky,transport_query,12,42
+das wetter ist heute sonnig,general_quirky,weather_query,12,13
+hey google ich habe den eine millionen euro lotto jackpot geknackt,general_quirky,general_quirky,12,12
+sag mir wichtige nachrichten von heute,news_query,news_query,22,22
+wie ist der heutige tag,general_quirky,calendar_query,12,32
+aufwachen eier backen,general_quirky,cooking_recipe,12,9
+was ist los,general_quirky,news_query,12,22
+irgendetwas interessantes heute in den nachrichten,news_query,news_query,22,22
+ich bin am samstag ins pub eingeladen,general_quirky,calendar_set,12,50
+nenne mir ein gutes alkoholisches getränk,general_quirky,cooking_recipe,12,9
+erzähle mir etwas über amerika,general_quirky,general_quirky,12,12
+sport,general_quirky,news_query,12,22
+hey was sind einige gute filme die bald rauskommen,general_quirky,recommendation_movies,12,55
+was machst du mit meinen persönlichen daten,general_quirky,general_quirky,12,12
+ich will notizen machen,general_quirky,lists_createoradd,12,21
+mein wochenplan,calendar_query,calendar_query,32,32
+wissenswertes,general_quirky,general_quirky,12,12
+wikipedia themen,general_quirky,qa_definition,12,26
+wie geht's,general_quirky,general_quirky,12,12
+hunderassen die allergisch sind,general_quirky,general_quirky,12,12
+olly ich hatte heute einen unfall,general_quirky,general_quirky,12,12
+ich bin heute bei marktkauf gewesen,general_quirky,general_quirky,12,12
+sarkastische witze,general_joke,general_joke,25,25
+unterhaltungs nachrichten,news_query,news_query,22,22
+mobil,general_quirky,general_quirky,12,12
+ich bin im regen durchnässt worden,general_quirky,general_quirky,12,12
+mode,general_quirky,news_query,12,22
+plan,calendar_query,calendar_query,32,32
+ich brauche antworten,general_quirky,email_sendemail,12,33
+heute muss als mein schummeltag markiert werden,calendar_set,calendar_set,50,50
+heute war ein ermüdender tag,general_quirky,general_quirky,12,12
+magst du meine freundin,general_quirky,general_quirky,12,12
+erzähle mir von helene fischer,general_quirky,qa_factoid,12,49
+was ist los in berlin,recommendation_events,recommendation_events,6,6
+was ich zu dieser zeit machte,general_quirky,general_quirky,12,12
+wie war dein tag,general_quirky,general_quirky,12,12
+der kosmos,general_quirky,general_quirky,12,12
+wann startet die heizung in der wohnung,general_quirky,calendar_query,12,32
+witze,general_joke,general_joke,25,25
+kochen,cooking_query,cooking_recipe,37,9
+prognose raten,general_quirky,weather_query,12,13
+autos,general_quirky,news_query,12,22
+sehr hektisch,general_quirky,general_quirky,12,12
+derzeitige empfehlung bezüglich google seo,general_quirky,news_query,12,22
+witz des tages,general_joke,general_joke,25,25
+im supermarkt benötigte tutaten,general_quirky,general_quirky,12,12
+wie läufts,general_quirky,general_quirky,12,12
+wenn du über drei dinge reden könntest worüber wäre es,general_quirky,general_quirky,12,12
+weltraumforschung,general_quirky,general_quirky,12,12
+bücher,general_quirky,play_audiobook,12,20
+über promis tratschen,general_quirky,general_quirky,12,12
+olly wie sieht meine terminplanung für den rest der woche aus,calendar_query,calendar_query,32,32
+lösche alle besprechungen für diesen tag,calendar_remove,calendar_remove,30,30
+bitte stell meine tägliche aufstehzeit auf zehn uhr morgens in meinem kalender,calendar_set,calendar_set,50,50
+was ist meine nächste besprechung,calendar_query,calendar_query,32,32
+lösche meinen täglichen siebzehn uhr anruf,calendar_remove,calendar_remove,30,30
+buch ein treffen mit charlotte,calendar_set,calendar_set,50,50
+wann ist es,general_quirky,datetime_query,12,0
+habe ich heute events,calendar_query,calendar_query,32,32
+habe ich etwas für morgen gebucht,calendar_query,calendar_query,32,32
+erzähle von meinen veranstaltungen,calendar_query,calendar_query,32,32
+entferne alle veranstaltungen von meinem kalender,calendar_remove,calendar_remove,30,30
+olly erinnere mich an das picknick im mauerpark,calendar_set,calendar_set,50,50
+olly ich möchte zu der filmvorführung im freien an diesem wochenende gehen erinnere mich,calendar_set,calendar_set,50,50
+hast du eine treffen mit tom für morgen um einundzwanzig uhr erstellt,calendar_query,calendar_set,32,50
+lösch alle veranstaltungen für die nächsten fünf tage,calendar_remove,calendar_remove,30,30
+habe ich irgendwelche besprechungen morgen um einundzwanzig uhr,calendar_query,calendar_query,32,32
+erstelle eine veranstaltung in meinem kalendar,calendar_set,calendar_set,50,50
+bitte lösche die letzte veranstaltung die ich besucht habe,calendar_remove,calendar_remove,30,30
+habe ich irgendwelche anstehenden events in meinem kalender,calendar_query,calendar_query,32,32
+wann ist der nächste termin in meinem kalendar,calendar_query,calendar_query,32,32
+lösche diese geburtstagsfeier morgen um vierzehn uhr,calendar_remove,calendar_remove,30,30
+lösche alle veranstaltung aus mein kalender,calendar_remove,calendar_remove,30,30
+es ist sehr schwierig,general_quirky,general_quirky,12,12
+ich brauche jeden einzelnen tag um neun uhr eine erinnerung,calendar_set,calendar_set,50,50
+wer soll ich erwarten bei der besprechung heute zu sein,calendar_query,calendar_query,32,32
+setz die montagsbesprechung für jeden montag in den kalender,calendar_set,calendar_set,50,50
+speichere einen hinweis für den sechsten märz über ein gesellschaftstreffen um elf uhr,calendar_set,calendar_set,50,50
+gibt es morgen abend irgendein programm,calendar_query,calendar_query,32,32
+lösche alle veranstaltungen und informationen,calendar_remove,calendar_remove,30,30
+lösche alle veranstaltungen und pläne,calendar_remove,calendar_remove,30,30
+wann ist mein termin plan morgen,calendar_query,calendar_query,32,32
+erinnere mich an mein treffen morgen um zehn uhr,calendar_set,calendar_set,50,50
+wie viele besprechungen habe ich diese woche,calendar_query,calendar_query,32,32
+mach kalender leer,calendar_remove,calendar_remove,30,30
+erinnere mich eine stunde vor dem treffen das ich morgen früh habe,calendar_set,calendar_set,50,50
+was ist morgen nachmittag für mich geplant,calendar_query,calendar_query,32,32
+bevorstehende veranstaltungen,calendar_query,calendar_query,32,32
+letzte veranstaltungen,calendar_query,calendar_query,32,32
+termin anna morgen erstellen,calendar_set,calendar_set,50,50
+sind da irgendwelche bevorstehenden termine in meinem kalender,calendar_query,calendar_query,32,32
+setz eine erinnerung für urlaub nächsten monat,calendar_set,calendar_set,50,50
+leere kalender für diesen monat,calendar_remove,calendar_remove,30,30
+stell einen wecker für jetzt in zwei stunden bitte,alarm_set,alarm_set,48,48
+habe ich diesen samstag zwischen zwei und sechzehn uhr etwas zu tun,calendar_query,calendar_query,32,32
+bitte lösche alle meine kalendertermine für den rest des tages,calendar_remove,calendar_remove,30,30
+welche ereignisse sind heute in meinem kalender eingetragen,calendar_query,calendar_query,32,32
+was sind meine termine,calendar_query,calendar_query,32,32
+mache ich verfügen über irgendwelche erinnerungen heute,calendar_query,calendar_query,32,32
+entferne mein heutiges treffen am abend,calendar_remove,calendar_remove,30,30
+erinnere mich am morgen des zwölften an meinen arzttermin,calendar_set,calendar_set,50,50
+brunch samstag morgen mit chris und anna und andre,calendar_set,calendar_set,50,50
+erinnere mich daran ria heute um sechs uhr abends zu treffen,calendar_set,calendar_set,50,50
+wann ist das treffen mit meinem chef nächste woche,calendar_query,calendar_query,32,32
+lösche die hochzeit am zehnten aus meinem kalender,calendar_remove,calendar_remove,30,30
+nächste veranstaltungen,calendar_query,calendar_query,32,32
+erinnere mich an meine verabredung morgen,calendar_set,calendar_set,50,50
+sechzehn uhr,calendar_set,alarm_set,50,48
+olly ich werde meinen therapeuten jeden donnerstag um vierzehn uhr sehen,calendar_set,calendar_set,50,50
+absagen,calendar_remove,calendar_remove,30,30
+ich will zu sandras geburtstag am samstag um zehn uhr abends gehen,calendar_set,calendar_set,50,50
+was habe ich nächste woche so vor,calendar_query,calendar_query,32,32
+sag mir das datum der geschäfts einführung meines freundes felix,calendar_query,qa_factoid,32,49
+bitte trag ferien in kuba am zweiten april in meinen kalender ein,calendar_set,calendar_set,50,50
+erinnern um acht p. m um meine medizin zu nehmen,calendar_set,calendar_set,50,50
+wann fängt das spiel an,calendar_query,general_quirky,32,12
+was habe ich für morgen geplant das ich absagen muss,calendar_remove,calendar_query,30,32
+erstelle eine erinnerung für die besprechung morgen um fünfzehn uhr,calendar_set,calendar_set,50,50
+erinnere mich heb die wäsche auf nächste woche montag,calendar_set,calendar_set,50,50
+stelle eine erinnerung ein dass ich morgen meinen vater besuchen muss,calendar_set,calendar_set,50,50
+trage für diesen nachmittag ein wiedersehenstreffen in den kalender ein,calendar_set,calendar_set,50,50
+wann ist mein erster termin heute,calendar_query,calendar_query,32,32
+was steht heute auf meinem terminkalender,calendar_query,calendar_query,32,32
+erinnnere mich an mein mittagessen mit joe morgen,calendar_set,calendar_set,50,50
+kannst du den standort für diese veranstaltung auf das haus meiner schwester einstelltn,calendar_set,calendar_set,50,50
+lösche veranstaltung,calendar_remove,calendar_remove,30,30
+benny geburtstag am zwölften juli meinem kalender hinzufügen,calendar_set,calendar_set,50,50
+abendessen löschen,calendar_set,calendar_remove,50,30
+welche veranstaltungen habe ich im märz in meinem kalender,calendar_query,calendar_query,32,32
+wann findet die hochzeit statt,calendar_query,calendar_query,32,32
+welche treffen sind im märz verfügbar,calendar_query,calendar_query,32,32
+zweiundzwanzig märz zwanzig siebzehn checken,calendar_query,calendar_query,32,32
+ergänze valentinstag mit ihr morgen,calendar_set,calendar_set,50,50
+geburtstag mit mama nächsten monat hinzufügen,calendar_set,calendar_set,50,50
+erstelle ein treffen mit freund,calendar_set,calendar_set,50,50
+besuche party vor dem meeting,calendar_set,calendar_set,50,50
+bitte erstelle eine veranstaltung nur mit diesen leuten,calendar_set,calendar_set,50,50
+erinnere dich daran mich um zwölf uhr vom flughafen abzuholen ich habe um fünfzehn uhr eine besprechung,calendar_set,calendar_set,50,50
+setze ein treffen mit jack am zehnten märz,calendar_set,calendar_set,50,50
+morgen abend mit spielern treffen um sieben,calendar_set,calendar_set,50,50
+was sind meine aktuellen alarme,calendar_query,alarm_query,32,23
+erinnere mich an mein interview morgen,calendar_set,calendar_set,50,50
+anstehende veranstaltungen,calendar_query,calendar_query,32,32
+veranstaltungen erstellen,calendar_set,calendar_set,50,50
+plane eine besprechung am dienstag ein,calendar_set,calendar_set,50,50
+was wir bei dem gestrigen treffen erfahren haben,calendar_query,news_query,32,22
+bitte ergänze mein nächstes treffen,calendar_set,calendar_set,50,50
+erinnerung morgen für diese veranstaltung,calendar_set,calendar_set,50,50
+anruf und treffen ausmachen,calendar_set,calendar_remove,50,30
+wann ist der abrechnungszeitraum,calendar_query,calendar_query,32,32
+stelle einen timer auf fünf minuten für die cookies,calendar_set,alarm_set,50,48
+wann beginnt das hockeyspiel am freitag,calendar_query,calendar_query,32,32
+lösch alle meine kalender veranstaltungen,calendar_remove,calendar_remove,30,30
+morgen am morgen erinnern eine pizza zu machen,calendar_set,calendar_set,50,50
+trage für jeden freitag ein zwölf uhr mittags gebet ein,calendar_set,calendar_set,50,50
+habe ich irgendwelche ausstehenden erinnerungen,calendar_query,calendar_query,32,32
+vergiss nicht mich an den geburtstag meines bruders am zwanzigsten april zu erinnern,calendar_set,calendar_set,50,50
+ich möchte eine verabredung zum mittagessen mit michael andi und bernd hinzufügen,calendar_set,calendar_set,50,50
+erinnere mich an das anstehende treffen um vier uhr heute,calendar_set,calendar_set,50,50
+liste alle kommenden treffen auf,calendar_set,calendar_query,50,32
+finde und lösche alle wochenend veranstaltungen mit adam krause,calendar_remove,calendar_remove,30,30
+notiere dieses event in meinem kalender,calendar_set,calendar_set,50,50
+habe ich irgendein mahnungen,calendar_query,calendar_query,32,32
+stell sicher mich daran zu erinnern,calendar_set,calendar_set,50,50
+hallo setze eine erinnerung für ein treffen morgen früh zehn uhr,calendar_set,calendar_set,50,50
+zeige mir die ausstehenden erinnerungen,calendar_query,calendar_query,32,32
+erzähle mir über das treffen das ich diese woche habe,calendar_query,calendar_query,32,32
+ich habe einen geburtstag am montag notiere das ereignis,calendar_set,calendar_set,50,50
+ich muss am fünfzehnten einen flug nehmen,calendar_set,calendar_set,50,50
+trage für heute abend eine veranstaltung ein,calendar_set,calendar_set,50,50
+bernds geburtstag jeden zweiten juni wiederholen,calendar_set,calendar_set,50,50
+erinnere mich daran jeden freitag zum laden zu gehen,calendar_set,calendar_set,50,50
+lösche lebensmittel kaufen aus meinen terminen für samstag,calendar_remove,calendar_remove,30,30
+lösche alle daten in meinem kalender,calendar_remove,calendar_remove,30,30
+was habe ich montags zu tun,calendar_query,calendar_query,32,32
+wiederhole eine veranstaltung in meinem kalender,calendar_set,calendar_set,50,50
+gibt es einen weg meinen kalender für den monat zu bereinigen,calendar_remove,calendar_set,30,50
+füge mein training am vierten februar um vierzehn uhr im schlosspark hinzu,calendar_set,calendar_set,50,50
+erinnere mich an sandras geburtstag,calendar_set,calendar_set,50,50
+wie sieht der heutige terminplan aus,calendar_query,calendar_query,32,32
+füge eine notiz zu teilnehmen hinzu,calendar_set,calendar_set,50,50
+erstelle eine wiederholende erinnering für meine aufgaben jeden tag um acht uhr,calendar_set,calendar_set,50,50
+meine termine,calendar_remove,calendar_query,30,32
+muss ich heute zwischen acht uhr und siebzehn uhr irgendwo sein,calendar_query,alarm_query,32,23
+welche erinnerungen kommen diese woche,calendar_query,calendar_query,32,32
+füge veranstaltung fußballtraining siebzehn uhr heute abend hinzu,calendar_set,calendar_set,50,50
+wie sieht morgen mein morgen aus,calendar_query,calendar_query,32,32
+wer wird an der besprechung diesen freitag teilnehmen,calendar_query,calendar_query,32,32
+was ist zwischen dem zweiten und dem fünfzehnten passiert,news_query,news_query,22,22
+nenne mir alle veranstaltungen zwischen heute und dem einundzwanzigsten,calendar_query,calendar_query,32,32
+gib mir bitte aller dreißig minuten ein update zur wahl,calendar_set,news_query,50,22
+habe ich irgendwelche termine heute,calendar_query,calendar_query,32,32
+öffne den kalendar und lösche alle termine,calendar_remove,calendar_remove,30,30
+erinnere mich an meinen biologietest an der fhk am freitag,calendar_set,calendar_set,50,50
+was ist am november zwanzigsten,calendar_query,datetime_query,32,0
+was ist das nächste nena konzert geplant,calendar_query,calendar_query,32,32
+was muss ich über die show wissen,calendar_query,calendar_query,32,32
+wer und warum ist heute abend im theater,recommendation_events,calendar_query,6,32
+gibt es irgendwelche erinnerungen für heute,calendar_query,calendar_query,32,32
+märz sieben elternabend,calendar_remove,calendar_set,30,50
+habe ich in meinem kalender heute ein meeting,calendar_query,calendar_query,32,32
+in zehn minuten zur arbeit gehen,calendar_set,general_quirky,50,12
+wie viele treffen habe ich nächste woche,calendar_query,calendar_query,32,32
+reserviere fürs abendessen am vierzehnten februar im restaurant,calendar_set,calendar_set,50,50
+was passiert dieses wochenende,calendar_query,calendar_query,32,32
+wird diese woche der müll abgeholt,calendar_query,email_query,32,44
+zu welcher uhrzeit startet das abendessen heute abend,calendar_query,calendar_query,32,32
+wann ist meine nächste erinnerung,calendar_query,calendar_query,32,32
+nenne mir alle details über das turnier am zweiundzwanzigsten märz,calendar_query,calendar_query,32,32
+plane eine mittagessen bei rizzo im zentrum für morgen mittag,calendar_set,calendar_set,50,50
+habe ich freitag einen termin,calendar_query,calendar_query,32,32
+schick mir eine erinnerung daran meinen hund um dreizehn uhr vom tierfriseur abzuholen,calendar_set,calendar_set,50,50
+wann ist mein treffen,calendar_set,calendar_query,50,32
+olly email meine termine zum umplanen,email_sendemail,email_sendemail,33,33
+alter mittagstisch wird jeden freitag wiederholt,calendar_set,calendar_set,50,50
+aktualisiere meinen kalender das meeting zu berücksichtigen,calendar_set,calendar_set,50,50
+wann fahren morgen züge,calendar_query,transport_query,32,42
+erstelle eine erinnerung daran johann abzuholen für fünfzehn uhr,calendar_set,calendar_set,50,50
+sage meine besprechung am vierzehnten ab,calendar_remove,calendar_remove,30,30
+gib mir informationen über das konzert am dienstag abend,calendar_query,calendar_query,32,32
+erinnere mich an das treffen für pauls pensionierung erstelle eine erinnerung für dienstag fünfzehn uhr,calendar_set,calendar_set,50,50
+was passiert bei dieser veranstaltung,recommendation_events,calendar_query,6,32
+was habe ich heute morgen zwischen zehn und zwölf uhr zu tun,calendar_query,calendar_query,32,32
+um wieviel uhr ist die abendbesprechung die ich mit johannes habe,calendar_query,calendar_query,32,32
+eine erinnerung einstellen dass ich jeden morgen um fünf uhr aufstehen muss,alarm_set,calendar_set,48,50
+mehr über das konzert im gleis zweiundzwanzig,calendar_query,calendar_query,32,32
+olly erinnere mich heute abend an das treffen morgen,calendar_set,calendar_set,50,50
+treffen am mittwoch,calendar_set,calendar_set,50,50
+füge mein kommendes treffen meinem kalender hinzu,calendar_set,calendar_set,50,50
+lösche mein kalender,calendar_remove,calendar_remove,30,30
+bitte lösche das treffen mit john heute abend,calendar_remove,calendar_remove,30,30
+erinnerung mittwochs um zwei p. m.,calendar_set,calendar_set,50,50
+stimmt es da susans geburtstag am ersten märz ist,calendar_query,calendar_query,32,32
+hast du morgiges treffen meinem kalendar hinzugefügt,calendar_query,calendar_set,32,50
+füge mittagessen treffen jeden tag mittags diese woche hinzu,calendar_set,calendar_set,50,50
+erinnere mich an das treffen am freitag um drei p. m.,calendar_set,calendar_set,50,50
+lösche alles aus dem kalender,calendar_remove,calendar_remove,30,30
+leere mein kalender morgen,calendar_remove,calendar_remove,30,30
+neue benachrichtigungen für treffen in zwei stunden,calendar_set,calendar_set,50,50
+erinnere mich an den kalender,calendar_set,calendar_set,50,50
+habe ich morgen termine,calendar_query,calendar_query,32,32
+ist diese woche lohnwoche,calendar_query,calendar_query,32,32
+lösche alle termine aus meinem kalender,calendar_remove,calendar_remove,30,30
+welche erinnerungen habe ich aktiviert,calendar_query,calendar_query,32,32
+welche nachrichten gibt es heute um sechs uhr fünfundvierzig,calendar_query,news_query,32,22
+lösche die veranstaltung um dreizehn uhr aus meinem plan,calendar_remove,calendar_remove,30,30
+olly erinnere mich daran dass ich in einer woche von heute an um fünf in der bücherei sein muss,calendar_set,calendar_set,50,50
+erinnere mich samstag um fünf in der bücherei zu sien,calendar_set,calendar_set,50,50
+erinnere mich an den anstehenden nationalfeiertag,calendar_set,calendar_set,50,50
+entferne meinen kalendereintrag für dreizehn uhr heute,calendar_remove,calendar_remove,30,30
+stell eine erinnerung an mein treffen um siebzehn uhr,calendar_set,calendar_set,50,50
+bitte füge einen termin in doktor grüns büro für mittwoch neun uhr hinzu,calendar_set,calendar_set,50,50
+was waren die highlights beim fußballspiel heute abend,calendar_query,news_query,32,22
+was ist meine zeitplan für heute,calendar_query,calendar_query,32,32
+wann kommt siri svegler nach berlin,calendar_query,qa_factoid,32,49
+ich möchte etwas zu meinem kalender hinzufügen,calendar_set,calendar_set,50,50
+lösche termin vom kalender und aktualisiere,calendar_remove,calendar_remove,30,30
+welche termine habe ich,calendar_query,calendar_query,32,32
+lösche die nächste veranstaltung im kalender,calendar_remove,calendar_remove,30,30
+lösche termin im kalender,calendar_remove,calendar_remove,30,30
+welche besprechungen habe ich heute zwischen acht und zehn,calendar_query,calendar_query,32,32
+erinnere mich morgen um vierzehn uhr,calendar_set,calendar_set,50,50
+erstelle pool party in jans zuhause diesen samstag,calendar_set,calendar_set,50,50
+event erster januar,calendar_query,calendar_set,32,50
+ich möchte mich morgen mit sarah treffen,calendar_set,calendar_set,50,50
+lösche mein treffen mit lisa am dienstag und donnerstag,calendar_set,calendar_remove,50,30
+donnerstägiges mittagessen aus meinem kalender löschen,calendar_remove,calendar_remove,30,30
+trage einen termin für den fünfzehnten jeden monats ein um mich an das bezahlen meiner internetrechnung zu erinnern,calendar_set,calendar_set,50,50
+füge das folgende datum und uhrzeit zu meinem kalender hinzu,calendar_set,calendar_set,50,50
+wann ist die veranstaltung,calendar_query,calendar_query,32,32
+füge ein event um fünfzehn uhr in friedrichshain berlin am fünften mai für sarah's abschluss,calendar_set,calendar_set,50,50
+wie oft war in im letzten jahr in meetings,calendar_query,calendar_query,32,32
+lösche mein treffen,calendar_remove,calendar_remove,30,30
+ich haben a treffen mit jens von einundzwanzigsten märz unter zehn,calendar_set,calendar_set,50,50
+ich muss ein treffen vorbereiten,calendar_query,calendar_set,32,50
+zeig meine aufkommenden ereignisse,calendar_query,calendar_query,32,32
+lösche den nächsten termin von meinem kalender,calendar_remove,calendar_remove,30,30
+gibt mein kalender an dass ich am ersten april zwanzig uhr siebzehn frei habe,calendar_query,calendar_set,32,50
+setz eine erinnerung für einen wöchentlichen termin,calendar_set,calendar_set,50,50
+makiere den tag zwei tage nach diesem tag als mein urlaub,calendar_set,calendar_set,50,50
+dienstag besprechung mittag,calendar_set,calendar_set,50,50
+habe ich irgendwas für den siebten märz geplant,calendar_query,calendar_query,32,32
+olly plane meinen arzttermin am freitag um vierzehn uhr,calendar_set,calendar_set,50,50
+trage in meinem kalender meine reservierungen fürs abendessen ein,calendar_set,calendar_set,50,50
+setze die info für alberts hochzeit,calendar_set,calendar_set,50,50
+habe ich für heute irgendwelche veranstaltungen in meinem kalender,calendar_query,calendar_query,32,32
+suche nach urlaub an meinem standort,recommendation_events,recommendation_locations,6,19
+suche letzte veranstaltungen an bestimmten tagen,recommendation_events,calendar_query,6,32
+habe ich irgendwelche erinnerungen auf meiner liste,calendar_query,lists_query,32,59
+erinnere mich bitte an,calendar_set,calendar_set,50,50
+bitte stelle einen wecker für,alarm_set,alarm_set,48,48
+muss ich an irgendwelche treffen am montag denken,calendar_set,calendar_query,50,32
+ist der kalender termin falsch,calendar_query,calendar_query,32,32
+entferne alle treffen für den rest der woche,calendar_remove,calendar_remove,30,30
+füge im kalender am zweiten mai mary's geburtstag hinzu und wiederhole jedes jahr,calendar_set,calendar_set,50,50
+erinnere mich daran meine regenjacke mitzunehmen weil es regnen könnte,calendar_set,calendar_set,50,50
+erinnere mich daran heute meinen schirm mitzunehmen,calendar_set,calendar_set,50,50
+was ist am vierzehnten juni zweitausendundsiebzehn geplant,calendar_query,calendar_query,32,32
+lösche bitte alle erinnerungen von sonntag,calendar_remove,calendar_remove,30,30
+erinner mich ans abendessen am donnerstag im bistro italia,calendar_set,calendar_set,50,50
+erstelle erinnerung,calendar_set,calendar_set,50,50
+kalender termin mit diesen leuten,calendar_set,calendar_set,50,50
+lösche meinen plan für heute,calendar_remove,calendar_remove,30,30
+details,calendar_query,general_quirky,32,12
+nenne mir die aktuellsten veranstaltungen,calendar_query,calendar_query,32,32
+wann sind die treffen,calendar_query,calendar_query,32,32
+wann ist die party,calendar_query,calendar_query,32,32
+erinnere mich an alle veranstaltungen nächste woche,calendar_set,calendar_set,50,50
+klaus hochzeitstag,calendar_set,calendar_set,50,50
+wann sind ferien im aktuellen monat,calendar_query,calendar_query,32,32
+erinnere mich an die besprechung am dienstag,calendar_set,calendar_set,50,50
+ich möchte dass du mich an das abendprogramm erinnerst,calendar_set,calendar_set,50,50
+erics geburtstag löschen,calendar_remove,calendar_remove,30,30
+ok google zeitplan a treffen mit die v. s. der abteilung am der einundzwanzigsten märz zweitausendsiebzehn,calendar_set,calendar_set,50,50
+ich brauche ein treffen am donnerstag mit dem finanzvorstand,calendar_set,calendar_set,50,50
+entferne die veranstaltung geburtstag aus meinem kalender,calendar_remove,calendar_remove,30,30
+erinnere mich am fünfter april gibt es ein treffen mit dem chef,calendar_set,calendar_set,50,50
+erinnerung für visumantrag donnerstag,calendar_set,calendar_set,50,50
+leer den dritten juli aus dem kalender,calendar_remove,calendar_remove,30,30
+stelle einen wecker für dienstag sechzehn uhr,alarm_set,alarm_set,48,48
+stell eine terminerinnerung für monas hochzeit am dienstag ein,calendar_set,calendar_set,50,50
+stelle ein sich wiederholendes ereignis auf den kalender,calendar_set,calendar_set,50,50
+was mache ich dieses wochenende,calendar_query,calendar_query,32,32
+habe ich nächste woche einen termin,calendar_query,calendar_query,32,32
+lösche tag nach veranstaltung,calendar_remove,calendar_remove,30,30
+erinnere mich an notwendige veranstaltungen,calendar_set,calendar_set,50,50
+ergänze meine schwester zu besuch in meinem familienkalender,calendar_set,calendar_set,50,50
+wo befindet sich das kongresszentrum,qa_factoid,qa_factoid,49,49
+irgendein treffen am freitag,calendar_query,calendar_query,32,32
+erinnere an termin den ich samstag um zwölf uhr,calendar_set,calendar_set,50,50
+habe ich diesen monat irgendwelche events,calendar_query,calendar_query,32,32
+olly nimm einen kalendereintrag für nächstens samstag um zehn uhr vor,calendar_set,calendar_set,50,50
+erinnere mich an das treffen an den zweiundzwanzigsten januar,calendar_set,calendar_set,50,50
+erinnere mich ans treffen in eine stunde,calendar_set,calendar_set,50,50
+eine stunde erinnern zum treffen,calendar_set,calendar_set,50,50
+spiel etwas radio,play_radio,play_radio,36,36
+zeige radio,play_radio,play_radio,36,36
+öffne pandora spiel den rock sender,play_radio,play_radio,36,36
+öffne iheartradio rock,play_radio,play_radio,36,36
+spiele gute witze,play_radio,play_audiobook,36,20
+starte radio,play_radio,play_radio,36,36
+shoutcast.com,play_radio,play_radio,36,36
+mach das radio an,play_radio,play_radio,36,36
+stell bitte den radio kanal ein,play_radio,play_radio,36,36
+ich würde gerne den radiosender hören,play_radio,play_radio,36,36
+schalte das radio an,play_radio,play_radio,36,36
+kannst du den f. m. achthundertneunzig radiokanal starten,play_radio,play_radio,36,36
+spiele melodien,play_radio,play_music,36,45
+stelle es auf die frequenz neunhundertsiebenundneunzig ein,play_radio,play_radio,36,36
+starte den sender neunhunderteinundfünfzig,play_radio,play_radio,36,36
+bitte spiel das radio,play_radio,play_radio,36,36
+radio an,play_radio,play_radio,36,36
+geh zu meinen lieblings radio sender,play_radio,play_radio,36,36
+spiele song smile,play_music,play_music,45,45
+spiel neunhunderteinundsiebzig,play_radio,play_radio,36,36
+spiel inforadio bitte,play_radio,play_radio,36,36
+spiel b. b. c. radio one,play_radio,play_radio,36,36
+öffne bitte mein f. m. radio und spiel neunhundertachtundsiebzig,play_radio,play_radio,36,36
+olly ich möchte einen sender hören der r n b spielt,play_radio,play_radio,36,36
+spiele das fussball spiel im radio,play_radio,play_radio,36,36
+wie viele meiner sport podcast haben neue folgen die ich noch nicht gehört habe,play_radio,play_podcasts,36,58
+öffne pandora und spiel top hits,play_radio,play_music,36,45
+spiel bitte beliebte musik auf pandora,play_radio,play_music,36,45
+spiel berliner radio für mich,play_radio,play_radio,36,36
+besorg mir radio musik von kamp f. m.,play_radio,play_radio,36,36
+spiel bitte top country,play_music,play_music,45,45
+spiele radio musik programme,play_radio,play_radio,36,36
+spiele die aktuelle wiedergabeliste,play_music,play_music,45,45
+finde den tahnee podcast auf spotify,play_radio,play_podcasts,36,58
+spiel den sender einhundertzwei komma vier the buzz,play_radio,play_radio,36,36
+f. m. spielen,play_radio,play_game,36,51
+spiel die anke engelke episode von blind date,play_radio,play_podcasts,36,58
+spiele dreiundneunzig punkt fünf f. m.,play_radio,play_radio,36,36
+spiel einen nachrichten radiosender,play_radio,play_radio,36,36
+ok google kannst du ryan seacrest starten,play_radio,qa_factoid,36,49
+spiel meinen lieblings sender um neun uhr abends,play_radio,play_radio,36,36
+radio pdr,play_radio,play_radio,36,36
+spielen die programme in dieser erforderlichen polster,play_radio,play_radio,36,36
+welche sender spielen heute früh gute musik,play_radio,play_radio,36,36
+stimme auf neunundneunzig punkt fünf f. m. ein,play_radio,play_radio,36,36
+spiel einen countrysender,play_radio,play_radio,36,36
+mach die billy bob show an,play_radio,play_radio,36,36
+spielen b. b. c. radio vier,play_radio,play_radio,36,36
+spiel dieses programm,play_radio,play_radio,36,36
+spiel mein lieblings harry potter hörbuch,play_audiobook,play_audiobook,20,20
+können sie auf den anschalten tiur vermes hörbuch,play_audiobook,play_audiobook,20,20
+starte das kapitel sieben von alma,play_audiobook,play_audiobook,20,20
+hörbuch geschichte von rom fortsetzen,play_audiobook,play_audiobook,20,20
+kannst du die musik pausieren,play_audiobook,play_music,20,45
+fahre mit dem abspielen von meinem hörbuch fort,play_audiobook,play_audiobook,20,20
+pause die hörbuch,play_audiobook,play_audiobook,20,20
+öffne den davinci code dort wo ich zuletzt aufgehört habe,play_audiobook,play_audiobook,20,20
+spiele johns hörbuch ab,play_audiobook,play_audiobook,20,20
+spiele das zuletzt hinzugefügte hörbuch,play_audiobook,play_audiobook,20,20
+spiel audio,play_audiobook,play_music,20,45
+setz mein hörbuch von dort fort wo ich zuletzt aufgehört habe,play_audiobook,play_audiobook,20,20
+fahre mit dem zuletzt gespielten hörbuch fort,play_audiobook,play_audiobook,20,20
+kürzlich pausiertes audio spielen,play_audiobook,play_music,20,45
+lebenslauf meine hörbuch vom anfang des letzten kapitel i gestartet,play_audiobook,play_audiobook,20,20
+spiel the circle ab,play_audiobook,play_audiobook,20,20
+lass uns eine fünf minuten pause haben,play_audiobook,play_audiobook,20,20
+beginne das buch zu lesen,play_audiobook,play_audiobook,20,20
+setze das letzte königreich fort,play_audiobook,play_audiobook,20,20
+öffne das harry potter hörbuch und spiel vom letzten stand ab,play_audiobook,play_audiobook,20,20
+such nach dieser wiedergabe im hörbuch und spiel sie für mich ab,play_audiobook,play_audiobook,20,20
+bitte fortsetzen der wiedergabe von diesem hörbuch,play_audiobook,play_audiobook,20,20
+the martian von downpour anhören,play_audiobook,play_music,20,45
+beginne mit dem lesen von fifty shades of grey ab dem kapitel vier,play_audiobook,play_audiobook,20,20
+spiele das lied vom hörbuch von michael jackson weiter,play_audiobook,play_audiobook,20,20
+spiel das hörbuch schneewittchen,play_audiobook,play_audiobook,20,20
+kannst du das hörbuch the circle fortsetzen,play_audiobook,play_audiobook,20,20
+hörbuch spiel jai ho,play_audiobook,play_audiobook,20,20
+mache weiter und eine stunde history lesen,play_audiobook,play_audiobook,20,20
+spiele er ist wieder da,play_audiobook,play_music,20,45
+lesen beginnen dass johann wolfgang buch,play_audiobook,play_audiobook,20,20
+fahre bitte mit meinem hörbuch fort,play_audiobook,play_audiobook,20,20
+spiele book of vitamins weiter,play_audiobook,play_audiobook,20,20
+setze die zwei türme fort,play_audiobook,play_audiobook,20,20
+spiele dieses hörbuch von hier ab,play_audiobook,play_audiobook,20,20
+sag mir wie man knoblauchbrot macht,cooking_recipe,cooking_recipe,9,9
+wie lange muss man pasta kochen,cooking_recipe,cooking_recipe,9,9
+was kann ich mit brokkoli und hähnchen kochen,cooking_recipe,cooking_recipe,9,9
+leite mich zum kochen an,cooking_recipe,cooking_recipe,9,9
+wie kann man nudeln kochen,cooking_recipe,cooking_recipe,9,9
+welche zutat kann man verwenden um weißwein zu ersetzen,cooking_recipe,cooking_recipe,9,9
+kannst du bitte videos zum kochen von italienischem essen anzeigen,cooking_recipe,cooking_recipe,9,9
+olly wie mache ich hummersuppe,cooking_recipe,cooking_recipe,9,9
+wie kocht man pav bhaji,cooking_recipe,cooking_recipe,9,9
+was ist das sexieste essen,cooking_recipe,cooking_recipe,9,9
+wie lange sollte ich pizza im ofen backen damit sie perfekt knusprig wird,cooking_recipe,cooking_recipe,9,9
+wie kocht man schwarzäugige erbsen,cooking_recipe,cooking_recipe,9,9
+gib mir rezepte,cooking_recipe,cooking_recipe,9,9
+verwende google um mir zu zeigen wie man kocht,cooking_recipe,cooking_recipe,9,9
+gib mir die besten kochideen,cooking_recipe,cooking_recipe,9,9
+zeig mir keks rezepte,cooking_recipe,cooking_recipe,9,9
+wie macht man kekse,cooking_recipe,cooking_recipe,9,9
+wie viele cups sind ein quart,cooking_recipe,qa_maths,9,39
+wie backe ich eine kartoffel,cooking_recipe,cooking_recipe,9,9
+such nach einem pizza rezept,cooking_recipe,cooking_recipe,9,9
+wie macht man hackbraten,cooking_recipe,cooking_recipe,9,9
+finde mir ein rezept für hühnernudelsuppe,cooking_recipe,cooking_recipe,9,9
+suche nach glutenfreien gerichten,cooking_recipe,news_query,9,22
+zeig mir wie man ein rezept kocht,cooking_recipe,cooking_recipe,9,9
+wie lange lasse ich einen eiskuchen ruhen,cooking_recipe,cooking_recipe,9,9
+wie kocht man ein vierkäseomelett,cooking_recipe,cooking_recipe,9,9
+hol mir ein rezept zur zubereitung für einen hotdog,cooking_recipe,cooking_recipe,9,9
+kochtopf rezept für hühnchen alfredo,cooking_recipe,cooking_recipe,9,9
+kannst du ein rezept für spaghetti aufrufen,cooking_recipe,cooking_recipe,9,9
+rufe ein rezept für truthahn fleischbällchen auf,cooking_recipe,cooking_recipe,9,9
+rezepte,cooking_recipe,cooking_recipe,9,9
+wie lange röste ich hühnerbrust,cooking_recipe,general_quirky,9,12
+rezept für krabbenfleisch,cooking_recipe,cooking_recipe,9,9
+ich brauche ein paar ideen für ein mexikanisches abendessen,cooking_recipe,cooking_recipe,9,9
+keine kommentare mehr,cooking_recipe,lists_remove,9,53
+wie lautet die kochzeit für gekochte eier,cooking_recipe,cooking_recipe,9,9
+finde ein einfaches rezept für mandelmilch,cooking_recipe,cooking_recipe,9,9
+finde ein rezept für hühnchenauflauf,cooking_recipe,cooking_recipe,9,9
+schau das rezept für das gericht nach,cooking_recipe,cooking_recipe,9,9
+spiele schach mit mir,play_game,play_game,51,51
+mir ist nach schach spielen kannst du das spielen,play_game,play_game,51,51
+wie wärs mit einem spiel schach,play_game,play_game,51,51
+spiel solitaire,play_game,play_music,51,45
+spiel ein renn spiel,play_game,play_game,51,51
+lass uns pinball spielen,play_game,play_game,51,51
+spiel spider,play_game,play_music,51,45
+möchtest du ein spiel mit mir spielen,play_game,play_game,51,51
+ich möchte dass du mein fußball spiel ab dem fünften level spielst,play_game,play_game,51,51
+ich möchte ein wissensspiel spielen,play_game,play_game,51,51
+finde das spiel,play_game,play_game,51,51
+spiele fortnite mit mir,play_game,play_game,51,51
+lass uns das puzzle lösen,play_game,general_quirky,51,12
+öffne papa pear saga,play_game,play_audiobook,51,20
+lass uns dame spielen,play_game,play_game,51,51
+spiel spiele,play_game,play_game,51,51
+kannst du die rolle eines gegners annehmen in einem world of warcraft spiel,play_game,play_game,51,51
+spiel bitte schach mit mir,play_game,play_game,51,51
+kannst du rate das lied spielen,play_game,play_music,51,45
+poker mit mir spielen,play_game,play_game,51,51
+lass uns millionaires spielen,play_game,play_game,51,51
+lass uns tic tac toe spielen,play_game,play_game,51,51
+liste die dinge auf meiner einkaufs liste auf olly,lists_query,lists_query,59,59
+ich möchte meine reise nach köln nächste woche absagen,lists_remove,calendar_remove,53,30
+was steht heute auf meiner einkaufs liste,lists_query,lists_query,59,59
+streiche brot von meiner einkaufs liste,lists_remove,lists_remove,53,53
+füge vodka meiner partyeinkaufs liste hinzu,lists_query,lists_createoradd,59,21
+entferne eine liste von dingen die ich kaufen will,lists_remove,lists_remove,53,53
+kannst du eine neue liste erstellen,lists_createoradd,lists_createoradd,21,21
+lösche die liste mit eingekauften lebensmitteln von letzter woche,lists_remove,lists_remove,53,53
+es kommt auf die betrachtung an,lists_remove,general_quirky,53,12
+liste löschen,lists_remove,lists_remove,53,53
+liste machen,lists_createoradd,lists_createoradd,21,21
+von welchen supermärkten habe ich eine liste gemacht,lists_query,lists_query,59,59
+was sind meine listen,lists_query,lists_query,59,59
+welche listen sind verfügbar,lists_query,lists_query,59,59
+finde liste und entferne äpfel,lists_remove,lists_remove,53,53
+lösch meine list mit alten englischen liedern,lists_remove,lists_remove,53,53
+bitte lösche eine liste,lists_remove,lists_remove,53,53
+füge diesen artikel zur liste hinzu,lists_createoradd,lists_createoradd,21,21
+was waren die letzten fünf listen die ich gemacht habe,lists_query,lists_query,59,59
+sende mir die letzte liste die hochgeladen wurde,lists_query,lists_query,59,59
+mach eine liste von zahlen für mich,lists_createoradd,lists_createoradd,21,21
+erstell bitte eine neue liste für mich,lists_createoradd,lists_createoradd,21,21
+was steht heute auf meiner to do liste,lists_query,lists_query,59,59
+was mache ich heute,general_quirky,general_quirky,12,12
+hake eintrag fünf auf meiner aufgaben liste ab,lists_query,lists_query,59,59
+bitte zeige mir meine liste,lists_query,lists_query,59,59
+entferne die exceldatei von der liste,lists_remove,lists_remove,53,53
+sage mir eine wiedergabeliste,music_query,music_query,57,57
+wie viele lebensmittel auf der liste,lists_query,lists_query,59,59
+die liste soll nicht alle lebensmittel mit dem präfix trocken beinhalten,lists_remove,lists_remove,53,53
+erstelle eine neue liste bis morgen,lists_createoradd,lists_createoradd,21,21
+erstell eine neue liste,lists_createoradd,lists_createoradd,21,21
+setz stift auf eine neue einkaufs liste,lists_createoradd,lists_createoradd,21,21
+bitte entferne diesen gegenstand von der liste,lists_remove,lists_remove,53,53
+füge lebensmittel zur liste hinzu,lists_createoradd,lists_createoradd,21,21
+lese die liste,lists_query,lists_query,59,59
+hol mir meine liste,lists_query,lists_query,59,59
+sag mir welche listen ich habe,lists_query,lists_query,59,59
+lösche dritten gegenstand,lists_remove,lists_remove,53,53
+was beinhaltet die liste,lists_query,lists_query,59,59
+bitte füge diesen artikel zur liste hinzu,lists_createoradd,lists_createoradd,21,21
+zeige verfügbare listen,lists_query,lists_query,59,59
+kannst du mir bitte sagen was auf meiner liste steht,lists_query,lists_query,59,59
+entferne pfeffer von meiner lebensmittel liste,lists_remove,lists_remove,53,53
+füge etwas meiner liste hinzu,lists_createoradd,lists_createoradd,21,21
+entferne diesen gegenstand von meiner liste,lists_remove,lists_remove,53,53
+google übersetze,lists_query,play_audiobook,59,20
+lies nochmal was ich für diese woche auf die to do liste gepackt habe,lists_query,lists_query,59,59
+lies die gegenstände auf der einkaufsliste vor,lists_query,lists_query,59,59
+füge cerealien zu meiner einkaufsliste hinzu,lists_createoradd,lists_createoradd,21,21
+stehen eier auf meiner einkaufs liste,lists_query,lists_query,59,59
+habe ich eine liste für kontakte für die party,lists_query,email_querycontact,59,17
+lösch meine to do liste,lists_remove,lists_remove,53,53
+entferne eintrag von liste,lists_remove,lists_remove,53,53
+bitte füge milch zur einkaufs liste hinzu,lists_createoradd,lists_createoradd,21,21
+würdest du mir bitte meine listen zeigen,lists_query,lists_query,59,59
+öffne listen entferne liste,lists_remove,lists_remove,53,53
+olly was ist als nächstes auf meiner liste,lists_query,lists_query,59,59
+lösche die milch von meiner einkaufs liste,lists_remove,lists_remove,53,53
+bitte sage mir welche listen ich erstellt habe,lists_query,lists_query,59,59
+streich das von der liste,lists_remove,lists_remove,53,53
+lösche es von der liste,lists_remove,lists_remove,53,53
+olly was habe ich sonst auf der liste,lists_query,lists_query,59,59
+füge lebensmittel kaufen meiner erledigungsliste für heute hinzu,lists_createoradd,lists_createoradd,21,21
+sage mir bitte wie ich einen gegenstand entfernen kann,lists_remove,general_quirky,53,12
+kann ich meine listen überprüfen,lists_query,lists_query,59,59
+habe ich eine einkaufs liste gemacht,lists_query,lists_query,59,59
+entferne gegenstand von meiner liste,lists_remove,lists_remove,53,53
+erstelle eine neue liste von,lists_createoradd,lists_createoradd,21,21
+erzähle mir von der liste,lists_query,lists_query,59,59
+entfern bitte die erste liste,lists_remove,lists_remove,53,53
+entferne besprechung für mittwoch früh,calendar_remove,calendar_remove,30,30
+erstelle eine liste meiner offenen rechnungen,lists_createoradd,lists_createoradd,21,21
+lies mir meine liste vor,lists_query,lists_query,59,59
+gib mir meine liste,lists_query,lists_query,59,59
+mach eine liste für die arbeit,lists_createoradd,lists_createoradd,21,21
+bitte lösche die liste mit dem namen kickball,lists_remove,lists_remove,53,53
+ich will diese liste nicht mehr,lists_remove,lists_remove,53,53
+hab ich irgendwas auf meiner to do liste,lists_query,lists_query,59,59
+welche listen sind aktuell verfügbar,lists_query,lists_query,59,59
+entferne die letzte zeile,lists_remove,lists_remove,53,53
+mach eine neue liste für schulutensilien,lists_createoradd,lists_createoradd,21,21
+lösche zeitung anrufen von meiner urlaubsliste,lists_remove,lists_remove,53,53
+lese meine einkaufs liste für heute vor,lists_query,lists_query,59,59
+was ist für heute auf der liste,lists_query,lists_query,59,59
+füge der liste einen posten hinzu,lists_createoradd,lists_createoradd,21,21
+streiche lebensmittel kaufen von der liste,lists_remove,lists_remove,53,53
+uns ist die farbe ausgegangen also streich badezimmer streichen von der liste,lists_remove,lists_remove,53,53
+erinner mich daran mehr seife zu bestellen,lists_createoradd,calendar_set,21,50
+öffne meine liste,lists_query,lists_query,59,59
+entferne das zuletzt gespielte lied,lists_remove,lists_remove,53,53
+füge bitte tom meiner kontaktliste hinzu,email_addcontact,email_addcontact,15,15
+kannst du meine listen vorlesen,lists_query,lists_query,59,59
+hey was sind meine listen,lists_query,lists_query,59,59
+hallo olly was sind meine listen,lists_query,lists_query,59,59
+kannst du mir sagen was die einträge auf meiner lebensmittel liste sind,lists_query,lists_query,59,59
+was ist das auf der liste,lists_query,lists_query,59,59
+sag mir was auf meiner liste steht,lists_query,lists_query,59,59
+entferne eine liste,lists_remove,lists_remove,53,53
+streiche die milch von der einkaufs liste,lists_remove,lists_remove,53,53
+füge milch meiner lebensmittel liste hinzu,lists_createoradd,lists_createoradd,21,21
+entferne die liste mit santana musik,lists_remove,lists_remove,53,53
+was steht auf dieser speziellen liste,lists_query,lists_query,59,59
+kann ich meine arbeits listen sehen,lists_query,lists_query,59,59
+füge das einer liste hinzu,lists_createoradd,lists_createoradd,21,21
+bitte entferne meine to do liste von heute,lists_remove,lists_remove,53,53
+ich möchte keine eier,lists_remove,lists_remove,53,53
+liste die verfügbaren auf,lists_query,lists_query,59,59
+erstelle eine liste von monatlichen lebensmitteln die ich kaufen muss,lists_createoradd,lists_createoradd,21,21
+mein arbeitsplan,calendar_query,calendar_query,32,32
+meine gesundheitsplanung,lists_query,general_quirky,59,12
+gebäck auf die weihnachts liste setzen,lists_createoradd,lists_createoradd,21,21
+lösche die liste mit den zu erledigenden sachen,lists_remove,lists_remove,53,53
+lösche die alte playlist und erstelle eine neue,lists_createoradd,lists_remove,21,53
+liste überprüfen,lists_query,lists_query,59,59
+wie viele gegenstände sind auf meiner to do liste,lists_query,lists_query,59,59
+meine liste überprüfen,lists_query,lists_query,59,59
+kann man eine folge des podcast vorspulen,play_podcasts,play_podcasts,58,58
+spiel die nächste episode ab,play_podcasts,play_podcasts,58,58
+öffne meinen podcast,play_podcasts,play_podcasts,58,58
+weiter zur nächsten folge,play_podcasts,play_podcasts,58,58
+spiel den neuesten reason podcast,play_podcasts,play_podcasts,58,58
+fahre zur nächsten episode fort,play_podcasts,play_podcasts,58,58
+spiel die siebte episode von the morning after,play_podcasts,play_podcasts,58,58
+finde und erstelle eine wiedergabeliste mit den neuesten dance liedern,play_music,play_music,45,45
+arrangiere und spiel alle songs von eminem,play_music,play_music,45,45
+spiele den podcast von vorne,play_podcasts,play_podcasts,58,58
+hey spiel den podcast den ich letzte nacht aufgehört habe,play_podcasts,play_podcasts,58,58
+überspringe zum nächsten podcast,play_podcasts,play_podcasts,58,58
+wiederhole den folgenden podcast,play_podcasts,play_podcasts,58,58
+überspringe zum nächsten podcast,play_podcasts,play_podcasts,58,58
+ich möchte m. c.'s podcast hören,play_podcasts,play_podcasts,58,58
+favorit,play_podcasts,music_query,58,57
+geh weiter bitte,play_podcasts,play_audiobook,58,20
+finde den podcast und spiel ihn ab,play_podcasts,play_podcasts,58,58
+kannst du meine musik datei abspielen,play_music,play_music,45,45
+überspringe zur nächsten episode,play_podcasts,play_podcasts,58,58
+ende diesen podcast und starte einen neuen,play_podcasts,play_podcasts,58,58
+spiele duncan trussel's neusten podcast ab,play_podcasts,play_podcasts,58,58
+spiel die nächste episode,play_podcasts,play_podcasts,58,58
+starte den podcast queerantine,play_podcasts,play_podcasts,58,58
+zeige mir die am besten bewerteten podcasts,play_podcasts,play_podcasts,58,58
+spielen folge auf sachen die sie in der warteschlange kennen sollten,play_podcasts,play_audiobook,58,20
+spiel klassische songs,play_music,play_music,45,45
+spiele den podcast kirche im radio,play_podcasts,play_radio,58,36
+zurück eine folge,play_podcasts,play_podcasts,58,58
+zurückspul knopf,play_podcasts,audio_volume_mute,58,46
+zeige mir die letzte episode,play_podcasts,play_podcasts,58,58
+olly spiel den heavyweight podcast,play_podcasts,play_podcasts,58,58
+spiele den podcast von barack obama der auf dem gerät gespeichert ist,play_podcasts,play_podcasts,58,58
+geh zum podcast netzwerk,play_podcasts,play_podcasts,58,58
+viel mehr klar und themenorientiert,play_podcasts,general_quirky,58,12
+kurz und einfach,play_podcasts,general_quirky,58,12
+spiel die aller neueste episode von levin,play_podcasts,play_podcasts,58,58
+ich möchte diesen podcast hören,play_podcasts,play_podcasts,58,58
+welche neuen filme laufen diese woche in den kino,recommendation_movies,recommendation_movies,55,55
+gibt es in der nähe von berlin hundeshows,recommendation_events,recommendation_events,6,6
+wo ist die nächste kneipe in der stadt,recommendation_locations,recommendation_locations,19,19
+welche konzerte wurden in der nähe angekündigt,recommendation_events,recommendation_events,6,6
+welche filme werden im lokalen kino gezeigt,recommendation_movies,recommendation_movies,55,55
+welche ausstellungen oder veranstaltungen sind im metropoltheater geplant,recommendation_events,recommendation_events,6,6
+welche veranstaltungen finden in der nähe von mir statt,recommendation_events,recommendation_events,6,6
+wohin sollte ich für mexikanisches essen in meiner gegend gehen,recommendation_locations,recommendation_locations,19,19
+ich möchte etwas sushi wo was ist am nächsten,recommendation_locations,takeaway_order,19,16
+suche nach nahegelegenen chinesischen restaurants,recommendation_locations,recommendation_locations,19,19
+wo ist heute abend das food festival,recommendation_events,recommendation_events,6,6
+ich suche ein paar anziehsachen kannst du mir bekleidungsgeschäfte im umkreis von einem kilometer zeigen,recommendation_locations,recommendation_locations,19,19
+wo ist das nächste restaurant,recommendation_locations,recommendation_locations,19,19
+olly sende mir den standort des shops,recommendation_locations,recommendation_locations,19,19
+welche neuen filme sind heute erhältlich,recommendation_movies,recommendation_movies,55,55
+zeige mir irgendeine fressmeile in meiner nähe,recommendation_locations,recommendation_locations,19,19
+irgendwelche guten fahrradläden in augsburg,recommendation_locations,recommendation_locations,19,19
+beste kneipe in lokalen gebiet,recommendation_locations,recommendation_locations,19,19
+sag mir alle lokalen veranstaltungen,recommendation_events,recommendation_events,6,6
+supermarkt in der nähe,recommendation_locations,recommendation_locations,19,19
+welche romantische komödie kann ich in hamburg im kino anschauen,recommendation_movies,recommendation_movies,55,55
+erstelle eine to do liste während wir den nationalpark eifel besuchen,recommendation_events,lists_createoradd,6,21
+was sollte ich unbedingt machen wenn ich den englischen garten besuche,recommendation_events,recommendation_events,6,6
+was passiert um mich herum,recommendation_events,recommendation_events,6,6
+theater in meiner nähe,recommendation_movies,recommendation_events,55,6
+welche buchmesse veranstaltungen nächste woche in stattfinden frankfurt,recommendation_events,recommendation_events,6,6
+welches ist das nächste kino dass den neuen matthias schweighöfer film spielt,recommendation_movies,recommendation_movies,55,55
+welche veranstaltungen gibt es in berlin,recommendation_events,recommendation_events,6,6
+logan,recommendation_movies,general_quirky,55,12
+wer verkauft die günstigsten netbooks in hamburg,recommendation_locations,recommendation_locations,19,19
+welches ist das beste kleidungsgeschäft hier,recommendation_locations,recommendation_locations,19,19
+finde einen laden der bier verkauft,recommendation_locations,recommendation_locations,19,19
+welche filme laufen in den kinos in der nähe,recommendation_movies,recommendation_movies,55,55
+was für filme laufen aktuell in meiner nähe die sehr gute bewertungen haben,recommendation_movies,recommendation_movies,55,55
+filme mit guter bewertung auf rotten tomato,recommendation_movies,recommendation_movies,55,55
+welche aktivitäten finden in meiner nähe statt,recommendation_events,recommendation_events,6,6
+welche flaggenfahrt ist die beste,recommendation_events,general_quirky,6,12
+was ist es wert zu schauen,recommendation_movies,general_quirky,55,12
+erzählen sie mir von aktivitäten in meiner umgebung dieses wochenende,recommendation_events,recommendation_events,6,6
+was kann man in berlin machen,recommendation_events,recommendation_events,6,6
+welche läden gibt es nahe meines standortes,recommendation_locations,recommendation_locations,19,19
+kannst du ein preiswertes restaurant in der gegend empfehlen,recommendation_locations,recommendation_locations,19,19
+olly was sind ein paar restaurants in meiner nähe,recommendation_locations,recommendation_locations,19,19
+wo kann ich in meiner gegend den nächsten irish pub finden,recommendation_locations,recommendation_locations,19,19
+olly welche kneipen gibt es in meiner nähe,recommendation_locations,recommendation_locations,19,19
+zeige mir alle veranstaltungen in münchen,recommendation_events,recommendation_events,6,6
+sag mir was in meiner stadt los ist,recommendation_events,recommendation_events,6,6
+was geht heute in stuttgart,recommendation_events,recommendation_events,6,6
+wie viele lebensmittel geschäfte gibt es in meiner nachbarschaft,recommendation_locations,recommendation_locations,19,19
+frage ein restaurant in meiner nähe,recommendation_locations,recommendation_locations,19,19
+ich verhungere was sollte man in köln essen,recommendation_locations,recommendation_locations,19,19
+olly wohin kann ich für ein paar drinks in köln gehen,recommendation_locations,recommendation_locations,19,19
+heutige lokale veranstaltungen,recommendation_events,recommendation_events,6,6
+liste alle shops in der nähe auf,recommendation_locations,recommendation_locations,19,19
+kannst du eine bar in der maxvorstadt empfehlen,recommendation_locations,recommendation_locations,19,19
+was ist in der nachbarschaft los,recommendation_events,news_query,6,22
+ich brauche ein geschäft das mir pizza in münchen liefert,recommendation_locations,recommendation_locations,19,19
+gibt es chinesische restaurants in köln,recommendation_locations,recommendation_locations,19,19
+bitte suche nach veranstaltungen an meinem standort,recommendation_events,recommendation_events,6,6
+hey siri ich brauche züge nach hamburg am mittwoch,transport_ticket,transport_ticket,2,2
+wann geht der nächste zug nach bentheim,transport_query,transport_query,42,42
+wie komme ich am besten nach polen,transport_query,transport_query,42,42
+ich werde kreuzberg in halben stunde buchen ein uber für mich,transport_taxi,transport_taxi,54,54
+olly buche ein ticket nach berlin auf dem i. c. e. um siebzehn uhr diesen freitag,transport_ticket,transport_ticket,2,2
+buche mir ein zweite klasse zug ticket von kreuzberg nach potsdam,transport_ticket,transport_ticket,2,2
+wie ist die verkehrssituation auf der bockenheimer landstraße,transport_traffic,transport_traffic,11,11
+ruf mich an uber für jetzt,transport_taxi,transport_taxi,54,54
+ist auf der bergstraße mehr verkehr,transport_traffic,transport_traffic,11,11
+wie viel verkehr gibt es aktuell auf der limesstraße,transport_traffic,transport_traffic,11,11
+schicke jetzt ein uber zu mir,transport_taxi,transport_taxi,54,54
+wo ist der bahnhof,transport_query,transport_query,42,42
+könnten sie bitte uber haben bei mir sein haus in fünfzehn minuten,transport_taxi,transport_taxi,54,54
+ich brauche bitte ein taxi dass mich zum flughafen fährt,transport_taxi,transport_taxi,54,54
+buche mir ein flug ticket,transport_ticket,transport_ticket,2,2
+buch ein taxi um nach hause zu gelangen,transport_taxi,transport_taxi,54,54
+bestelle ein uber um mich in meinem zu hause abzuholen,transport_taxi,transport_taxi,54,54
+kannst du mir bitte die nächsten vier zugabfahrten nach hannover anzeigen,transport_query,transport_query,42,42
+wie ist der verkehr in der karl marx allee,transport_traffic,transport_traffic,11,11
+wie ist der verkehr,transport_traffic,transport_traffic,11,11
+wann fährt der letzte zug am donnerstag nach bamberg,transport_query,transport_query,42,42
+wie ist die geplante zeit von deutsche post zu erreichen hamburg,transport_query,transport_query,42,42
+wann geht der nächste zug zum frankfurter tor,transport_query,transport_query,42,42
+lass uns ein taxi nehmen,transport_taxi,transport_taxi,54,54
+navigiere mich zum nächsten bahnhof,transport_query,transport_query,42,42
+zug fahrzeit von charlottenburg nach kreuzberg,transport_query,transport_query,42,42
+such zwei tickets für den dienstag zug nach berlin,transport_ticket,transport_ticket,2,2
+wie ist der verkehr von arbeit nach hause,transport_traffic,transport_traffic,11,11
+sag mir wie der verkehr von hier nach hause ist,transport_traffic,transport_traffic,11,11
+reserviere ein taxi,transport_taxi,transport_taxi,54,54
+bus und fahrpreis,transport_ticket,transport_query,2,42
+in berlin ist das verkehrsaufkommen zu hoch,transport_traffic,transport_traffic,11,11
+buch für morgen früh ein taxi zum flughafen,transport_taxi,transport_taxi,54,54
+ich würde gerne die verkehrsbedingungen wissen,transport_traffic,transport_traffic,11,11
+buche das nächstgelegene taxi für mich,transport_taxi,transport_taxi,54,54
+wie komme ich nach gera,transport_query,transport_query,42,42
+besorg mir ein uber,transport_taxi,transport_taxi,54,54
+taxi,transport_taxi,transport_taxi,54,54
+kaufe das zug ticket nach hamburg noch einmal,transport_ticket,transport_ticket,2,2
+kauf mir heute zug fahrkarte in die stadt gera,transport_ticket,transport_ticket,2,2
+wegbeschreibung zum nächsten apple store,transport_query,transport_query,42,42
+gib mir die aktuelle verkehrssituation,transport_traffic,transport_traffic,11,11
+was sind die abfahrtszeiten für den zug von berlin nach gera,transport_query,transport_query,42,42
+wie kommt man von köln nach berlin,transport_query,transport_query,42,42
+wie ist der verkehr von zuhause zur arbeit,transport_traffic,transport_traffic,11,11
+finde eine fahrt,transport_taxi,transport_taxi,54,54
+was sind die abfahrtszeiten für den zug am dreiundzwanzigsten nach zeitz,transport_query,transport_query,42,42
+kaufe zug ticket,transport_ticket,transport_ticket,2,2
+brauche ein taxi morgen um acht morgens,transport_taxi,transport_taxi,54,54
+buch ticket um in der früh abzufahren,transport_ticket,transport_ticket,2,2
+finde ein uber das heute abend nach zweiundzwanzig uhr verfügbar ist,transport_taxi,transport_taxi,54,54
+um wieviel uhr fährt der zug nach hannover ab,transport_query,transport_query,42,42
+kannst du mir eine zug fahrkarte nach nürnberg am nächsten dienstag buchen,transport_ticket,transport_ticket,2,2
+um wieviel uhr verlässt der zug potsdam,transport_query,transport_query,42,42
+wann geht der nächste i.c.e. zug nach leipzig,transport_query,transport_query,42,42
+geben sie mir die nummer für lokal taxi unternehmen,transport_taxi,transport_taxi,54,54
+gib mir die wegbeschreibung zu dem ort,transport_query,transport_query,42,42
+richtungen nach center park,transport_query,transport_query,42,42
+ruf ein taxi ich muss zu dem ort kommen,transport_taxi,transport_taxi,54,54
+ich würde gerne eine auflistung von alle zug fahrkarte preise für diesen standort bitte,transport_query,transport_query,42,42
+ich muss nach münchen fahren buch ein zug ticket,transport_ticket,transport_ticket,2,2
+wie ist der bahn fahrplan von berlin nach hamburg,transport_query,transport_query,42,42
+siri kaufe ein zug ticket nach gera für mich,transport_ticket,transport_ticket,2,2
+wieviel kostet ein zug ticket,transport_query,transport_query,42,42
+bitte senden sie mir informationen zum kauf eines zug tickets zu berlin,transport_query,transport_ticket,42,2
+zeig mir die zug abfahrtszeiten von berlin,transport_query,transport_query,42,42
+buche mir ein zug ticket nach hamburg für morgen früh vor zehn uhr,transport_ticket,transport_ticket,2,2
+ich möchte gehen d. k. b. gib mir eine anleitung,transport_query,transport_query,42,42
+buch bitte ein zug ticket nach hamburg,transport_ticket,transport_ticket,2,2
+ich brauche ein taxi bei acht morgen frü um mich zur arbeit zu bringen,transport_taxi,transport_taxi,54,54
+aktueller verkehr,transport_traffic,transport_traffic,11,11
+wie ist der bahn fahrplan für,transport_query,transport_query,42,42
+könnten sie bitte den datenverkehr überprüfen unserem zuhause,transport_traffic,transport_traffic,11,11
+ist der verkehr schlimm,transport_traffic,transport_traffic,11,11
+kauf mir ein fahrkarte um die zu nehmen zug köln,transport_ticket,transport_ticket,2,2
+wie viel verkehr gibt es normalerweise in frankfurt hessen,transport_traffic,transport_traffic,11,11
+kaufe einen bahn fahrschein für diese zeit,transport_ticket,transport_ticket,2,2
+uber buchen,transport_taxi,transport_taxi,54,54
+finde eine mitfahrgelegenheit zur mall of berlin bitte,transport_taxi,transport_ticket,54,2
+ruf ein taxi dass mich jetzt sofort auflesen soll,transport_taxi,transport_taxi,54,54
+gibt es verkehr probleme,transport_traffic,transport_traffic,11,11
+was ist die strecke zum nächstgelegenen mcdonalds,transport_query,transport_query,42,42
+welche straße muss ich nehmen um zur innenstadt zu gelangen,transport_query,transport_query,42,42
+ich möchte ein bahn ticket kaufen,transport_ticket,transport_ticket,2,2
+buche ein zug ticket nach,transport_ticket,transport_ticket,2,2
+wie viel kostet ein zug fahrkarte zu berlin,transport_query,transport_query,42,42
+bestelle mir ein taxi mit uber,transport_taxi,transport_taxi,54,54
+wie ist heute morgen der verkehr,transport_traffic,transport_traffic,11,11
+wie ist der verkehr jetzt,transport_traffic,transport_traffic,11,11
+wie ist der verkehr nähe mich,transport_traffic,transport_traffic,11,11
+was ist der aktuelle verkehr in sachsen,transport_traffic,transport_traffic,11,11
+liste alle zug zeiten nach hamburg auf,transport_query,transport_query,42,42
+zeige alle züge und abfahrtzeiten nach berlin,transport_query,transport_query,42,42
+besorge mir ein zug ticket nach bremen für heute,transport_ticket,transport_ticket,2,2
+was ist der schnellste weg zum berliner hauptbahnhof,transport_query,transport_query,42,42
+öffne die deutsche bahn app und gehe zu ticket buchen,transport_ticket,transport_ticket,2,2
+kauf mir ein zug ticket nach berlin,transport_ticket,transport_ticket,2,2
+buche ein taxi für eine abholung an meinem derzeitigen standort in einer stunde,transport_taxi,transport_taxi,54,54
+auf welcher route ist heute weniger verkehr,transport_traffic,transport_traffic,11,11
+buche mein zug ticket nach köln,transport_ticket,transport_ticket,2,2
+hol mir ein taxi mich zu bringen flughafen auf freitag unter fünf uhr dreißig,transport_taxi,transport_taxi,54,54
+buche mir einen platz im pendler zug von bremen nach hamburg,transport_ticket,transport_ticket,2,2
+kannst du mir alle züge nach gera am tag danach auflisten,transport_query,transport_query,42,42
+ist die straße an einer bestimmten stelle breit oder schmall,transport_traffic,transport_traffic,11,11
+reserviere einen platz für mich in dem zug am zwanzigsten märz,transport_ticket,transport_ticket,2,2
+bitte sag mir wann der zug der deutschen bahn abfährt,transport_query,transport_query,42,42
+buch bitte das nächste taxi,transport_taxi,transport_taxi,54,54
+öffne die uber app und besorg mir ein auto,transport_taxi,transport_taxi,54,54
+wann kann ich den nähesten zug nehmen,transport_query,transport_query,42,42
+finde eine definition,qa_definition,qa_definition,26,26
+wer ist präsident von polen,qa_factoid,qa_factoid,49,49
+wie ist die währung von kroatien,qa_currency,qa_currency,10,10
+wie groß ist eine giraffe,qa_factoid,qa_factoid,49,49
+welches szenario würdest du für unannehmlichkeiten benutzen,qa_definition,general_quirky,26,12
+berechne den widerstand dieses widerstands,qa_factoid,qa_factoid,49,49
+google,qa_maths,general_quirky,39,12
+browser zentrum,qa_maths,qa_factoid,39,49
+nenn mir die kurze definition von evakuierung,qa_definition,qa_definition,26,26
+denkst du zeitreisen sind möglich,general_quirky,general_quirky,12,12
+wie alt ist lena,qa_factoid,qa_factoid,49,49
+email freund,email_sendemail,email_sendemail,33,33
+erklär mir welche verschiedenen länder im buch der offenbarung dargestellt sind,general_quirky,qa_factoid,12,49
+was ist drei mal sieben,qa_maths,qa_maths,39,39
+was soll ich heute abend kochen,general_quirky,cooking_recipe,12,9
+sag mit was passiert wenn ich sterbe,general_quirky,general_quirky,12,12
+aus welchem staat stammt david lynch,qa_factoid,qa_factoid,49,49
+mache ein date nur für uns zwei,general_quirky,calendar_set,12,50
+was ist die wurzel aus zweiundvierzig,qa_maths,qa_maths,39,39
+sag mir warum bill bur ein besserer comedian ist als iliza schleshinger,qa_factoid,general_quirky,49,12
+sag mir tom hanks mittleren namen,qa_factoid,qa_factoid,49,49
+wie buchstabiert man giraffe,qa_definition,cooking_recipe,26,9
+kannst du das wort demonitarisierung definieren,qa_definition,qa_definition,26,26
+was war das längste gebäude der welt,qa_factoid,qa_factoid,49,49
+hörst du lieder von xavier naidoo musik,music_query,play_music,57,45
+plane ein treffen mit meinem kollegen,calendar_set,calendar_set,50,50
+schauspieler der eine rolle spielt,qa_definition,general_quirky,26,12
+gib mir infos zum nächsten film von mirko lang,qa_factoid,recommendation_movies,49,55
+wo lebt heidi klum,qa_factoid,qa_factoid,49,49
+kannst du lügen,general_quirky,transport_traffic,12,11
+was ist wirbelsturm,qa_definition,qa_definition,26,26
+google das wort,qa_definition,qa_definition,26,26
+wie weit ist boston von new york entfernt,qa_factoid,qa_factoid,49,49
+löse die rechnung,qa_maths,lists_remove,39,53
+wie hoch ist die bevölkerung von köln,qa_factoid,qa_factoid,49,49
+was ist deine muttersprache,general_quirky,qa_factoid,12,49
+wie alt ist sarah connor,qa_factoid,qa_factoid,49,49
+alle dinge zusammenfassen die ich für mich tun könnte um glücklicher zu werden,general_quirky,general_quirky,12,12
+wenn es zehn einfache schritte gäbe um reich zu werden was wären sie,general_quirky,general_quirky,12,12
+größtes tier,qa_factoid,qa_factoid,49,49
+höchstes gebäude,qa_factoid,qa_factoid,49,49
+wo ist justin bieber zuhause,qa_factoid,qa_factoid,49,49
+was ist mein standort,general_quirky,qa_factoid,12,49
+mit all der information die im internet zu finden ist kannst du mir die beste wahrscheinlichste erklärung geben wer präsident kennedy ermordet hat,qa_factoid,qa_factoid,49,49
+ich möchte meiner frau romantische nachrichten schreiben,general_quirky,news_query,12,22
+erzähl mir die geschichte von ramanujan und seiner mathemischen reise,qa_factoid,qa_factoid,49,49
+die nächste frage will dass du lehrer zeile und intentionen analysierst,qa_factoid,general_quirky,49,12
+wer sind die größten hip hop künstler,qa_factoid,music_query,49,57
+was bedeutet heuchelei,qa_definition,qa_definition,26,26
+was bedeutet das wort heuchelei,qa_definition,qa_definition,26,26
+beantworte diese frage wie heißt der erste boss bei super mario brothers,general_quirky,qa_factoid,12,49
+benutze es im satz,qa_definition,qa_definition,26,26
+was ist zwei plus zwei,qa_maths,qa_maths,39,39
+definier wischen,qa_definition,qa_definition,26,26
+wenn du wörter definierst benutze thesaurus und benutze sie im satz um es deutlicher zu machen,general_quirky,qa_definition,12,26
+wer sind die fünf besten d. f. b. torschützen aller zeiten,general_quirky,qa_factoid,12,49
+wann wurde konrad adenauer geboren,qa_factoid,qa_factoid,49,49
+wer ist der gouverneur von new york,qa_factoid,qa_factoid,49,49
+was ist die definition von p. d. a.,qa_definition,qa_definition,26,26
+was ist trump's zustimmungsrate,qa_factoid,qa_factoid,49,49
+kannst du mir sagen wie ich die antwort darauf bekomme,general_quirky,general_quirky,12,12
+löse mathe problem,qa_maths,general_quirky,39,12
+gibt es leben auf anderen planeten,general_quirky,qa_factoid,12,49
+was ist deine lieblingsfarbe,general_quirky,general_quirky,12,12
+was hältst du von den drei gesetzen der robotik,general_quirky,general_quirky,12,12
+sag mir die glücksfarbe von heute,general_quirky,general_quirky,12,12
+lies mir ein gedicht vor,general_quirky,general_joke,12,25
+gibt es eine korrelation zwischen dem wetter in peking und den nasdaqpreisen in der letzten woche,general_quirky,weather_query,12,13
+ist tom cruise einzelkind,qa_factoid,qa_factoid,49,49
+bitte suche dieses wort,qa_definition,qa_definition,26,26
+warum ist der himmel blau,qa_factoid,general_quirky,49,12
+was ist vierundzwanzig mal vierundzwanzig,qa_maths,qa_maths,39,39
+wie lange ist ein tag auf der erde,qa_factoid,qa_factoid,49,49
+ich hoffe wir könnten zusammen mittagessen,general_quirky,general_quirky,12,12
+wer war in den beatles,qa_factoid,qa_factoid,49,49
+wird die welt enden wenn,general_quirky,general_quirky,12,12
+was bedeutet angespannt,qa_definition,qa_definition,26,26
+wo ist meine freundin jetzt gerade,general_quirky,general_quirky,12,12
+suche nach der definition für krankenwagen,qa_definition,qa_definition,26,26
+ist wackelpudding kalorienfrei,qa_factoid,cooking_recipe,49,9
+kannst du mir den günstigsten platz sagen um beef zu kaufen,recommendation_locations,recommendation_locations,19,19
+was bedeutet kartoffel,qa_definition,qa_definition,26,26
+erzähle mir einen interessanten fakt darüber,general_quirky,general_quirky,12,12
+wann ist die nächste tournee,general_quirky,calendar_query,12,32
+was ist die wechselrate zwischen dollar und euro gerade,qa_currency,qa_currency,10,10
+definiere rahmenwerk,qa_definition,qa_definition,26,26
+beschreib eine kartoffel,qa_definition,qa_definition,26,26
+wie oft ist adele diamant gegangen,qa_factoid,qa_factoid,49,49
+sag mir die merkwürdigste sache die heute auf der welt passiert,general_quirky,news_query,12,22
+sag mir wie spät es ist,datetime_query,datetime_query,0,0
+wie definiert man textlich,qa_definition,qa_definition,26,26
+ich möchte kostenlos in die schweiz reisen kannst du mich dorthin bringen,general_quirky,transport_ticket,12,2
+was ist der euro wechselkurs,qa_currency,qa_currency,10,10
+wie viele meilen sind fünf kilometer,qa_maths,qa_factoid,39,49
+wie alt ist angelina jolie,qa_factoid,qa_factoid,49,49
+wo ist fulda in hessen,qa_factoid,qa_factoid,49,49
+was macht joachim gauck im moment,qa_factoid,qa_factoid,49,49
+was ist ein mobilfunkmast,qa_definition,qa_definition,26,26
+was sind s. d. in franken,qa_currency,qa_currency,10,10
+wie viele meilen ist new york city von los angeles entfernt,qa_factoid,qa_factoid,49,49
+wie ist der wechselkurs von u. s. d. zu c. a. d.,qa_currency,qa_currency,10,10
+was weißt du über die freiheitsstatue,qa_definition,general_quirky,26,12
+wie ist der wechselkurs zwischen u. s. a. und china,qa_currency,qa_currency,10,10
+finde info über,qa_definition,qa_factoid,26,49
+was ist die durchschnittshöhe der vereinigten staaten,qa_factoid,qa_factoid,49,49
+was ist der wechselkurs zwischen u. s. a. und frankreich,qa_currency,qa_currency,10,10
+wie viele menschen leben in san francisco,qa_factoid,qa_factoid,49,49
+siri was sind euro in japanischer yen,qa_currency,qa_currency,10,10
+in welchem jahr wurde till schweiger geboren,qa_factoid,qa_factoid,49,49
+erzähl mir etwas über morcheln,qa_definition,qa_definition,26,26
+aktienpreis für edeka,qa_stock,qa_stock,4,4
+welche religion ist die ehrlichste,general_quirky,qa_factoid,12,49
+wie viele kilometer liegen zwischen sachsen und bayern,qa_factoid,qa_factoid,49,49
+wie alt ist tom hanks,qa_factoid,qa_factoid,49,49
+hat nursel köse jemals die academy awards gewonnen,qa_factoid,qa_factoid,49,49
+nenn mir den wechselkurs für den yen,qa_currency,qa_currency,10,10
+u. s. dollar in rupie,qa_currency,qa_currency,10,10
+bitte zeige mir den wechselkurs zwischen dem dollar und dem yen,qa_currency,qa_currency,10,10
+was ist die defintion von home run,qa_definition,qa_definition,26,26
+wie alt ist barack obama,qa_factoid,qa_factoid,49,49
+ich muss zwei kleinkinder beschäftigen was soll ich tun,general_quirky,general_quirky,12,12
+kannst du mir den wechselkurs von dollar in rupien sagen,qa_factoid,qa_currency,49,10
+erzähl mir von den solarbetriebenen gartenpflöcken,qa_definition,qa_definition,26,26
+was ist die größte stadt in sachsen,qa_factoid,qa_factoid,49,49
+was wäre eine beschreibung eines virtual reality headsets,qa_definition,qa_definition,26,26
+habe ich neue tinder matches,calendar_query,calendar_query,32,32
+wie schaut eine banane aus,qa_definition,qa_definition,26,26
+wer ist gerhard schröder,qa_factoid,qa_factoid,49,49
+wo ist dänemark,qa_factoid,qa_factoid,49,49
+was ist ein fjord,qa_factoid,qa_definition,49,26
+wann wurde sarah lombardi geboren,qa_factoid,qa_factoid,49,49
+was bedeutet tweet,qa_definition,qa_definition,26,26
+wo ist sachsen anhalt,qa_factoid,qa_factoid,49,49
+was bedeutet triumph,qa_definition,qa_definition,26,26
+welcher us staat ist der nördlichste,qa_factoid,qa_factoid,49,49
+wo ist die stonehenge,qa_factoid,qa_factoid,49,49
+ich brauche den aktienpreis von amazon,qa_stock,qa_stock,4,4
+was ist der kurs von i. n. r.,qa_currency,qa_currency,10,10
+was ist das bermuda dreick,qa_factoid,qa_factoid,49,49
+wie ist der wechselkurs für philippinische pesos,qa_currency,qa_currency,10,10
+was ist der derzeitige aktienkurs von facebook,qa_stock,qa_stock,4,4
+zeig mir die biographie von sarah connor,qa_factoid,qa_factoid,49,49
+euro in u. s. d.,qa_currency,qa_currency,10,10
+kannst du mit den geburtstag von angela merkel sagen,qa_factoid,calendar_set,49,50
+was für eine hose ist eine culotte,qa_factoid,qa_definition,49,26
+benutze wikipedia,qa_definition,qa_definition,26,26
+olly ist ein dollar in brasilien mehr oder weniger wert,qa_currency,qa_currency,10,10
+wie schaut das tshirt aus,qa_definition,qa_definition,26,26
+frag meinen berater,qa_stock,general_quirky,4,12
+wie liegt der dow jones heute,qa_stock,qa_stock,4,4
+bitte sag mir ob ich reichen werden kann wenn ich heute in dow aktien investiere und gib mir die rendite nach fünf jahren an,qa_stock,qa_stock,4,4
+in welchem jahr wurde herbert grönemeyer geboren,qa_factoid,qa_factoid,49,49
+finde den exakten standort der orte,recommendation_locations,recommendation_locations,19,19
+wie viele inches sind ein fuß,qa_maths,qa_factoid,39,49
+wie viel ist der euro wert im vergleich zum kanadischen dollar,qa_currency,qa_currency,10,10
+liste top fünf filme von til schweiger,qa_factoid,recommendation_movies,49,55
+wie ist der wechselkurs zwischen dem u. s. dollar und dem euro,qa_currency,qa_currency,10,10
+was ist sechs minus vier,qa_maths,qa_maths,39,39
+ein euro in dollars,qa_currency,qa_currency,10,10
+wie groß ist england,qa_factoid,qa_factoid,49,49
+erzähle mir von new york,qa_factoid,qa_factoid,49,49
+zeige verschiedene pflanzen auf der welt,qa_factoid,qa_factoid,49,49
+wie ist die coca-cola aktie heute,qa_stock,qa_stock,4,4
+wer ist die frau von obama,qa_factoid,qa_factoid,49,49
+heutiger schlusskurs für google,qa_stock,qa_currency,4,10
+erwähne den aktienpreis von h. d. f. c.,qa_stock,qa_stock,4,4
+was bedeutet hypothese,qa_definition,qa_definition,26,26
+wann wurde die freiheitsstatue gebaut,qa_factoid,qa_factoid,49,49
+mit wie vielen jahren hat michael phelps geheiratet,qa_factoid,qa_factoid,49,49
+wer ist arnold schwarzenegger,qa_factoid,qa_factoid,49,49
+was ist die definition von turbulent,qa_definition,qa_definition,26,26
+wie hoch ist das empire state building,qa_factoid,qa_factoid,49,49
+wie ist der wechselkurs zwischen u. s. d. und i. n. r.,qa_currency,qa_currency,10,10
+beschreibe die politische situation,qa_factoid,news_query,49,22
+wann wurde justin bieber geboren,qa_factoid,qa_factoid,49,49
+definiere dich in einem wort,general_quirky,qa_definition,12,26
+wo ist das nächste italienische restaurant,recommendation_locations,recommendation_locations,19,19
+kannst du mir sagen wie hackfleisch aussieht,qa_definition,cooking_recipe,26,9
+nimmt pink ein neues album auf,qa_factoid,music_query,49,57
+definition von objektname,qa_definition,qa_definition,26,26
+wie sieht der vw golf aus,qa_definition,qa_definition,26,26
+eigenschaften des ipad air,general_quirky,general_quirky,12,12
+sag mir die distanz zwischen sonne und mond,qa_factoid,qa_factoid,49,49
+finde welt bedeutung im wörterbuch,qa_definition,qa_definition,26,26
+welches war das beste smartphone in zweitausendsiebzehn,qa_factoid,general_quirky,49,12
+wechselkurs für die auslänndische währung,qa_currency,qa_currency,10,10
+finde details zu dieser person heraus,general_quirky,qa_factoid,12,49
+bitte sage ein paar details über diese person,general_quirky,general_quirky,12,12
+was ist heute das größte problem in europa und was kann getan werden um es nachhaltig zu lösen,general_quirky,general_quirky,12,12
+wer war der fünfundzwanzgste präsident der vereinigten staaten von amerika,qa_factoid,qa_factoid,49,49
+sag mir wie ich ohne flugzeug mit der günstigsten option nach bali reisen kann zeit ist egal ich habe zweihundert tage reisezeit und nur dollar zum ausgeben,general_quirky,general_quirky,12,12
+gib mir die definition zu laptop schaltkreis,qa_definition,qa_definition,26,26
+wann sinkt der apple preis in der regel,qa_stock,qa_stock,4,4
+erklär,qa_definition,qa_definition,26,26
+erklär mir wie schwerkraft funktioniert,qa_factoid,general_quirky,49,12
+wan hat romina power al bano geheiratet,qa_factoid,qa_factoid,49,49
+wechselkurse zwischen dollar und euro,qa_currency,qa_currency,10,10
+kannst du mir sagen was hypertrophie bedeutet,qa_definition,qa_definition,26,26
+aktienunternehmen name,qa_stock,qa_stock,4,4
+ich hätte gerne dass mein roboter meine arbeit macht,general_quirky,general_quirky,12,12
+gib mir die beschreibung einer laptop-schaltung,qa_definition,qa_definition,26,26
+definiere xy,qa_definition,qa_definition,26,26
+gib mir den eröffnungskurs von apple,qa_stock,qa_stock,4,4
+wo kann ich organischen weizen bekommen,recommendation_locations,qa_factoid,19,49
+aktien bitte,qa_stock,qa_stock,4,4
+wechsel dollar zu rupien rate,qa_currency,qa_currency,10,10
+dollar rupien wechselkurs,qa_currency,qa_currency,10,10
+was ist der faktor der scholz die wahl gewinnen ließ,general_quirky,general_quirky,12,12
+erdbeben vorhersage,general_quirky,weather_query,12,13
+ok google was ist der einfachste und schnellste weg einen truthahn zu kochen,cooking_query,cooking_recipe,37,9
+was ist ein broiler und wie verwende ich ihn,general_quirky,qa_definition,12,26
+definiere brathähnchen für mich,qa_definition,qa_definition,26,26
+wo ist die freiheitsstatue,qa_factoid,qa_factoid,49,49
+beschreibe mir wie ein ball aussieht,qa_definition,qa_definition,26,26
+alexa sag mir alles was du über bob dean weisst,qa_factoid,qa_factoid,49,49
+nenn mir die amd aktienpreise,qa_stock,qa_stock,4,4
+was sind die amd aktienpreise,qa_stock,qa_stock,4,4
+was ist der aktienwert von google,qa_stock,qa_stock,4,4
+du kannst neue witze liefern,general_quirky,general_joke,12,25
+wandle einen pfund in u. s. dollar um,qa_currency,qa_currency,10,10
+hoher aktienkurs,qa_stock,qa_stock,4,4
+wie viele megapixel sind in der beschreibung von canon gelistet,qa_factoid,qa_definition,49,26
+wie ist verona pooth berühmt geworden,qa_factoid,qa_factoid,49,49
+was ist die antwort auf zwei mal drei,qa_maths,qa_maths,39,39
+wie viel ist zwölf durch vier,qa_maths,qa_maths,39,39
+was ist julia roberts naturhaarfarbe,qa_factoid,qa_factoid,49,49
+wenn ich fünf u. s. d. habe wie viel ist das in euro,qa_currency,qa_currency,10,10
+definier den mond für mich,qa_definition,qa_definition,26,26
+wie viele flüsse gibt es auf der welt,qa_factoid,qa_factoid,49,49
+finde mir berühmtheiten die steinbock sind,qa_factoid,qa_factoid,49,49
+wenn es ein verbraucherprodukt ist was ist dann das feedback der kunden,general_quirky,general_quirky,12,12
+wie viel ist eine indische rupie im verhältnis zum u. s. dollar wert,qa_currency,qa_currency,10,10
+könntest du bitte das objekt beschreiben,qa_definition,qa_definition,26,26
+was war der erste satelit von der nasa,qa_factoid,qa_factoid,49,49
+bitte beschreibe mir einen elefant,qa_definition,qa_definition,26,26
+wie hoch ist der us dollar kurs heute,qa_currency,qa_currency,10,10
+seit wann ist prinzessin kate schwanger,qa_factoid,qa_factoid,49,49
+was ist der aktienpreis für tesco,qa_stock,qa_stock,4,4
+ich möchte dass es einfach ein inventar führt und mir mitteilt wenn mir etwas ausgeht,general_quirky,general_quirky,12,12
+was ist söder gewesen an über diese woche,qa_factoid,news_query,49,22
+was ist die definition des wort marinara,qa_definition,qa_definition,26,26
+wie die menschen so denken dass sie alles vor gott verbergen können,general_quirky,general_quirky,12,12
+aktueller kurs,qa_currency,qa_currency,10,10
+was ist ein by,qa_definition,qa_definition,26,26
+wie alt ist heidi klum,qa_factoid,qa_factoid,49,49
+erzähl mir wie die welt entsanden ist,general_quirky,qa_factoid,12,49
+wie ist der wechselkurs von zehn dollar zu euro,qa_currency,qa_currency,10,10
+was ist ein computer,qa_definition,qa_definition,26,26
+welche ist die kleinste insel der welt,qa_factoid,qa_factoid,49,49
+wie groß ist japan,qa_factoid,qa_factoid,49,49
+wie weit ist es von berlin nach kairo,transport_query,transport_query,42,42
+kannst du mir sagen welche kinofilme heute abend gezeigt werden,recommendation_movies,recommendation_movies,55,55
+olly was ist die bedeutung von schlamassel,qa_definition,qa_definition,26,26
+olly was ist der wechselkur zwischen us dollar und aus dollar,qa_currency,qa_currency,10,10
+auf wieviel wird apple gehandelt,qa_stock,qa_stock,4,4
+hey olly was ist die definition von passiv,qa_definition,qa_definition,26,26
+wie alt war albert einstein als er die relativitätstheorie erdachte,qa_factoid,qa_factoid,49,49
+berechne einen geschlossenen integral der exponentialfunktion von null bis fünf,qa_factoid,qa_maths,49,39
+sag mir wie der brexit sich auf e. u. bürger mittel- und langfristig auswirken wird,qa_factoid,general_quirky,49,12
+bitte schau nach dem wechselkurs zwischen u. s. dollar und mexikanischen pesos,qa_currency,qa_currency,10,10
+olly finde eine beschreibung von dyon t. v.,qa_definition,qa_definition,26,26
+was ist der wechselkurs des dollars,qa_currency,qa_currency,10,10
+wie weit weg ist,qa_factoid,qa_factoid,49,49
+was ist dieses ding,qa_definition,qa_definition,26,26
+wo liegt die i. b. m. aktie gerade,qa_stock,qa_stock,4,4
+was ist auf twitter angesagt,social_query,social_query,27,27
+was ist das letzte das mama gesagt hat,social_query,news_query,27,22
+hole mir die neuigkeiten von sandra's facebook vom wochenende,social_query,social_query,27,27
+suche nach neuen kommentaren auf meinem facebook,social_query,social_query,27,27
+wie viele likes hat mein letztes instagram foto,social_query,social_query,27,27
+lies mir den letzten tweet der frankfurter allgemeinen vor,social_query,social_query,27,27
+poste neuen status auf facebook zeit zu feiern,social_post,social_post,47,47
+mein facebook update sollte alle drei stunden zugänglich sein,social_query,social_query,27,27
+packe das auf facebook,social_post,social_post,47,47
+der artikel ist super cool kannst du den link bei facebook für mich teilen,social_post,social_post,47,47
+veröffentliche ein video auf youtube,social_post,social_post,47,47
+status auf facebook arbeitsreicher tag,social_post,social_post,47,47
+bitte poste an jeff,social_post,email_sendemail,47,33
+bitte übertrage status an facebook,social_post,social_post,47,47
+zeige mir eine liste von den orten wo meine verwandten waren basierend auf ihren fotos,social_query,qa_factoid,27,49
+neuster nachrichten feed von facebook,social_query,news_query,27,22
+gib mir details zu meinem twitter nutzernamen konto inklusive aller folgenden,social_query,social_query,27,27
+schön kannst du das auf meinem facebook posten,social_post,social_post,47,47
+kannst du mir sagen was mit meinen sozialen medien passiert ist,social_query,social_query,27,27
+was ist das neuste von meinem feed,social_query,social_query,27,27
+bitte informiere mich über neue status updates,social_query,news_query,27,22
+trending in den sozialen medien,social_query,social_query,27,27
+neuer tweet,social_post,social_query,47,27
+öffne facebook und wünsche der u. s. a. einen schönen geburtstag,social_post,social_post,47,47
+ich bin unglücklich über aldi bitte hilf mir,social_post,general_quirky,47,12
+kannst du einen tweet an lisa schicken und ihr sagen dass die app abgestürzt ist,social_post,social_post,47,47
+poste folgendes als ein status bei facebook,social_post,social_post,47,47
+poste bitte einen status bei twitter und sage,social_post,social_post,47,47
+bitte poste dieses foto auf mein facebook,social_post,social_post,47,47
+tweete lfi und sag ihnen dass meine app abgestürzt ist,social_post,social_post,47,47
+sag meiner facebook gruppe dass ich angekommen bin,social_post,social_post,47,47
+bitte schreibe eine beschwerde an levis,social_post,social_post,47,47
+sag ihnen dass die schlangen zu lang waren,social_post,general_quirky,47,12
+ich brauche einen trog,general_quirky,general_quirky,12,12
+sende diese nachricht an microsoft auf twitter,social_post,social_post,47,47
+alexa veröffentliche das foto von meinem telefon auf facebook,social_post,social_post,47,47
+twittere eine beschwerde an die bundeswehr website,social_post,social_post,47,47
+sende einen tweet an die lufthansa dass ich wütend bin ihr habt mein gepäck verloren,social_post,social_post,47,47
+ich hatte schlimmen service bei burger king ich muss ihnen twittern,social_post,social_post,47,47
+schicke eine beschwerde über twitter an den kundenservice,social_post,social_post,47,47
+kannst du eine beschwerde an den kundenservice des möbelhaus twittern,social_post,social_post,47,47
+sag einsundeins ich bin immernoch in der warteschlange,social_post,social_post,47,47
+schreibe eine beschwerde an apple über das tablet welches ich heute gekauft habe,social_post,social_post,47,47
+lass die leipziger stadtwerke wissen dass der strom wieder weg ist,social_post,news_query,47,22
+kontaktiere den amazon kundenservice über twitter,social_post,social_post,47,47
+bitte update mich bezüglich meiner social media accounts,social_query,social_query,27,27
+twittere eine beschwerde an samsung,social_post,social_post,47,47
+bitte schicke einen tweet an apple über ihren lausigen service für laptops,social_post,social_post,47,47
+twitter edeka und sage ihnen dass ihr kundenservice furchtbar ist,social_post,social_post,47,47
+olly sende einen tweet an meijer und sage ihnen sie haben einen furchtbaren kundenservice,social_post,social_post,47,47
+kundenservice beschwerde twittere folgendes,social_post,social_post,47,47
+hat mark irgendwas neues auf facebook geschrieben,social_query,social_query,27,27
+schick tweet an dominoes wegen schlechter lieferung,social_post,social_post,47,47
+erinnere mich diesem unternehmen zu tweet,calendar_set,social_post,50,47
+poste auf facebook mist ich bin krank,social_post,social_post,47,47
+poste auf tumblr dass ich spaß habe,social_post,social_post,47,47
+die situation ansprechen,general_quirky,general_quirky,12,12
+schreibe einen tweet als beschwerde an burger king,social_post,social_post,47,47
+siri sende einen tweet an das unternehmen,social_post,social_post,47,47
+twittere eine beschwerde an bauknecht über meinen kühlschrank,social_post,social_post,47,47
+öffne galerie poste video name,social_post,social_post,47,47
+poste auf twitter ich habe einen hektischen tag vor mir,social_post,social_post,47,47
+twittere an kundenservice auf twitter,social_post,social_post,47,47
+tweet beschwerde,social_post,social_post,47,47
+was sind die neuesten fotos auf meinem instagram konto,social_query,social_query,27,27
+ok google twitter das der service in moe's diner furchtbar ist,social_post,social_post,47,47
+twittere für mich eine beschwerde dass die rohre verstopft sind,social_post,social_post,47,47
+soziale info,social_query,social_query,27,27
+twittere dem kundenservice dass ich sehr enttäuscht von meiner letzten interaktion bin,social_post,social_post,47,47
+ich möchte einen status auf twitter veröffentlichen,social_post,social_post,47,47
+wann habe ich die email von anne hahn über den autounfall bekommen,email_query,email_query,44,44
+sag mir ob ich neue emails habe,email_query,email_query,44,44
+schicke alexa eine email und worin steht ich komme zu spät bitte warte nicht mit dem abendessen,email_sendemail,email_sendemail,33,33
+gibt es irgendeine email von emilia,email_query,email_query,44,44
+kannst du bitte eine email an sandra schicken,email_sendemail,email_sendemail,33,33
+check meinen posteingang,email_query,email_query,44,44
+email an david wegen des morgigen treffens david können wir das treffen auf den nachmittag legen,email_sendemail,email_sendemail,33,33
+siri ich möchte etwas über janas party erfahren,general_quirky,general_quirky,12,12
+öffne meine neueste email und antworte darauf,email_sendemail,email_sendemail,33,33
+sende diesen inhalt als email,email_sendemail,email_sendemail,33,33
+sende mama eine email subject wetter body wie ist diese woche das wetter bei euch,email_sendemail,email_sendemail,33,33
+emails auf ungelesene emails von mama prüfen,email_query,email_query,44,44
+bitte gib mir die einzelheiten zu susi aus meinen kontakten,email_querycontact,email_querycontact,17,17
+gibt es einen kontakt genannt allen in meiner liste,email_querycontact,lists_query,17,59
+schicke frohes neues jahr an jonas at g. m. x. punkt d. e.,email_sendemail,email_sendemail,33,33
+was ist john's nachname,email_querycontact,email_querycontact,17,17
+sende eine antwort an meinen freund für seine frage,email_sendemail,email_sendemail,33,33
+ruf die emails der letzten zwei stunden ab,email_query,email_query,44,44
+prüfe emails der letzten zwölf stunden,email_query,email_query,44,44
+alexa füge erosser at g.m.x. punkt d.e. als neuen kontakt zu emily rosser hinzu,email_addcontact,email_addcontact,15,15
+gib mir bescheid wenn ich irgendwelche neue emails von ebay bekomme,email_query,email_query,44,44
+bitte sende eine email mit der folgenden nachricht an diesen kontakt,email_sendemail,email_sendemail,33,33
+eddie richards email suchen,email_query,email_query,44,44
+speichere diese email als kontakt,email_addcontact,email_sendemail,15,33
+sende andre die neuesten it themen die es gibt,email_sendemail,email_sendemail,33,33
+gib mir bescheid wenn casey mir geschrieben hat,email_query,email_query,44,44
+lass mich wissen was sich in meinem posteingang gesammelt hat seit fünfzehn uhr,email_query,email_query,44,44
+können sie eine email an meine freund jan was besagt dass ich morgen beschäftigt bin,email_sendemail,email_sendemail,33,33
+suche nach deadlines von matze,email_query,qa_factoid,44,49
+hey beginne eine email an meine arbeitskollegen,email_sendemail,email_sendemail,33,33
+öffne eine neue email an diesen mitarbeiter an diese email,email_sendemail,email_sendemail,33,33
+bitte aktualisieren sie meinen gmail inbox,email_query,email_query,44,44
+sende ein hi zu,email_sendemail,email_sendemail,33,33
+zeige die neueste email von mark,email_query,email_query,44,44
+senden an email zu meine managerin,email_sendemail,email_sendemail,33,33
+neueste emails anzeigen olly,email_query,email_query,44,44
+maile george brown,email_sendemail,email_sendemail,33,33
+irgendwelche eingehende email in der letzten fünf minuten,email_query,email_query,44,44
+sende meinem freund eine email die sagt alles liebe zum geburtstag,email_sendemail,email_sendemail,33,33
+was ist mamas email addresse,email_querycontact,email_querycontact,17,17
+ich würde gern diese neue emailadresse zu meinen kontakten hinzufügen,email_sendemail,email_addcontact,33,15
+sende email an enalen für den nächster tag,email_sendemail,email_sendemail,33,33
+zeig alle empfangenen emails mit zeitstempel,email_query,email_query,44,44
+zeige mir neue email,email_query,email_query,44,44
+öffne antwort,email_sendemail,general_quirky,33,12
+dieser email antworten,email_sendemail,email_sendemail,33,33
+schicke eine email an eda sag ihr oma liebt sie und wünscht ihr ein tolles wochenende,email_sendemail,email_sendemail,33,33
+schreibe antwort,email_sendemail,email_sendemail,33,33
+gib mir die kontaktinformationen von meinem bruder,email_querycontact,email_querycontact,17,17
+sende diese nachricht an die familiengruppe beginnt mit einem,email_sendemail,email_sendemail,33,33
+wer hat mir in letzter zeit geemailt und was sind die betreffs jeder einzelnen email,email_query,email_query,44,44
+olly antworte bitte auf georgs email mit der aussage dass seine idee fantastisch ist,email_sendemail,email_sendemail,33,33
+schick email an chef um uns wegen leistungsbeurteilung zu treffen,email_sendemail,email_sendemail,33,33
+lebt bernhard in deutschland,email_querycontact,qa_factoid,17,49
+habe ich irgendein email in mein account,email_query,email_query,44,44
+maile die nachricht hallo komm rüber zum abendessen heute abend bro,email_sendemail,email_sendemail,33,33
+schicke eine email an den typ der das boot verkauft und sage ihm dass ich das geld habe,email_sendemail,email_sendemail,33,33
+sag mir wer mir die email über den boss gestern geschickt hat,email_query,email_query,44,44
+was hat die klinik über meine prüfungen gesagt,email_query,general_quirky,44,12
+kann ich informationen über einen kontakt herausfinden,email_querycontact,email_querycontact,17,17
+lesen mein ungelesen emails,email_query,email_query,44,44
+neue emails checken,email_query,email_query,44,44
+habe ich irgendein warnungen,email_query,calendar_query,44,32
+sende eine email für mich,email_sendemail,email_sendemail,33,33
+allen antworten,email_sendemail,email_sendemail,33,33
+berichte bob smith,email_sendemail,email_querycontact,33,17
+antworte mit danke,email_sendemail,email_sendemail,33,33
+habe ich irgendwelche neuen emails von jan schmidt,email_query,email_query,44,44
+gibt es irgendwelche emails im zusammenhang mit meiner beförderung,email_query,email_query,44,44
+hey emails checken,email_query,email_query,44,44
+liste die themen und absender aller emails an mich aus der letzten woche,email_query,email_query,44,44
+wer hat mir zuletzt eine email geschrieben und worüber war diese email,email_query,email_query,44,44
+schick die email an johann,email_sendemail,email_sendemail,33,33
+starte email,email_sendemail,email_sendemail,33,33
+wie viele ungelesene emails habe ich,email_query,email_query,44,44
+sende eine email an robert um wie viel uhr gibt es abendessen,email_sendemail,email_sendemail,33,33
+schicke email an vodafone dass ihr service schlecht ist,email_sendemail,email_sendemail,33,33
+bitte prüfe auf neue email studie von diesem absender,email_query,email_query,44,44
+öffne mein email konto und check nach neuer email,email_query,email_query,44,44
+schick eine email an meinem chef mit dem inhalt ich werde mich verspäten,email_sendemail,email_sendemail,33,33
+welche neuen nachrichten habe ich,email_query,news_query,44,22
+öffne meine neuen emails,email_query,email_query,44,44
+emails von cindy checken,email_query,email_query,44,44
+antworte auf marks email,email_sendemail,email_sendemail,33,33
+wie viele emails gibt es heute,email_query,email_query,44,44
+hat mir meine mutter eine email geschickt,email_query,email_query,44,44
+schick email an mutti willst du morgen shoppen gehen,email_sendemail,email_sendemail,33,33
+check alle emails von erik,email_query,email_query,44,44
+helfen sie mir eine email zu schreiben chelsea,email_sendemail,email_sendemail,33,33
+olly bitte überprüfe ob ich irgendwelche emails von meiner mutter habe,email_query,email_query,44,44
+sende eine email an alle meine firmen angestellte,email_sendemail,email_sendemail,33,33
+email nachricht senden,email_sendemail,email_sendemail,33,33
+neue adresse,email_sendemail,email_addcontact,33,15
+google finde die neue email adresse von thomas die ich freitag hinzugefügt habe,email_query,email_querycontact,44,17
+ist das die richtige postleitzahl meiner chefin,email_querycontact,email_querycontact,17,17
+antworte,email_sendemail,email_sendemail,33,33
+lösche kontakte mit deinen ich drei monaten nicht gesprochen hab,email_querycontact,lists_remove,17,53
+ich möchte eine email an jack at gmail punkt com schicken,email_sendemail,email_sendemail,33,33
+schick meiner tochter eine email mit dem inhalt ich liebe dich,email_sendemail,email_sendemail,33,33
+geburtstag mit mama,email_sendemail,calendar_set,33,50
+bitte sage mir ob julia irgendwelche emails geschickt hat,email_query,email_query,44,44
+habe ich irgendeine neue email vom vorgesetzten bekommen,email_query,email_query,44,44
+habe ich irgendeine email in der letzten stunde erhalten,email_query,email_query,44,44
+sind schon irgendwelche persönlichen emails angekommen,email_query,email_query,44,44
+öffne meine email von meiner schwester von gestern klicke auf antworten und starte die spracherkennung für meine antwort,email_sendemail,email_sendemail,33,33
+wie viele kontakte habe ich in meinem telefonbuch,email_querycontact,email_querycontact,17,17
+kannst du sehen um was in der mail von andreas an mich geht,email_query,email_query,44,44
+ich möchte emails von bob finden mit dem wort meeting im betreff,email_query,email_query,44,44
+bitte sende die email an meine mama,email_sendemail,email_sendemail,33,33
+tat mike schicken mich ein email,email_query,email_sendemail,44,33
+schaue in meine email,email_query,email_query,44,44
+öffne toms email,email_sendemail,email_query,33,44
+email nach kontakt suchen,email_query,email_sendemail,44,33
+kontakt finden,email_query,email_querycontact,44,17
+zeig mir meine emails,email_query,email_query,44,44
+kontakt thomas öffnen,email_querycontact,email_querycontact,17,17
+wem habe ich vor kurzem eine email geschickt,email_query,email_query,44,44
+wie lauten die betreffzeile und absender des heutigen emailposteingangs,email_query,email_query,44,44
+öffne bitte meine kontaktliste,email_querycontact,email_querycontact,17,17
+offener tom's kontakt informationen,email_querycontact,email_querycontact,17,17
+prüfe alle emails von tom brady,email_query,email_query,44,44
+schick eine antwort an max,email_sendemail,email_sendemail,33,33
+hey habe ich irgendwelche neuen emails bekommen,email_query,email_query,44,44
+email an tom,email_sendemail,email_sendemail,33,33
+überprüfe meine mail,email_query,email_query,44,44
+ich muss susan eine email schreiben und erwähnen,email_sendemail,email_sendemail,33,33
+zeig mir ungelesene,email_query,general_joke,44,25
+gibt es neue emails in meinem posteingang,email_query,email_query,44,44
+antwort auf die mail,email_sendemail,email_sendemail,33,33
+schick eine email an frau palmer und frag sie ob dean seine letzten hausaufgaben abgegeben hat,email_sendemail,email_sendemail,33,33
+email sendne,email_sendemail,email_sendemail,33,33
+antworte auf jürgens email mit der antwort sechs dreißig,email_sendemail,email_sendemail,33,33
+welche mail habe ich,email_query,email_query,44,44
+ich möchte auf janas email antworten,email_sendemail,email_sendemail,33,33
+rufe emails von jane doe ab,email_query,email_query,44,44
+es dort irgendein neu emails,email_query,email_query,44,44
+prüfe posteingang für mich,email_query,email_query,44,44
+speichere die email zu meinem kontakt,email_addcontact,email_addcontact,15,15
+als kontakt speichern,email_addcontact,email_addcontact,15,15
+zeige mir alle meine jüngsten emails,email_query,email_query,44,44
+was ist meine jüngste email aktivität,email_query,email_query,44,44
+gib mir die kontakt mail id,email_querycontact,email_querycontact,17,17
+lass mich wissen ob ich neue emails von michael erhalten habe,email_query,email_query,44,44
+sage mir bescheid bei neuen emails von susanne,email_query,email_query,44,44
+habe ich seit siebzehn uhr irgendeine email erhalten,email_query,email_query,44,44
+habe ich irgendwelche emails von sam heute,email_query,email_query,44,44
+veröffentliche eine email an meine firmenangestellte mit den geplanten treffen für heute,email_sendemail,email_sendemail,33,33
+habe ich heute irgendwelche neuen emails von klara erhalten,email_query,email_query,44,44
+email an marissa,email_sendemail,email_sendemail,33,33
+ruf raju telefonnummer an,email_querycontact,email_querycontact,17,17
+melde jegliche neuen emails,email_query,email_query,44,44
+wie viele ungelesene nachrichten habe ich bekommen,email_query,news_query,44,22
+antworte bitte auf die email die ich gerade gelesen habe,email_sendemail,email_sendemail,33,33
+hat mir bert heute geschrieben,email_query,email_query,44,44
+wie lautet alex' adresse,email_querycontact,email_querycontact,17,17
